@@ -36,19 +36,18 @@
   
   #FAM {
   color:#333;
-  font-size:13px;
+  font-size:var(--medium);
   background:#FFF;
-  border:1px solid #DDD;
   position:fixed;
   height:70%;
   width:40%;
   min-height:400px;
   min-width:300px;
-  right:3px;
+  right:var(--large);
   z-index:99999;
   visibility:visible;
   opacity:1;
-  bottom:35px;
+  bottom:var(--large);
   transition-property:top,right,bottom,left,height,width,margin,opacity,visibility;
   transition-duration:500ms
   }
