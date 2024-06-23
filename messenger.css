@@ -85,8 +85,12 @@
   }
   
   #FAM-button {
+        align-items: center;
+    justify-content: center;
+    display: flex;
       color: #FFF;
-    background: #39F;
+    font-size: var(--large);
+    background: var(--co1);
     position: fixed;
     font-size: var(--large);
     width: 50px;
