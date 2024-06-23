@@ -85,17 +85,21 @@
   }
   
   #FAM-button {
-  color:#FFF;
-  background:var(--co1);
-  position:fixed;
-  width:50px;
-  height:50px;
-  left:var(--large);
-  bottom:var(--large);
-  cursor:pointer;
-  z-index:99999;
-  transition-property:right;
-  transition-duration:500ms
+      color: #FFF;
+    background: #39F;
+    position: fixed;
+    font-size: var(--large);
+    width: 50px;
+    height: 50px;
+    left: var(--large);
+    bottom: var(--large);
+    cursor: pointer;
+    z-index: 99999;
+    display: flex;
+    transition-property: right;
+    transition-duration: 500ms;
+    justify-content: center;
+    align-items: center;
   }
   
   #FAM-button i {
