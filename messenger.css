@@ -1311,8 +1311,8 @@
   }
   
   .FAM-attachbox>dt:before,.FAM-codebox cite:before,.FAM-codebox>dt:before,.FAM-spoiler dt:before {
-  content:"\\f086";
-  font-family:FontAwesome;
+  content:"\f944";
+  font-family:    font-family: uicons-thin-rounded !important;;
   margin-right:3px
   }
   
