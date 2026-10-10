@@ -1008,10 +1008,6 @@ reclinks a:after {
 	margin-left: var(--5xlarge)
 }
 
-.fichepredef mainb4 {
-	font-weight: 500
-}
-
 border1,
 border2,
 border3,
@@ -3332,19 +3328,9 @@ majgc::first-letter {
 	text-transform: uppercase
 }
 
-.fichepredef lback1 {
-	text-transform: lowercase;
-	font-weight: 300;
-	letter-spacing: 2.5px;
-	padding: 2.5px var(--xlarge) 2.5px calc(var(--xlarge) + 2.5px);
-	margin-left: var(--large);
-	font-size: var(--large)
-}
-
-.fichepredef mainb1,
-.fichepredef mainb2 {
-	text-transform: uppercase;
-	letter-spacing: 1px
+.fichepredef varb3 {
+	letter-spacing: 1px;
+	text-transform: uppercase
 }
 
 .tabicon {
