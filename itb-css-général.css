@@ -408,30 +408,30 @@ fslarge {
 	flex-direction: column;
 	height: -webkit-fill-available;
 	flex-wrap: nowrap;
-	align-items: flex-start;
+	align-items: flex-start
 }
 
 .fichepredef .posttab {
 	width: 100%;
 	text-transform: uppercase;
 	color: var(--darkneutral);
-	font-weight: 900;
+	font-weight: 900
 }
 
 .fichepredef .posttab:nth-of-type(odd) {
 	text-align: right;
 	border-left: var(--2xsmall) solid var(--neutral);
-	padding-left: var(--2xsmall);
+	padding-left: var(--2xsmall)
 }
 
 .fichepredef .posttab:nth-of-type(even) {
 	border-right: var(--2xsmall) solid var(--neutral);
-	padding-right: var(--2xsmall);
+	padding-right: var(--2xsmall)
 }
 
 .fichepredef .posttab.active {
 	border-color: var(--co3-100);
-	color: var(--co3);
+	color: var(--co3)
 }
 
 .fichepredef .posttabs img {
@@ -457,6 +457,11 @@ fslarge {
 	display: block;
 	margin-top: var(--2xsmall);
 	width: fit-content
+}
+
+.fichepredef .posttab-content {
+	height: 404px;
+	overflow: auto
 }
 
 .titrepredef {
@@ -4714,7 +4719,7 @@ firstdtls:nth-last-of-type(odd) {
 	height: 20px;
 	display: flex;
 	align-items: center;
-	justify-content: flex-end;
+	justify-content: flex-end
 }
 
 .ficheperso.status>div {
@@ -4853,7 +4858,7 @@ statusdtls:nth-of-type(odd) {
 	align-items: center;
 	justify-content: center;
 	gap: var(--large);
-	padding: var(--2xlarge);
+	padding: var(--2xlarge)
 }
 
 .ficheinsta.postinsta {
@@ -5005,7 +5010,7 @@ statusinsta {
 	align-items: center;
 	flex: 1 1 calc(100% / 3 - 1rem);
 	aspect-ratio: 1;
-	justify-content: center;
+	justify-content: center
 }
 
 .imginsta img {
@@ -5799,7 +5804,7 @@ statusinsta {
 	align-items: center;
 	text-transform: lowercase;
 	height: 50%;
-	justify-content: center;
+	justify-content: center
 }
 
 .astrocontent span:nth-of-type(odd) {
@@ -6096,7 +6101,7 @@ lblpmdn {
 }
 
 .ficheperso.rep .posttab-contents {
-	width: 100%;
+	width: 100%
 }
 
 .defis .blocperso a {
