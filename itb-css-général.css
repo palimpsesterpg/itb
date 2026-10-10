@@ -465,22 +465,26 @@ fslarge {
 }
 
 .titrepredef {
-	font-size: var(--2xlarge);
+	font-size: var(--4xlarge);
+	line-height: var(--4xlarge);
 	text-align: center;
 	font-family: var(--var);
 	text-transform: uppercase;
-	font-weight: 300;
+	font-weight: 100;
 	letter-spacing: var(--2xsmall);
 	padding-left: var(--2xsmall);
-	color: var(--co2)
+	color: var(--co2);
+	text-shadow: 1px 1px var(--co2-50)
 }
 
 .sstitrepredef {
 	text-align: center;
 	text-transform: lowercase;
 	letter-spacing: var(--2xsmall);
+	font-size: var(--large);
 	padding-left: var(--2xsmall);
-	font-weight: 700;
+	font-weight: 900;
+	font-family: var(--var);
 	color: var(--co1)
 }
 
