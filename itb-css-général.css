@@ -414,7 +414,7 @@ fslarge {
 .fichepredef .posttab {
 	width: 100%;
 	text-transform: uppercase;
-	color: var(--co3);
+	color: var(--darkneutral);
 	font-weight: 900;
 }
 
@@ -431,6 +431,7 @@ fslarge {
 
 .fichepredef .posttab.active {
 	border-color: var(--co3-100);
+	color: var(--co3);
 }
 
 .fichepredef .posttabs img {
