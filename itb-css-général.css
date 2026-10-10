@@ -404,7 +404,7 @@ fslarge {
 }
 
 .fichepredef .posttabs {
-	width: 150px;
+	width: 200px;
 	flex-direction: column;
 	height: -webkit-fill-available;
 	flex-wrap: nowrap;
