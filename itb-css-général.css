@@ -419,17 +419,18 @@ fslarge {
 }
 
 .fichepredef .posttab:nth-of-type(odd) {
-	border-left: var(--2xsmall) solid var(--white);
+	text-align: right;
+	border-left: var(--2xsmall) solid var(--neutral);
 	padding-left: var(--2xsmall);
 }
 
 .fichepredef .posttab:nth-of-type(even) {
-	border-right: var(--2xsmall) solid var(--white);
+	border-right: var(--2xsmall) solid var(--neutral);
 	padding-right: var(--2xsmall);
 }
 
 .fichepredef .posttab.active {
-	border-color: var(--co3-50);
+	border-color: var(--co3-100);
 }
 
 .fichepredef .posttabs img {
