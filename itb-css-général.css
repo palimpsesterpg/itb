@@ -412,8 +412,7 @@ fslarge {
 }
 
 .fichepredef .posttab {
-	border-left: var(--2xsmall) solid var(--white);
-	padding-left: var(--2xsmall);
+	width: 100%;
 	text-transform: uppercase;
 	color: var(--co3);
 	font-weight: 900;
