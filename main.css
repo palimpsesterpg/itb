@@ -3557,6 +3557,7 @@ pblocgc,
 	align-items: flex-start;
 	justify-content: center;
 	gap: var(--large);
+	width: 100%;
 	margin: 0 auto
 }
 
