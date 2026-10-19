@@ -38,7 +38,7 @@
 .cam camhd upp:after {
     font-family: "TES";
     content: "\E011";
-    font-size: var(--xlarge)
+    font-size: var(--large)
 }
 
 .cam camhd upp:before {
