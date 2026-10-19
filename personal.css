@@ -99,7 +99,7 @@
 .cam cam4 {
     color: var(--white);
     background-color: var(--group-color);
-    font-family: var(--var);
+    font-family: var(--display);
     text-transform: lowercase;
     letter-spacing: 2.5px;
     font-weight: 200;
@@ -321,7 +321,7 @@
     margin: 0 auto !important;
     width: fit-content;
     text-transform: uppercase;
-    padding: 0.25rem var(--xlarge) 0 !important
+    padding: var(--3xsmall) var(--xlarge) 0 !important
 }
 
 .cam #postprofile-libre .postprofile-field-content {

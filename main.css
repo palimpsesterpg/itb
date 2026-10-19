@@ -235,7 +235,7 @@ fslarge {
 .titrefam {
 	font-size: var(--2xlarge);
 	text-align: center;
-	font-family: var(--var);
+	font-family: var(--display);
 	text-transform: lowercase;
 	font-weight: 900;
 	letter-spacing: var(--2xsmall);
@@ -296,7 +296,7 @@ fslarge {
 	z-index: 999;
 	letter-spacing: 1px;
 	padding-left: 1px;
-	font-family: var(--var);
+	font-family: var(--display);
 	font-size: var(--5xlarge);
 	position: absolute
 }
@@ -347,7 +347,7 @@ fslarge {
 	text-transform: uppercase;
 	font-weight: 700;
 	margin-bottom: var(--large);
-	font-family: var(--var);
+	font-family: var(--display);
 	font-size: var(--xlarge);
 	letter-spacing: var(--2xsmall);
 	color: var(--co3);
@@ -468,7 +468,7 @@ fslarge {
 	font-size: var(--4xlarge);
 	line-height: var(--4xlarge);
 	text-align: center;
-	font-family: var(--var);
+	font-family: var(--display);
 	text-transform: uppercase;
 	font-weight: 100;
 	letter-spacing: var(--2xsmall);
@@ -484,7 +484,7 @@ fslarge {
 	font-size: var(--large);
 	padding-left: var(--2xsmall);
 	font-weight: 900;
-	font-family: var(--var);
+	font-family: var(--display);
 	color: var(--co1)
 }
 
@@ -534,8 +534,8 @@ fslarge {
 	color: var(--lightdark);
 	font-size: var(--3xlarge);
 	text-transform: uppercase;
-	letter-spacing: 0.25rem;
-	padding-left: 0.25rem
+	letter-spacing: var(--3xsmall);
+	padding-left: var(--3xsmall)
 }
 
 .pseudoperso pronom {
@@ -615,7 +615,7 @@ lblprs:before {
 lblqst {
 	font-weight: 700;
 	padding-left: 1.5px;
-	font-family: var(--var);
+	font-family: var(--display);
 	font-size: var(--large);
 	letter-spacing: 1.5px;
 	color: var(--group-color, var(--co1));
@@ -721,7 +721,7 @@ blockquote.blocperso {
 .idperso .titletoggle {
 	font-size: var(--2xlarge);
 	font-weight: 100;
-	font-family: var(--var);
+	font-family: var(--display);
 	color: var(--group-color, var(--co1)) !important;
 	text-align: center;
 	margin-bottom: var(--large)
@@ -824,7 +824,7 @@ blockquote.blocperso {
 
 .attentes strong:first-child {
 	text-transform: uppercase;
-	font-family: var(--var);
+	font-family: var(--display);
 	letter-spacing: 2.5px;
 	padding-left: 2.5px;
 	font-size: var(--large);
@@ -1034,7 +1034,7 @@ borderbid,
 borderbigc {
 	border: 0.5px solid;
 	font-weight: 300;
-	padding: 0.25rem var(--xlarge)
+	padding: var(--3xsmall) var(--xlarge)
 }
 
 bborder1,
@@ -2029,31 +2029,31 @@ underbi3,
 underbin,
 underbid,
 underbigc,
-var1,
-var2,
-var3,
-varn,
-vard,
-vargc,
-varb1,
-varb2,
-varb3,
-varbn,
-varbd,
-varbgc,
-vari1,
-vari2,
-vari3,
-varin,
-varid,
-varigc,
-varbi1,
-varbi2,
-varbi3,
-varbin,
-varbid,
-varbigc {
-	font-family: var(--var);
+display1,
+display2,
+display3,
+displayn,
+displayd,
+displaygc,
+displayb1,
+displayb2,
+displayb3,
+displaybn,
+displaybd,
+displaybgc,
+displayi1,
+displayi2,
+displayi3,
+displayin,
+displayid,
+displayigc,
+displaybi1,
+displaybi2,
+displaybi3,
+displaybin,
+displaybid,
+displaybigc {
+	font-family: var(--display);
 	font-weight: 500;
 	font-size: var(--large)
 }
@@ -2085,45 +2085,45 @@ monobigc {
 	font-family: var(--mono)
 }
 
-var1,
-varb1,
-vari1,
-varbi1 {
+display1,
+displayb1,
+displayi1,
+displaybi1 {
 	color: var(--co1)
 }
 
-var2,
-varb2,
-vari2,
-varbi2 {
+display2,
+displayb2,
+displayi2,
+displaybi2 {
 	color: var(--co2)
 }
 
-var3,
-varb3,
-vari3,
-varbi3 {
+display3,
+displayb3,
+displayi3,
+displaybi3 {
 	color: var(--co3)
 }
 
-varn,
-varbn,
-varin,
-varbin {
+displayn,
+displaybn,
+displayin,
+displaybin {
 	color: var(--darkneutral)
 }
 
-vard,
-varbd,
-varid,
-varbid {
+displayd,
+displaybd,
+displayid,
+displaybid {
 	color: var(--dark)
 }
 
-vargc,
-varbgc,
-varigc,
-varbigc {
+displaygc,
+displaybgc,
+displayigc,
+displaybigc {
 	color: var(--group-color, var(--lightdark))
 }
 
@@ -2342,12 +2342,12 @@ monob3,
 monobn,
 monobd,
 monobgc,
-varb1,
-varb2,
-varb3,
-varbn,
-varbd,
-varbgc,
+displayb1,
+displayb2,
+displayb3,
+displaybn,
+displaybd,
+displaybgc,
 mainb1,
 mainb2,
 mainb3,
@@ -2441,12 +2441,12 @@ serifi3,
 serifin,
 serifid,
 serifigc,
-vari1,
-vari2,
-vari3,
-varin,
-varid,
-varigc,
+displayi1,
+displayi2,
+displayi3,
+displayin,
+displayid,
+displayigc,
 monoi1,
 monoi2,
 monoi3,
@@ -2544,12 +2544,12 @@ monobi3,
 monobin,
 monobid,
 monobigc,
-varbi1,
-varbi2,
-varbi3,
-varbin,
-varbid,
-varbigc,
+displaybi1,
+displaybi2,
+displaybi3,
+displaybin,
+displaybid,
+displaybigc,
 mainbi1,
 mainbi2,
 mainbi3,
@@ -3183,7 +3183,7 @@ majgc::first-letter {
 
 #postprofile-libre u,
 .postprofile-libre u {
-	font-family: var(--var);
+	font-family: var(--display);
 	font-size: var(--large)
 }
 
@@ -3290,7 +3290,7 @@ majgc::first-letter {
 #postprofile-libre ol[type="a"],
 .postprofile-libre ol[type="a"] {
 	flex-wrap: wrap;
-	gap: 0.25rem
+	gap: var(--3xsmall)
 }
 
 #postprofile-libre ol[type="a"] li,
@@ -3321,14 +3321,14 @@ majgc::first-letter {
 	border-radius: 100%
 }
 
-.fichepredef varb1,
-.fichepredef varb2 {
+.fichepredef displayb1,
+.fichepredef displayb2 {
 	font-size: var(--large);
 	letter-spacing: 1px;
 	text-transform: uppercase
 }
 
-.fichepredef varb3 {
+.fichepredef displayb3 {
 	letter-spacing: 1px;
 	text-transform: uppercase
 }
@@ -3958,7 +3958,7 @@ chronoevent {
 }
 
 chronoevent strong {
-	font-family: var(--var);
+	font-family: var(--display);
 	font-size: var(--large);
 	font-weight: 700;
 	color: var(--white);
@@ -4045,7 +4045,7 @@ p {
 
 #restricted-block a {
 	width: calc(50% - var(--2xsmall) / 2);
-	font-family: var(--var);
+	font-family: var(--display);
 	font-size: var(--small);
 	text-transform: uppercase;
 	font-weight: 700;
@@ -4072,7 +4072,7 @@ p {
 .ficval border1 {
 	font-size: var(--2xlarge);
 	letter-spacing: 2.5px;
-	font-family: var(--var);
+	font-family: var(--display);
 	font-weight: 800
 }
 
@@ -4339,7 +4339,7 @@ p {
 	text-transform: uppercase;
 	font-weight: 900;
 	font-size: var(--xlarge);
-	font-family: var(--var)
+	font-family: var(--display)
 }
 
 .notiffi_links a {
@@ -4349,7 +4349,7 @@ p {
 	font-size: var(--large);
 	letter-spacing: var(--2xsmall);
 	padding-left: var(--2xsmall);
-	font-family: var(--var)
+	font-family: var(--display)
 }
 
 .notiffi_head_ava {
@@ -4577,7 +4577,7 @@ p {
 
 .notiffi_body_admin strong {
 	color: var(--co3);
-	font-family: var(--var);
+	font-family: var(--display);
 	font-weight: 700;
 	font-size: var(--large)
 }
@@ -4662,7 +4662,7 @@ p {
 	text-transform: uppercase;
 	text-align: center;
 	color: var(--group-color);
-	font-family: var(--var);
+	font-family: var(--display);
 	font-size: var(--2xlarge);
 	text-shadow: 1px 1px var(--group-color-50);
 	letter-spacing: 2.5px;
@@ -4745,7 +4745,7 @@ firstdtls:nth-last-of-type(odd) {
 	font-size: var(--large);
 	height: 75px;
 	font-weight: 900;
-	font-family: var(--var);
+	font-family: var(--display);
 	align-items: center;
 	justify-content: center;
 	text-transform: lowercase;
@@ -4758,7 +4758,7 @@ firstdtls:nth-last-of-type(odd) {
 	display: flex;
 	text-transform: lowercase;
 	color: var(--group-color);
-	font-family: var(--var);
+	font-family: var(--display);
 	font-size: var(--2xlarge);
 	text-shadow: 1px 1px var(--group-color-50);
 	letter-spacing: 5px;
@@ -4936,7 +4936,7 @@ instadata {
 	font-weight: 300;
 	letter-spacing: 2.5px;
 	text-transform: uppercase;
-	font-family: var(--var)
+	font-family: var(--display)
 }
 
 instadata strong {
@@ -5184,7 +5184,7 @@ statusinsta {
 	text-transform: uppercase;
 	background: var(--gradientgc2);
 	color: var(--white);
-	padding: 0.25rem var(--2xlarge);
+	padding: var(--3xsmall) var(--2xlarge);
 	font-weight: 600
 }
 
@@ -5211,7 +5211,7 @@ statusinsta {
 }
 
 .ficherp.six ficherptitle {
-	font-family: var(--var);
+	font-family: var(--display);
 	background: var(--gradientgc1);
 	text-transform: lowercase;
 	padding: 0.15rem var(--3xlarge);
@@ -5668,7 +5668,7 @@ statusinsta {
 .tindermisc span {
 	height: 25px;
 	padding: 0 var(--large);
-	font-family: var(--var);
+	font-family: var(--display);
 	overflow: hidden;
 	background: var(--group-color-50);
 	color: var(--group-color);
@@ -5821,7 +5821,7 @@ lblprtt {
 
 lblpmdn {
 	background-color: var(--group-color, var(--co3));
-	font-family: var(--var);
+	font-family: var(--display);
 	font-weight: 700;
 	padding: 1px 5px 1px 6.5px;
 	letter-spacing: 1.5px;
@@ -6125,7 +6125,7 @@ lblpmdn {
 	letter-spacing: var(--2xsmall);
 	text-transform: uppercase !important;
 	align-items: flex-end;
-	font-family: var(--var);
+	font-family: var(--display);
 	font-size: var(--large)
 }
 
@@ -6148,7 +6148,7 @@ lblpmdn {
 	text-transform: uppercase;
 	font-size: var(--large);
 	font-weight: 900;
-	font-family: var(--var);
+	font-family: var(--display);
 	letter-spacing: 1px;
 	padding-left: 1px;
 	color: var(--co3)
@@ -6189,7 +6189,7 @@ lblpmdn {
 	display: block;
 	text-transform: lowercase;
 	font-weight: 900;
-	font-family: var(--var);
+	font-family: var(--display);
 	color: var(--co3);
 	text-shadow: 1px 1px var(--white);
 	font-size: var(--xlarge)
