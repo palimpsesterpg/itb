@@ -30,6 +30,7 @@
 
 body {
     margin: 0px;
+    font-size: var(--small);
     font-weight: 300;
 }
 
