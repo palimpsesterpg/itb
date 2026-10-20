@@ -16,18 +16,21 @@
 }
 
 .content-prj img {
-    width: 35%;
+    height: 200px;
     object-fit: cover;
-    aspect-ratio: 1
+    aspect-ratio: 1 / 1
 }
 
 .content-prj div {
     flex: 1;
+    overflow: auto;
+    height: 200px;
     text-align: justify
 }
 
 body {
-    margin: 0px
+    margin: 0px;
+    font-weight: 300;
 }
 
 headtitle {
@@ -74,10 +77,22 @@ subtitle {
 }
 
 .content-prj rules {
+    text-align: right;
+    display: flex;
     font-family: var(--display);
     color: var(--black);
     text-transform: lowercase;
     font-size: var(--large);
     text-shadow: 1px 1px var(--white);
-    font-weight: 700
+    font-weight: 700;
+    margin: 0 var(--2xlarge);
+    align-items: center;
+    letter-spacing: 5px
+}
+
+.content-prj rules:before {
+    content: '';
+    flex: 1;
+    margin: 0 var(--2xlarge);
+    border-bottom: 0.5px solid var(--neutral)
 }
