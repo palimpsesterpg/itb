@@ -6,6 +6,17 @@
     height: 100vh;
 }
 
+.content-prj {
+    display: flex;
+    height: 50%;
+    gap: var(--large)
+}
+
+.content-prj img {
+    width: 30%;
+    aspect-ratio: 1 / 1
+}
+
 body {
     margin: 0px
 }
