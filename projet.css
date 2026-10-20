@@ -5,7 +5,7 @@
     outline: 0.5px solid var(--neutral);
     height: 100%;
     display: flex;
-    gap: var(--large);
+    gap: var(--2xlarge);
     flex-direction: column
 }
 
@@ -35,7 +35,7 @@ body {
 
 headtitle {
     font-family: var(--spe);
-    font-size: var(--2xlarge)
+    font-size: var(--large)
 }
 
 .header-prj {
@@ -50,8 +50,7 @@ headtitle {
 subtitle {
     font-family: var(--serif);
     text-transform: uppercase;
-    line-height: var(--2xlarge);
-    font-size: var(--large)
+    line-height: var(--large);
 }
 
 .content-prj strong,
@@ -85,7 +84,7 @@ subtitle {
     font-size: var(--large);
     text-shadow: 1px 1px var(--white);
     font-weight: 700;
-    margin: 0 var(--2xlarge);
+    padding-left: 5px;
     align-items: center;
     letter-spacing: 5px
 }
