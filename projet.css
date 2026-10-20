@@ -16,7 +16,7 @@
 }
 
 .content-prj img {
-    width: 25%;
+    width: 35%;
     object-fit: cover;
     aspect-ratio: 1
 }
@@ -66,13 +66,18 @@ subtitle {
     color: var(--black);
     background-color: var(--neutral);
     padding: 0 var(--xsmall);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-left: calc(var(--xsmall) + 1px);
+    border: 0.5px solid var(--white);
     border-radius: var(--small)
 }
 
 .content-prj rules {
     font-family: var(--display);
     color: var(--black);
-    text-transform: uppercase;
+    text-transform: lowercase;
     font-size: var(--large);
+    text-shadow: 1px 1px var(--white);
     font-weight: 700
 }
