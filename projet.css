@@ -19,7 +19,7 @@
     height: 200px;
     object-fit: cover;
     object-position: center;
-    aspect-ratio: 1 / 2
+    aspect-ratio: 0.75
 }
 
 .content-prj div {
