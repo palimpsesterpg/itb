@@ -1,11 +1,11 @@
 .background-prj {
     background-color: var(--light);
-    border: var(--2xlarge) solid var(--white);
-    padding: var(--2xlarge);
+    border: var(--large) solid var(--white);
+    padding: var(--large);
     outline: 0.5px solid var(--neutral);
     height: 100%;
     display: flex;
-    gap: var(--2xlarge);
+    gap: var(--large);
     flex-direction: column
 }
 
@@ -42,7 +42,7 @@ headtitle {
 .header-prj {
     background-color: var(--white);
     border: 0.5px solid var(--neutral);
-    padding: var(--2xlarge);
+    padding: var(--large);
     display: flex;
     justify-content: space-between;
     color: var(--black);
@@ -93,6 +93,11 @@ subtitle {
 .content-prj rules:before {
     content: '';
     flex: 1;
-    margin: 0 var(--2xlarge);
+    margin: 0 var(--large);
     border-bottom: 0.5px solid var(--neutral)
+}
+
+m {
+    font-family: var(--spe);
+    color: var(--black)
 }
