@@ -3,7 +3,7 @@
     border: var(--2xlarge) solid var(--white);
     padding: var(--2xlarge);
     outline: 0.5px solid var(--neutral);
-    height: 100vh;
+    height: 100%;
     display: flex;
     gap: var(--large);
     flex-direction: column
@@ -67,4 +67,12 @@ subtitle {
     background-color: var(--neutral);
     padding: 0 var(--xsmall);
     border-radius: var(--small)
+}
+
+.content-prj rules {
+    font-family: var(--display);
+    color: var(--black);
+    text-transform: uppercase;
+    font-size: var(--large);
+    font-weight: 700
 }
