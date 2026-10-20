@@ -1,0 +1,6 @@
+.background-prj {
+    background-color: var(--light);
+    border: var(--2xlarge) solid var(--white);
+    padding: var(--2xlarge);
+    outline: 0.5px solid var(--neutral)
+}
