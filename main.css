@@ -1679,7 +1679,7 @@ div.award.award-hj::before {
 
 .bloc-accueil.six i:after,
 .bloc-accueil.six i:before {
-	content: "â€”";
+	content: "€”";
 	padding: 0 var(--xsmall);
 }
 
@@ -1958,7 +1958,7 @@ topicinfo:after {
 }
 
 .topicrow-title:has(topictype:not(:empty)) .topictitle:before {
-	content: "â€º";
+	content: "›";
 	padding-right: var(--xsmall);
 	color: var(--darkneutral);
 	font-style: normal;
@@ -2081,7 +2081,7 @@ topicdesc {
 }
 
 .topicrow:has(topicdesc:not(empty)) topicauthor:after {
-	content: " â€¢â€¢â€¢";
+	content: " €¢€¢€¢";
 	color: var(--group-color-300, var(--co3-300));
 }
 
@@ -3037,7 +3037,7 @@ button.toggle-panel .fi:before:hover {
 }
 
 #field_id7:after {
-	content: "â€”";
+	content: "€”";
 	font-weight: 300;
 	padding: 0 var(--xsmall);
 }
@@ -4377,7 +4377,7 @@ lblprtt:not(:first-of-type) {
 
 lblfvr:after,
 lblprtt:after {
-	content: "â€”";
+	content: "€”";
 	margin: 0 var(--xsmall);
 }
 
@@ -4655,7 +4655,7 @@ recdtls i {
 }
 
 recdtls i:before {
-	content: "â€”";
+	content: "€”";
 	padding-right: var(--large);
 	color: var(--group-color, var(--co3));
 }
@@ -4667,7 +4667,7 @@ reclinks a {
 }
 
 reclinks a:after {
-	content: 'â€”';
+	content: '€”';
 	padding-left: var(--large);
 	font-weight: 100;
 	color: var(--group-color, var(--co3));
@@ -4690,7 +4690,7 @@ reclinks a:after {
 }
 
 .dotlist:before {
-	content: "â€”";
+	content: "—";
 	margin: var(--large);
 	color: var(--co3);
 }
@@ -6556,7 +6556,7 @@ majgc::first-letter {
 .br1n:before,
 .br1d:before,
 .br1gc:before {
-	content: "â—‹";
+	content: "—";
 	position: absolute;
 	background: var(--light);
 	padding: 0 var(--small);
@@ -6581,7 +6581,7 @@ majgc::first-letter {
 .br5n:before,
 .br5d:before,
 .br5gc:before {
-	content: "âœ§";
+	content: "œ§";
 	position: absolute;
 	background: var(--light);
 	padding: 0 var(--3xlarge);
@@ -6746,7 +6746,7 @@ majgc::first-letter {
 .br3n:before,
 .br3d:before,
 .br3gc:before {
-	content: "â—â—â—â—â—â—â—â—â—â—";
+	content: "——————————";
 }
 
 .br41,
@@ -6766,7 +6766,7 @@ majgc::first-letter {
 .br7n:before,
 .br7d:before,
 .br7gc:before {
-	content: "__________";
+	content: "——————————";
 }
 
 .br41:before,
@@ -6991,7 +6991,7 @@ majgc::first-letter {
 
 #postprofile-libre ul li::before,
 .postprofile-libre ul li::before {
-	content: "â€”";
+	content: "€”";
 	color: var(--darkneutral);
 	margin-right: var(--large);
 }
@@ -8200,7 +8200,7 @@ p {
 }
 
 .notiffi_body_rps a:before {
-	content: "â€”";
+	content: "€”";
 	padding-right: var(--small);
 }
 
