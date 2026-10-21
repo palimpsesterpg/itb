@@ -17,17 +17,23 @@
     gap: var(--large)
 }
 
+.content-prj:hover img {
+    aspect-ratio: 0.25;
+    transition-duration: 1s
+}
+
 .content-prj img {
-    height: 200px;
+    height: 250px;
     object-fit: cover;
     object-position: center;
-    aspect-ratio: 0.75
+    aspect-ratio: 0.75;
+    transition-duration: 1s
 }
 
 .content-prj div {
     flex: 1;
     overflow: auto;
-    height: 200px;
+    height: 250px;
     text-align: justify
 }
 
