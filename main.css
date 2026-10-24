@@ -338,7 +338,7 @@ a:hover {
 body {
 	font-family: var(--main);
 	color: var(--lightdark);
-	;
+	font-size: var(--small);
 	margin-top: 0 !important
 }
 
