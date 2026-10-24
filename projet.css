@@ -39,8 +39,7 @@
 
 body {
     margin: 0px;
-    font-size: var(--small);
-    font-weight: 300;
+    font-weight: 300
 }
 
 headtitle {
@@ -54,19 +53,19 @@ headtitle {
     padding: var(--large);
     display: flex;
     justify-content: space-between;
-    color: var(--black);
+    color: var(--black)
 }
 
 subtitle {
     font-family: var(--serif);
     text-transform: uppercase;
-    line-height: var(--large);
+    line-height: var(--large)
 }
 
 .content-prj strong,
 .content-prj i {
     font-family: var(--serif);
-    color: var(--black);
+    color: var(--black)
 }
 
 .content-prj strong {

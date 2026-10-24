@@ -87,7 +87,7 @@
 			var(--co3-50), ;
 			var(--co1-50));
 	--header: url("https://i.ibb.co/PGZFHKXn/header1.png");
-	color-scheme: light;
+	color-scheme: light
 }
 
 [data-color-scheme="dark"] {
@@ -140,156 +140,152 @@
 	--co3-100: #6B5338;
 	--co3-50: #503E2A;
 
-	--header: url("https://i.ibb.co/BHfN7m17/Header2.png");
+	--header: url("https://i.ibb.co/BHfN7m17/Header2.png")
 }
 
 .usr_grp_clr {
-	color: var(--group-color) !important;
+	color: var(--group-color) !important
 }
 
 .fi-ts-align-right:before {
 	content: "\e07a";
 	display: inline-block;
-	transform: scaleX(-1);
-}
-
-.mention-at.fi-ts-at:before {
-	font-size: var(--small);
+	transform: scaleX(-1)
 }
 
 .majspe {
-	font-family: var(--spe);
+	font-family: var(--spe)
 }
 
 strong {
-	font-weight: 700;
+	font-weight: 700
 }
 
 .hgi-stroke {
-	font-weight: 100;
+	font-weight: 100
 }
 
 * {
 	box-sizing: border-box;
 	scrollbar-color: var(--co3);
-	scrollbar-width: thin;
+	scrollbar-width: thin
 }
 
 table {
-	width: 100%;
+	width: 100%
 }
 
 fieldset {
 	margin: 0 !important;
 	padding: 0 !important;
-	border: 0 !important;
+	border: 0 !important
 }
 
 fieldset dl {
 	display: flex;
-	align-items: center;
+	align-items: center
 }
 
 fieldset dl:first-child {
-	margin: 0 !important;
+	margin: 0 !important
 }
 
 fieldset dt {
 	width: 250px;
 	text-transform: uppercase;
-	letter-spacing: 1px;
+	letter-spacing: 1px
 }
 
 fieldset dd {
 	margin: 0;
-	flex: 1;
+	flex: 1
 }
 
 .panel {
 	background-color: var(--light);
-	padding: var(--large) !important;
+	padding: var(--large) !important
 }
 
 .corners-top,
 .corners-bottom {
-	display: none;
+	display: none
 }
 
 .invisible {
 	display: none;
-	visibility: hidden;
+	visibility: hidden
 }
 
 .visible {
 	display: block;
-	visibility: visible;
+	visibility: visible
 }
 
 .panel {
 	margin: 0;
-	padding: 0;
+	padding: 0
 }
 
 p {
 	line-height: inherit;
 	font-size: var(--medium);
-	margin: 0;
+	margin: 0
 }
 
 fieldset.fields1 div {
-	margin: 0;
+	margin: 0
 }
 
 a,
 a:visited,
 a:hover {
-	text-decoration: none !important;
+	text-decoration: none !important
 }
 
 upp,
 .upp {
-	text-transform: uppercase;
+	text-transform: uppercase
 }
 
 low,
 .low {
-	text-transform: lowercase;
+	text-transform: lowercase
 }
 
 h1,
 .h1 {
 	font-size: var(--3xlarge) !important;
-	margin: var(--2xsmall) 0 !important;
+	margin: var(--2xsmall) 0 !important
 }
 
 h2,
 .h2 {
 	font-size: var(--2xlarge) !important;
-	margin: var(--2xsmall) 0 !important;
+	margin: var(--2xsmall) 0 !important
 }
 
 h3,
 .h3 {
 	font-size: var(--large) !important;
-	margin: var(--2xsmall) 0 !important;
+	margin: var(--2xsmall) 0 !important
 }
 
 h4,
 .h4 {
 	font-size: var(--medium) !important;
-	margin: var(--2xsmall) 0 !important;
+	margin: var(--2xsmall) 0 !important
 }
 
 h5,
 .h5 {
 	font-size: var(--small) !important;
-	margin: var(--2xsmall) 0 !important;
+	margin: var(--2xsmall) 0 !important
 }
 
 h6,
 .h6 {
 	font-size: var(--2xsmall) !important;
-	margin: var(--2xsmall) 0 !important;
+	margin: var(--2xsmall) 0 !important
 }
 
 h1,
@@ -308,7 +304,7 @@ h6,
 	font-family: var(--spe);
 	text-align: center;
 	display: block;
-	color: var(--black);
+	color: var(--black)
 }
 
 a.h1,
@@ -323,23 +319,23 @@ a.h6,
 .h4 a,
 .h5 a,
 .h6 a {
-	color: var(--black) !important;
+	color: var(--black) !important
 }
 
 a,
 a:visited {
-	color: var(--black);
+	color: var(--black)
 }
 
 a:hover {
-	color: var(--darkneutral);
+	color: var(--darkneutral)
 }
 
 body {
 	font-family: var(--main);
 	color: var(--lightdark);
-	font-size: var(--small);
-	margin-top: 0 !important;
+	;
+	margin-top: 0 !important
 }
 
 body::before {
@@ -352,7 +348,7 @@ body::before {
 	background: var(--header);
 	background-size: cover;
 	background-position: center;
-	z-index: -1;
+	z-index: -1
 }
 
 #wrap {
@@ -360,16 +356,16 @@ body::before {
 	box-sizing: border-box;
 	width: 950px;
 	margin: 0 auto;
-	background-color: var(--darklight);
+	background-color: var(--darklight)
 }
 
 .bottomlist {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-weight: 300;
-	font-size: var(--small);
+	;
 	padding: var(--small);
-	text-align: center;
+	text-align: center
 }
 
 .linklist {
@@ -381,11 +377,11 @@ body::before {
 	font-weight: 700;
 	letter-spacing: 1px;
 	font-family: var(--display);
-	font-size: var(--large);
+	font-size: var(--large)
 }
 
 .linklist a {
-	padding-left: 1px;
+	padding-left: 1px
 }
 
 #tabs {
@@ -395,7 +391,7 @@ body::before {
 	align-items: center;
 	justify-content: center;
 	width: 650px;
-	margin: var(--large) auto;
+	margin: var(--large) auto
 }
 
 #tabs a {
@@ -403,7 +399,7 @@ body::before {
 	font-weight: 700;
 	font-size: var(--large);
 	padding: 2.5px;
-	box-shadow: 0px -5px inset var(--white);
+	box-shadow: 0px -5px inset var(--white)
 }
 
 #page-header {
@@ -416,7 +412,7 @@ body::before {
 	align-items: center;
 	justify-content: center;
 	color: var(--white);
-	font-family: var(--spe);
+	font-family: var(--spe)
 }
 
 .copyright i:before {
@@ -427,12 +423,12 @@ body::before {
 	font-size: var(--large);
 	padding: var(--large);
 	background-color: var(--co3-50);
-	z-index: 999;
+	z-index: 999
 }
 
 [data-color-scheme="dark"] .sceditor-button,
 [data-color-scheme="dark"] .pathname-box a {
-	color: var(--black) !important;
+	color: var(--black) !important
 }
 
 #page-navbar {
@@ -448,29 +444,29 @@ body::before {
 	right: 50%;
 	gap: var(--2xlarge);
 	transform: translateX(50%);
-	border: 0.5px solid var(--light);
+	border: 0.5px solid var(--light)
 }
 
 #page-navbar div {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	gap: var(--large);
+	gap: var(--large)
 }
 
 #page-navbar div>* {
 	text-transform: lowercase;
 	color: var(--black);
 	opacity: 0.75;
-	font-size: var(--small);
+	;
 	font-family: var(--display);
 	font-weight: 700;
 	letter-spacing: 2.5px;
-	padding-left: 2.5px;
+	padding-left: 2.5px
 }
 
 .mainmenu .toread-message {
-	color: var(--co2);
+	color: var(--co2)
 }
 
 .switcheroo {
@@ -478,7 +474,7 @@ body::before {
 	position: relative;
 	padding: var(--large);
 	background-color: var(--white);
-	flex: 1;
+	flex: 1
 }
 
 .switcheroo__squircles {
@@ -491,7 +487,7 @@ body::before {
 	gap: var(--large);
 	flex-wrap: wrap;
 	align-items: center;
-	justify-content: center;
+	justify-content: center
 }
 
 .switcheroo__squircle {
@@ -504,7 +500,7 @@ body::before {
 	border-radius: 50%;
 	cursor: pointer;
 	transition: border-radius 128ms var(--ease);
-	background-color: var(--group-color-100, var(--co1-100));
+	background-color: var(--group-color-100, var(--co1-100))
 }
 
 .switcheroo__avatar img {
@@ -515,23 +511,23 @@ body::before {
 	border-radius: 50%;
 	transition: border-radius 128ms var(--ease);
 	position: relative;
-	filter: grayscale(1);
+	filter: grayscale(1)
 }
 
 .switcheroo__squircle.active,
 .switcheroo__squircle:hover {
 	background-color: var(--group-color, var(--co1));
-	cursor: default;
+	cursor: default
 }
 
 .switcheroo__squircle.active img,
 .switcheroo__squircle:hover img {
-	filter: grayscale(0);
+	filter: grayscale(0)
 }
 
 .switcheroo__squircle:hover:before {
 	opacity: 1;
-	transform: 128ms var(--ease), opacity 64ms var(--ease);
+	transform: 128ms var(--ease), opacity 64ms var(--ease)
 }
 
 .switcheroo__delete {
@@ -549,12 +545,12 @@ body::before {
 	transition: transform 128ms var(--ease), opacity 64ms var(--ease);
 	cursor: pointer;
 	color: var(--white);
-	justify-content: center;
+	justify-content: center
 }
 
 .switcheroo__squircle:hover .switcheroo__delete {
 	opacity: 1;
-	transform: scale(1);
+	transform: scale(1)
 }
 
 .switcheroo__popper {
@@ -564,28 +560,28 @@ body::before {
 	position: absolute;
 	width: -webkit-max-content;
 	width: max-content;
-	font-size: var(--small);
+	;
 	z-index: 999;
 	opacity: 0;
 	pointer-events: none;
 	text-transform: uppercase;
 	font-weight: 300;
 	top: calc(26px + var(--3xsmall));
-	right: 50%;
+	right: 50%
 }
 
 .switcheroo .switcheroo__squircle:hover .switcheroo__popper {
 	opacity: 1;
-	transform: translateX(50%);
+	transform: translateX(50%)
 }
 
 .switcheroo__squircle--button {
-	transition: border-radius 128ms var(--ease);
+	transition: border-radius 128ms var(--ease)
 }
 
 .switcheroo__squircle--button:hover {
 	color: var(--light);
-	font-weight: 700;
+	font-weight: 700
 }
 
 .monomer-overlay {
@@ -597,7 +593,7 @@ body::before {
 	width: 100%;
 	height: 100%;
 	transition: 0.2s opacity ease;
-	background: var(--whiteop75);
+	background: var(--whiteop75)
 }
 
 .monomer-modal {
@@ -608,19 +604,19 @@ body::before {
 	opacity: 0;
 	width: 100%;
 	transition: 0.2s opacity ease;
-	transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%)
 }
 
 .switcheroo__form {
 	padding: var(--2xlarge);
-	background: var(--co2-50);
+	background: var(--co2-50)
 }
 
 .switcheroo__form-row {
 	display: flex;
 	flex-flow: column;
 	align-items: flex-start;
-	margin-bottom: var(--large);
+	margin-bottom: var(--large)
 }
 
 .switcheroo__form-label {
@@ -628,16 +624,16 @@ body::before {
 	font-size: var(--large);
 	text-transform: uppercase;
 	font-weight: 300;
-	color: var(--co2);
+	color: var(--co2)
 }
 
 .switcheroo__form-row:last-child {
-	margin-bottom: 0;
+	margin-bottom: 0
 }
 
 .switcheroo__form-input {
 	width: 100%;
-	background-color: var(--co2-50) !important;
+	background-color: var(--co2-50) !important
 }
 
 .switcheroo__form-button {
@@ -654,16 +650,16 @@ body::before {
 	color: var(--co2);
 	cursor: pointer;
 	background-color: transparent;
-	align-self: center;
+	align-self: center
 }
 
 .switcheroo__form-button:hover {
-	color: var(--co2-700);
+	color: var(--co2-700)
 }
 
 .monomer-modal.monomer-open,
 .monomer-overlay.monomer-open {
-	opacity: 1;
+	opacity: 1
 }
 
 .monomer-close {
@@ -684,13 +680,13 @@ body::before {
 	border-radius: 50%;
 	align-items: center;
 	justify-content: center;
-	padding: 0 !important;
+	padding: 0 !important
 }
 
 .monomer-close:hover {
 	background: var(--white);
 	color: var(--co2);
-	border: 0 !important;
+	border: 0 !important
 }
 
 .forumlist {
@@ -699,11 +695,11 @@ body::before {
 	padding: var(--large);
 	height: fit-content;
 	margin-bottom: var(--large);
-	background-color: var(--light);
+	background-color: var(--light)
 }
 
 .forumlist:last-of-type {
-	margin-bottom: 0px !important;
+	margin-bottom: 0px !important
 }
 
 .forumlist-inside {
@@ -711,44 +707,44 @@ body::before {
 	display: flex;
 	flex: 1;
 	align-content: flex-start;
-	flex-wrap: wrap;
+	flex-wrap: wrap
 }
 
 .forumlist-title {
-	text-align: center;
+	text-align: center
 }
 
 .forumlist:nth-of-type(even) .forumlist-title {
 	padding-right: var(--large);
-	border-right: 0.5px solid var(--neutral);
+	border-right: 0.5px solid var(--neutral)
 }
 
 .forumlist:nth-of-type(odd) .forumlist-title {
 	padding-left: var(--large);
 	border-left: 0.5px solid var(--neutral);
 	padding-top: 0.35rem;
-	order: 3;
+	order: 3
 }
 
 #c1 .forumlist-title {
-	display: none;
+	display: none
 }
 
 #c8 .forumlist-title h2 {
-	writing-mode: horizontal-tb;
+	writing-mode: horizontal-tb
 }
 
 #c8 .forumlist-title {
 	padding: 0;
-	border: 0;
+	border: 0
 }
 
 #c8.forumlist {
-	flex-direction: column;
+	flex-direction: column
 }
 
 #c8 .forumrow-status {
-	display: none;
+	display: none
 }
 
 .forumlist-title h2 {
@@ -760,18 +756,18 @@ body::before {
 	writing-mode: sideways-lr;
 	text-orientation: mixed;
 	text-shadow: 1px 1px var(--neutral);
-	text-transform: lowercase;
+	text-transform: lowercase
 }
 
 .forumlist:nth-of-type(odd) .forumlist-title h2 {
-	writing-mode: sideways-rl;
+	writing-mode: sideways-rl
 }
 
 .forumrow {
 	background-size: cover;
 	box-sizing: border-box;
 	box-shadow: 2.5px 2.5px var(--neutral);
-	flex: 1 1 100%;
+	flex: 1 1 100%
 }
 
 .forumrow-inside {
@@ -783,53 +779,53 @@ body::before {
 	padding: var(--large);
 	width: 100%;
 	background-color: var(--white);
-	justify-content: space-between;
+	justify-content: space-between
 }
 
 .thirty .forumrow-inside,
 .fifty .forumrow-inside,
 .fifarc .forumrow-inside {
 	flex-direction: column;
-	height: -webkit-fill-available;
+	height: -webkit-fill-available
 }
 
 .thirty {
 	width: calc((100% - 2rem) / 3);
-	flex: auto;
+	flex: auto
 }
 
 .fifty,
 .fifarc {
-	flex: calc((100% - 1rem) / 2);
+	flex: calc((100% - 1rem) / 2)
 }
 
 #c2 .forumrow,
 #c3 .forumrow,
 #c4 .forumrow {
 	padding: var(--large);
-	background-image: url(https://zupimages.net/up/26/39/6bq5.png);
+	background-image: url(https://zupimages.net/up/26/39/6bq5.png)
 }
 
 #c6 .forumrow {
 	padding: var(--large);
-	background-image: url(https://zupimages.net/up/26/39/ot9t.png);
+	background-image: url(https://zupimages.net/up/26/39/ot9t.png)
 }
 
 #c5 .forumrow {
 	padding: var(--large);
 	background-image: url(https://zupimages.net/up/26/40/drwe.png);
 	background-position: center center;
-	background-attachment: fixed;
+	background-attachment: fixed
 }
 
 #c7 .forumrow {
 	padding: var(--large);
-	background-image: url(https://zupimages.net/up/26/39/w4sm.png);
+	background-image: url(https://zupimages.net/up/26/39/w4sm.png)
 }
 
 .hundred .forumrow-avatar img {
 	height: 65px;
-	border-radius: var(--3xsmall) var(--small);
+	border-radius: var(--3xsmall) var(--small)
 }
 
 .forumrow-avatar img {
@@ -837,12 +833,12 @@ body::before {
 	height: 50px;
 	object-fit: cover;
 	filter: grayscale(1);
-	border-radius: 50%;
+	border-radius: 50%
 }
 
 .cat_new .forumrow-avatar img,
 .forum_new .forumrow-avatar img {
-	filter: grayscale(0) !important;
+	filter: grayscale(0) !important
 }
 
 a.forumtitle {
@@ -851,7 +847,7 @@ a.forumtitle {
 	font-size: var(--large);
 	text-transform: lowercase;
 	font-weight: 700;
-	letter-spacing: 0.25rem;
+	letter-spacing: 0.25rem
 }
 
 .fifty .forumtitle {
@@ -863,7 +859,7 @@ a.forumtitle {
 	width: 100%;
 	text-align: center;
 	border-bottom: 0.5px solid;
-	font-weight: 500;
+	font-weight: 500
 }
 
 .thirty .forumtitle {
@@ -875,17 +871,17 @@ a.forumtitle {
 	width: 65%;
 	flex-wrap: wrap;
 	align-items: center;
-	justify-content: center;
+	justify-content: center
 }
 
 #f42 .forumtitle {
-	width: 95%;
+	width: 95%
 }
 
 .fifarc .forumtitle {
 	text-align: right;
 	width: 100%;
-	text-transform: uppercase;
+	text-transform: uppercase
 }
 
 .thirty .forumtitle dot {
@@ -899,17 +895,17 @@ a.forumtitle {
 	text-shadow: .5px .5px var(--co1-700);
 	border: 0.5px solid var(--white);
 	box-shadow: 1px 1px var(--co1-100);
-	border-radius: 50%;
+	border-radius: 50%
 }
 
 .thirty .forumtitle dot:nth-of-type(odd) {
 	font-size: var(--large);
 	height: 35px;
-	width: 35px;
+	width: 35px
 }
 
 .hundred .forumtitle {
-	letter-spacing: 0.5rem;
+	letter-spacing: 0.5rem
 }
 
 .forumrow-details {
@@ -918,30 +914,29 @@ a.forumtitle {
 	width: 100%;
 	display: flex;
 	gap: var(--3xsmall);
-	align-items: flex-start;
+	align-items: flex-start
 }
 
 .fifty .forumrow-details,
 .thirty .forumrow-details {
 	gap: var(--large);
-	align-items: center;
+	align-items: center
 }
 
 .cat_new .forumtitle,
 .forum_new .forumtitle {
-	color: var(--co1-700) !important;
+	color: var(--co1-700) !important
 }
 
 .forumlinks {
-	color: var(--darkerlight);
-	font-size: var(--small);
+	color: var(--darkerlight)
 }
 
 .fifty .forumlinks,
 .thirty .forumlinks,
 .fifarc .forumlinks {
 	text-align: center;
-	width: 100%;
+	width: 100%
 }
 
 .forumlinks a:first-child::before {
@@ -949,34 +944,34 @@ a.forumtitle {
 	font-family: uicons-thin-straight !important;
 	display: inline-block;
 	transform: scaleX(-1);
-	margin-right: var(--3xsmall);
+	margin-right: var(--3xsmall)
 }
 
 .forumlinks a {
 	text-transform: lowercase;
 	padding-left: 1px;
 	letter-spacing: 1px;
-	color: var(--co2);
+	color: var(--co2)
 }
 
 .fifty .forumlinks a {
-	text-transform: uppercase;
+	text-transform: uppercase
 }
 
 .forumdesc:empty,
 .forumlinks:empty {
-	display: none;
+	display: none
 }
 
 .forumrow-content {
 	display: flex;
 	flex-direction: column;
-	flex: 1;
+	flex: 1
 }
 
 .forumrow-numbers strong {
 	font-weight: 700;
-	color: var(--co1);
+	color: var(--co1)
 }
 
 .forumrow-status:before {
@@ -990,36 +985,36 @@ a.forumtitle {
 	box-shadow: 2.5px 2.5px var(--white);
 	align-items: center;
 	justify-content: center;
-	font-size: var(--large);
+	font-size: var(--large)
 }
 
 #c7 .forumrow-status:before {
 	font-family: uicons-thin-straight !important;
-	font-size: var(--large);
+	font-size: var(--large)
 }
 
 #f51 .forumrow-status:before {
-	content: "\e88f";
+	content: "\e88f"
 }
 
 #f51.cat_new .forumrow-status:before {
-	content: "\e88f";
+	content: "\e88f"
 }
 
 #f24 .forumrow-status:before {
-	content: "\e385";
+	content: "\e385"
 }
 
 #f24.cat_new .forumrow-status:before {
-	content: "\e385";
+	content: "\e385"
 }
 
 #f42 .forumrow-status:before {
-	content: "\eea3";
+	content: "\eea3"
 }
 
 #f42.cat_new .forumrow-status:before {
-	content: "\eea3";
+	content: "\eea3"
 }
 
 .forum_new .forumrow-status:before,
@@ -1027,18 +1022,18 @@ a.forumtitle {
 	content: "\E04C";
 	background-color: var(--group-color, var(--darkneutral));
 	box-shadow: 2.5px 2.5px var(--group-color-50, var(--white));
-	color: var(--group-color-50, var(--darkerlight));
+	color: var(--group-color-50, var(--darkerlight))
 }
 
 .fifty .forumrow-status {
 	position: absolute;
 	right: var(--3xsmall);
-	bottom: var(--3xsmall);
+	bottom: var(--3xsmall)
 }
 
 .fifty .forumrow-status:before {
 	font-size: var(--large);
-	border-radius: 50%;
+	border-radius: 50%
 }
 
 .forumrow-lastpost {
@@ -1047,46 +1042,45 @@ a.forumtitle {
 	letter-spacing: 1px;
 	text-align: center;
 	padding-left: 1px;
-	font-size: var(--small);
 	flex-direction: row;
 	gap: var(--large);
 	align-items: center;
-	justify-content: center;
+	justify-content: center
 }
 
 .forumrow-lastpost div {
-	text-align: left;
+	text-align: left
 }
 
 .thirty .forumrow-lastpost div {
-	text-align: center;
+	text-align: center
 }
 
 .hundred .forumrow-status:before {
 	height: 50px;
 	width: 50px;
-	border-radius: var(--small);
+	border-radius: var(--small)
 }
 
 #c8 .forumrow-lastpost {
-	display: none;
+	display: none
 }
 
 .thirty .forumrow-lastpost {
-	flex-direction: column !important;
+	flex-direction: column !important
 }
 
 .fifty .forumrow-avatar img {
-	border-radius: var(--2xsmall);
+	border-radius: var(--2xsmall)
 }
 
 .forumrow-lastpost:has(a[href=""]) .forumrow-numbers {
-	text-align: center;
+	text-align: center
 }
 
 #field_id:has(#i_icon_email),
 #field_id11 {
-	display: none;
+	display: none
 }
 
 .forumrow-lastpost:has(a[href=""]) a:before {
@@ -1097,62 +1091,61 @@ a.forumtitle {
 	width: 100%;
 	display: block;
 	margin-top: var(--2xsmall);
-	color: var(--co2);
+	color: var(--co2)
 }
 
 .forumrow-lastpost:has(a[href=""]) br {
-	display: none !important;
+	display: none !important
 }
 
 .forumrow-lastpost strong:has(a) {
 	text-transform: capitalize !important;
 	letter-spacing: 0px;
 	font-size: var(--medium);
-	font-weight: 700;
+	font-weight: 700
 }
 
 .forumrow-lastpost a {
-	font-size: var(--medium);
+	font-size: var(--medium)
 }
 
 .forumrow-lastpost a:nth-child(2) {
 	text-transform: lowercase !important;
-	font-family: var(--serif);
+	font-family: var(--serif)
 }
 
 .forumrow-lastpost .fi:before {
-	color: var(--group-color, var(--black));
+	color: var(--group-color, var(--black))
 }
 
 .forumdesc {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	gap: var(--large);
+	gap: var(--large)
 }
 
 .forumdesc span {
 	text-transform: uppercase;
 	font-weight: 700;
-	color: var(--darkerneutral);
-	font-size: var(--small);
+	color: var(--darkerneutral)
 }
 
 .hundred .forumdesc span {
 	color: var(--co3);
 	font-family: var(--display);
 	letter-spacing: 1px;
-	font-size: var(--medium);
+	font-size: var(--medium)
 }
 
 .fifty .forumdesc span {
 	text-transform: lowercase;
 	font-family: var(--mono);
-	font-size: var(--medium);
+	font-size: var(--medium)
 }
 
 .forumdesc span:before {
-	content: '#';
+	content: '#'
 }
 
 labdesc {
@@ -1164,7 +1157,7 @@ labdesc {
 	font-family: var(--display);
 	padding-right: var(--small);
 	background-color: var(--white);
-	border: 0.5px solid var(--co2-200);
+	border: 0.5px solid var(--co2-200)
 }
 
 div.award {
@@ -1177,7 +1170,7 @@ div.award {
 	flex-shrink: 0;
 	scroll-snap-align: center;
 	background-color: var(--co1-50);
-	background-image: none;
+	background-image: none
 }
 
 div.award::before {
@@ -1194,43 +1187,43 @@ div.award::before {
 	mask-size: cover;
 	-webkit-mask-position: center;
 	mask-position: center;
-	pointer-events: none;
+	pointer-events: none
 }
 
 div.award.auto-age {
 	border-color: var(--co2-50);
-	background-color: var(--co2-50);
+	background-color: var(--co2-50)
 }
 
 div.award.auto-age::before {
-	background-color: var(--co2-600);
+	background-color: var(--co2-600)
 }
 
 div.award.auto-rp {
 	border-color: var(--co3-50);
-	background-color: var(--co3-50);
+	background-color: var(--co3-50)
 }
 
 div.award.auto-rp::before {
-	background-color: var(--co3-600);
+	background-color: var(--co3-600)
 }
 
 div.award.award-astro {
 	border-color: var(--co1-300);
-	background-color: var(--co1-300);
+	background-color: var(--co1-300)
 }
 
 div.award.award-astro::before {
-	background-color: var(--white);
+	background-color: var(--white)
 }
 
 div.award.award-hj {
 	border-color: var(--co2-300);
-	background-color: var(--co2-300);
+	background-color: var(--co2-300)
 }
 
 div.award.award-hj::before {
-	background-color: var(--white);
+	background-color: var(--white)
 }
 
 .award_tooltiptext {
@@ -1252,7 +1245,7 @@ div.award.award-hj::before {
 	word-break: break-word;
 	width: max-content;
 	white-space: normal;
-	border: 1px solid var(--neutral);
+	border: 1px solid var(--neutral)
 }
 
 .award_tooltiptext::before {
@@ -1266,12 +1259,12 @@ div.award.award-hj::before {
 	display: block;
 	left: -6px;
 	top: 50%;
-	margin-top: -5px;
+	margin-top: -5px
 }
 
 .award::before:hover .award_tooltiptext {
 	visibility: visible;
-	opacity: 1;
+	opacity: 1
 }
 
 .award_tooltiptext_title {
@@ -1280,7 +1273,7 @@ div.award.award-hj::before {
 	font-style: normal;
 	font-family: var(--display);
 	text-transform: uppercase;
-	color: var(--dark);
+	color: var(--dark)
 }
 
 .awards_block_simple {
@@ -1291,7 +1284,7 @@ div.award.award-hj::before {
 	overflow-y: auto;
 	overflow-x: hidden;
 	justify-content: center;
-	align-content: flex-start;
+	align-content: flex-start
 }
 
 .profile-admin {
@@ -1301,42 +1294,42 @@ div.award.award-hj::before {
 	font-size: var(--2xsmall);
 	text-transform: uppercase;
 	background: var(--whiteop75);
-	position: absolute;
+	position: absolute
 }
 
 .profile-admin a {
-	color: var(--black) !important;
+	color: var(--black) !important
 }
 
 .bloc-details.two {
 	background-color: var(--darklight);
 	padding: var(--large);
-	flex: 0 0 200px;
+	flex: 0 0 200px
 }
 
 .bloc-details.two div {
 	height: 75px;
 	text-align: justify;
-	overflow: auto;
+	overflow: auto
 }
 
 .bloc-details.two strong,
 .bloc-details.two i {
 	font-family: var(--serif);
-	color: var(--black);
+	color: var(--black)
 }
 
 .icon-admin {
 	position: relative;
 	width: 107px;
-	height: 107px;
+	height: 107px
 }
 
 .icon-admin img {
 	object-fit: cover;
 	width: 107px;
 	height: 107px;
-	object-position: 75%;
+	object-position: 75%
 }
 
 .icon-admin div {
@@ -1351,28 +1344,28 @@ div.award.award-hj::before {
 	gap: var(--2xsmall);
 	width: 107px;
 	height: 107px;
-	top: 0;
+	top: 0
 }
 
 .icon-admin:hover div {
-	display: flex;
+	display: flex
 }
 
 .icon-admin strong {
 	text-transform: uppercase;
 	font-family: var(--serif);
 	letter-spacing: 1px;
-	color: var(--white);
+	color: var(--white)
 }
 
 .icon-admin strong a {
 	color: var(--group-color);
-	font-weight: 700;
+	font-weight: 700
 }
 
 .icon-admin i {
 	letter-spacing: 2.5px;
-	color: var(--lighterdark);
+	color: var(--lighterdark)
 }
 
 .icon-admin u {
@@ -1380,7 +1373,7 @@ div.award.award-hj::before {
 	letter-spacing: 1px;
 	padding-left: 1px;
 	font-weight: 700;
-	text-decoration: none;
+	text-decoration: none
 }
 
 .bloc-details.one {
@@ -1392,17 +1385,17 @@ div.award.award-hj::before {
 	text-align: justify;
 	padding: 0 var(--large);
 	color: var(--darkneutral);
-	height: 107px;
+	height: 107px
 }
 
 .bloc-details.one a {
 	letter-spacing: 2px;
 	font-weight: 300;
-	float: right;
+	float: right
 }
 
 .bloc-details.one div {
-	line-height: var(--large);
+	line-height: var(--large)
 }
 
 .bloc-details.three {
@@ -1410,7 +1403,7 @@ div.award.award-hj::before {
 	display: flex;
 	flex-wrap: wrap;
 	gap: var(--large);
-	flex: 0 0 107px;
+	flex: 0 0 107px
 }
 
 .bloc-details.three a:before {
@@ -1421,12 +1414,12 @@ div.award.award-hj::before {
 	align-items: center;
 	justify-content: center;
 	border-radius: 50%;
-	width: 25px;
+	width: 25px
 }
 
 .bloc-details.three .fi-ts-question:before {
 	background-color: var(--darklight);
-	color: var(--darkneutral);
+	color: var(--darkneutral)
 }
 
 #page-details {
@@ -1435,17 +1428,17 @@ div.award.award-hj::before {
 	background-color: var(--light);
 	margin-bottom: var(--large);
 	padding: var(--large);
-	gap: var(--large);
+	gap: var(--large)
 }
 
 .bloc-details.one i {
 	color: var(--co1);
-	font-family: var(--serif);
+	font-family: var(--serif)
 }
 
 .bloc-details.one strong {
 	color: var(--co2);
-	font-weight: 700;
+	font-weight: 700
 }
 
 #page-accueil {
@@ -1455,13 +1448,13 @@ div.award.award-hj::before {
 	align-items: center;
 	justify-content: center;
 	background-color: var(--light);
-	padding: var(--large);
+	padding: var(--large)
 }
 
 .bloc-accueil.one {
 	background-color: var(--white);
 	width: 100%;
-	padding: var(--large) 0;
+	padding: var(--large) 0
 }
 
 .bloc-accueil.seven {
@@ -1469,7 +1462,7 @@ div.award.award-hj::before {
 	display: flex;
 	gap: var(--4xlarge);
 	align-items: center;
-	justify-content: center;
+	justify-content: center
 }
 
 .bloc-accueil.seven img {
@@ -1477,7 +1470,7 @@ div.award.award-hj::before {
 	filter: grayscale(1);
 	width: 150px;
 	border: var(--small) solid var(--white);
-	object-fit: cover;
+	object-fit: cover
 }
 
 .bloc-accueil.one div {
@@ -1494,23 +1487,23 @@ div.award.award-hj::before {
 	-webkit-background-clip: text;
 	background-clip: text;
 	letter-spacing: var(--medium);
-	padding-left: var(--medium);
+	padding-left: var(--medium)
 }
 
 .bloc-accueil.three {
-	width: 40%;
+	width: 40%
 }
 
 .bloc-accueil.five,
 .bloc-accueil.six {
 	box-sizing: border-box;
-	width: calc(50% - var(--large) / 2);
+	width: calc(50% - var(--large) / 2)
 }
 
 .bloc-accueil.two,
 .bloc-accueil.four {
 	width: 30%;
-	flex: 1;
+	flex: 1
 }
 
 .bloc-accueil.two {
@@ -1519,7 +1512,7 @@ div.award.award-hj::before {
 	padding: var(--large);
 	text-align: justify;
 	margin: 4px;
-	position: relative;
+	position: relative
 }
 
 .bloc-accueil.two i {
@@ -1529,12 +1522,12 @@ div.award.award-hj::before {
 	top: -30px;
 	color: var(--co2);
 	font-family: var(--serif);
-	text-align: center;
+	text-align: center
 }
 
 .bloc-accueil.two div {
 	height: 95px;
-	overflow: auto;
+	overflow: auto
 }
 
 .bloc-accueil.two strong {
@@ -1543,20 +1536,20 @@ div.award.award-hj::before {
 	margin: 0 var(--3xsmall);
 	padding: 0 var(--3xsmall);
 	background: var(--co2-50);
-	text-shadow: 0.5px 0.5px var(--white);
+	text-shadow: 0.5px 0.5px var(--white)
 }
 
 .bloc-accueil.three {
 	background-color: var(--neutral);
 	padding: var(--large);
 	text-align: justify;
-	background-color: var(--white);
+	background-color: var(--white)
 }
 
 .bloc-accueil.four {
 	background-color: var(--co1-50);
 	color: var(--co1);
-	padding: var(--large);
+	padding: var(--large)
 }
 
 .bloc-accueil.four span {
@@ -1565,7 +1558,7 @@ div.award.award-hj::before {
 	text-transform: uppercase;
 	font-family: var(--serif);
 	width: 100%;
-	display: block;
+	display: block
 }
 
 .bloc-accueil.six {
@@ -1573,7 +1566,7 @@ div.award.award-hj::before {
 	flex-wrap: wrap;
 	gap: var(--small);
 	align-items: center;
-	justify-content: center;
+	justify-content: center
 }
 
 .bloc-accueil.four p {
@@ -1581,43 +1574,43 @@ div.award.award-hj::before {
 	margin: 0;
 	margin-top: var(--large);
 	height: 90px;
-	overflow: auto;
+	overflow: auto
 }
 
 .bloc-accueil.four p::-webkit-scrollbar {
-	display: none;
+	display: none
 }
 
 .bloc-accueil.four strong,
 .bloc-accueil.four i {
-	letter-spacing: 1px;
+	letter-spacing: 1px
 }
 
 .bloc-accueil.four strong {
-	font-weight: 700;
+	font-weight: 700
 }
 
 .bloc-accueil.four i {
-	font-weight: 300;
+	font-weight: 300
 }
 
 .bloc-accueil.five div {
 	display: flex;
 	align-items: center;
 	gap: var(--2xsmall);
-	justify-content: center;
+	justify-content: center
 }
 
 .bloc-accueil.five span {
 	text-align: center;
-	font-size: var(--small);
+	;
 	padding: var(--2xsmall);
 	font-family: var(--serif);
-	background-color: var(--white);
+	background-color: var(--white)
 }
 
 .bloc-accueil.five span a {
-	color: var(--co3);
+	color: var(--co3)
 }
 
 .bloc-accueil.five i:before {
@@ -1627,20 +1620,20 @@ div.award.award-hj::before {
 	padding: var(--small);
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: center
 }
 
 .bloc-accueil.five {
 	display: flex;
 	flex-direction: column;
 	gap: var(--large);
-	align-items: center;
+	align-items: center
 }
 
 .bloc-accueil.five a {
 	color: var(--co3-200);
 	letter-spacing: 0.5px;
-	padding: 0 var(--small);
+	padding: 0 var(--small)
 }
 
 .bloc-accueil.six strong {
@@ -1648,7 +1641,7 @@ div.award.award-hj::before {
 	color: var(--co3);
 	font-family: var(--serif);
 	letter-spacing: 2.5px;
-	display: block;
+	display: block
 }
 
 .bloc-accueil.six div {
@@ -1657,7 +1650,7 @@ div.award.award-hj::before {
 	width: calc(50% - var(--small));
 	height: 103px;
 	overflow: auto;
-	text-align: justify;
+	text-align: justify
 }
 
 .bloc-accueil.six i {
@@ -1668,25 +1661,25 @@ div.award.award-hj::before {
 	padding-bottom: var(--2xsmall);
 	margin-bottom: var(--2xsmall);
 	width: fit-content;
-	color: var(--co3);
+	color: var(--co3)
 }
 
 .bloc-accueil.six date {
 	font-weight: 700;
-	font-family: var(--mono);
+	font-family: var(--mono)
 }
 
 .bloc-accueil.six i:after,
 .bloc-accueil.six i:before {
 	content: "€”";
-	padding: 0 var(--2xsmall);
+	padding: 0 var(--2xsmall)
 }
 
 .bloc-accueil.six img {
 	height: 50px;
 	width: 50px;
 	object-fit: cover;
-	border-radius: 100%;
+	border-radius: 100%
 }
 
 .bloc-accueil.six span {
@@ -1699,7 +1692,7 @@ div.award.award-hj::before {
 	text-transform: lowercase;
 	font-weight: 700;
 	font-size: var(--large);
-	letter-spacing: 1px;
+	letter-spacing: 1px
 }
 
 #page-qeel {
@@ -1708,7 +1701,7 @@ div.award.award-hj::before {
 	padding: var(--large);
 	gap: var(--large);
 	flex-wrap: wrap;
-	align-items: center;
+	align-items: center
 }
 
 #page-qeel a.cam:before,
@@ -1718,13 +1711,13 @@ div.award.award-hj::before {
 	content: "\E054";
 	font-family: "TES" !important;
 	color: var(--group-color, var(--co1));
-	margin-right: var(--3xsmall);
+	margin-right: var(--3xsmall)
 }
 
 .member .member-pseudo.cam {
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: center
 }
 
 #total-users-online,
@@ -1736,23 +1729,23 @@ div.award.award-hj::before {
 	text-align: center;
 	font-family: var(--mono);
 	align-items: center;
-	justify-content: space-evenly;
+	justify-content: space-evenly
 }
 
 #total-users-online strong,
 .total-others strong {
 	color: var(--white);
-	padding-right: var(--3xsmall);
+	padding-right: var(--3xsmall)
 }
 
 #total-users-online {
 	background-color: var(--co2);
-	color: var(--co2-100);
+	color: var(--co2-100)
 }
 
 .total-others {
 	background-color: var(--co1);
-	color: var(--co1-100);
+	color: var(--co1-100)
 }
 
 #logged-in-user-list,
@@ -1761,15 +1754,15 @@ div.award.award-hj::before {
 	width: -webkit-fill-available;
 	text-transform: capitalize;
 	border: var(--2xsmall) solid var(--light);
-	background-color: var(--white);
+	background-color: var(--white)
 }
 
 .bloc-qeel.one {
-	outline: 0.5px solid var(--co2);
+	outline: 0.5px solid var(--co2)
 }
 
 .bloc-qeel.two {
-	outline: 0.5px solid var(--co1);
+	outline: 0.5px solid var(--co1)
 }
 
 #l-connected-members div,
@@ -1777,19 +1770,19 @@ div.award.award-hj::before {
 	height: 124px;
 	text-align: justify;
 	color: var(--darkneutral);
-	overflow: auto;
+	overflow: auto
 }
 
 #newest-user-avatar img {
 	height: 129.5px;
 	object-fit: cover;
-	width: 118px;
+	width: 118px
 }
 
 #groups-qeel {
 	width: 100%;
 	display: flex;
-	gap: var(--large);
+	gap: var(--large)
 }
 
 #groups-qeel div {
@@ -1801,7 +1794,7 @@ div.award.award-hj::before {
 	font-size: var(--large);
 	font-family: var(--display);
 	font-weight: 900;
-	text-transform: uppercase;
+	text-transform: uppercase
 }
 
 #groups-qeel div span {
@@ -1815,17 +1808,17 @@ div.award.award-hj::before {
 	width: -webkit-fill-available;
 	align-items: center;
 	padding-left: var(--large);
-	border-left: var(--small) solid var(--white);
+	border-left: var(--small) solid var(--white)
 }
 
 #groups-qeel div:hover span {
-	display: flex;
+	display: flex
 }
 
 .bloc-qeel.one,
 .bloc-qeel.two {
 	flex: 1;
-	min-width: 0;
+	min-width: 0
 }
 
 .bloc-qeel.three {
@@ -1837,7 +1830,7 @@ div.award.award-hj::before {
 	box-sizing: border-box;
 	background-color: var(--white);
 	gap: var(--2xsmall);
-	border: var(--2xsmall) solid var(--co3);
+	border: var(--2xsmall) solid var(--co3)
 }
 
 #newest-user a,
@@ -1848,24 +1841,24 @@ div.award.award-hj::before {
 	font-family: var(--spe);
 	width: 100%;
 	display: block;
-	text-align: center;
+	text-align: center
 }
 
 #newest-user a:hover,
 #newest-user a span:hover {
-	color: var(--lighterdark) !important;
+	color: var(--lighterdark) !important
 }
 
 #l-whosbirthday-today,
 #l-whosbirthday-today br {
-	display: none;
+	display: none
 }
 
 #l-whosbirthday-today:has(a) {
 	display: block !important;
 	border-top: 0.5px solid var(--darkneutral);
 	margin-top: var(--large);
-	padding-top: var(--large);
+	padding-top: var(--large)
 }
 
 .topicrow-avatar img {
@@ -1873,18 +1866,18 @@ div.award.award-hj::before {
 	width: 26px;
 	border-radius: 100%;
 	filter: grayscale(1);
-	object-fit: cover;
+	object-fit: cover
 }
 
 .post_new .topicrow-avatar img {
-	filter: grayscale(0);
+	filter: grayscale(0)
 }
 
 .topicrow {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	gap: var(--large);
+	gap: var(--large)
 }
 
 .topicrow-status:before {
@@ -1897,33 +1890,33 @@ div.award.award-hj::before {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	font-size: var(--large);
+	font-size: var(--large)
 }
 
 .post_new .topicrow-status:before {
 	content: "\E055";
 	background-color: var(--co2-100);
-	color: var(--co2);
+	color: var(--co2)
 }
 
 .topicrow-title {
-	width: -webkit-fill-available;
+	width: -webkit-fill-available
 }
 
 .topicrow-title .pagination {
 	float: right;
 	background-color: var(--co2-50);
 	color: var(--co2-400);
-	font-size: var(--small);
-	padding: 0 var(--3xsmall);
+	;
+	padding: 0 var(--3xsmall)
 }
 
 .topicrow-title .pagination a {
-	color: var(--co2-600);
+	color: var(--co2-600)
 }
 
 topicinfo:empty {
-	display: none;
+	display: none
 }
 
 .pagination-row {
@@ -1932,40 +1925,40 @@ topicinfo:empty {
 	margin: 0 auto;
 	text-transform: uppercase;
 	align-items: center;
-	gap: var(--medium);
+	gap: var(--medium)
 }
 
 topicinfo {
 	color: var(--group-color-300, var(--co1-300));
 	margin-left: var(--2xsmall);
 	text-transform: lowercase;
-	font-family: var(--mono);
+	font-family: var(--mono)
 }
 
 topicinfo:before {
 	content: "(";
-	padding-right: 1px;
+	padding-right: 1px
 }
 
 topicinfo:after {
 	content: ")";
-	padding-left: 1px;
+	padding-left: 1px
 }
 
 .topicrow-title:has(topictype:not(:empty)) .topictitle {
-	font-weight: 500;
+	font-weight: 500
 }
 
 .topicrow-title:has(topictype:not(:empty)) .topictitle:before {
 	content: "›";
 	padding-right: var(--2xsmall);
 	color: var(--darkneutral);
-	font-style: normal;
+	font-style: normal
 }
 
 .last-admin-type {
 	position: relative;
-	padding-bottom: 2rem;
+	padding-bottom: 2rem
 }
 
 .last-admin-type:after {
@@ -1975,7 +1968,7 @@ topicinfo:after {
 	height: var(--large);
 	background-color: var(--darklight);
 	bottom: 0;
-	left: -1rem;
+	left: -1rem
 }
 
 topicauthor,
@@ -1983,17 +1976,17 @@ topicdate,
 topicloc {
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	font-size: var(--small);
-	font-weight: 500;
+	;
+	font-weight: 500
 }
 
 topicauthor strong {
-	font-weight: 500 !important;
+	font-weight: 500 !important
 }
 
 topicdate,
 topicloc {
-	color: var(--group-color);
+	color: var(--group-color)
 }
 
 topicdate:before {
@@ -2001,32 +1994,32 @@ topicdate:before {
 	content: "\e370";
 	margin-right: 3.5px;
 	font-weight: 300;
-	color: var(--neutral);
+	color: var(--neutral)
 }
 
 topicauthor:before {
 	font-family: uicons-thin-straight !important;
 	content: "\eea4";
 	margin-right: 3.5px;
-	color: var(--neutral);
+	color: var(--neutral)
 }
 
 topicauthor:before {
 	font-family: uicons-thin-straight !important;
 	content: "\eea4";
 	margin-right: 3.5px;
-	color: var(--neutral);
+	color: var(--neutral)
 }
 
 topicloc:before {
 	font-family: uicons-thin-straight !important;
 	content: "\eca9";
 	margin-right: 3.5px;
-	color: var(--neutral);
+	color: var(--neutral)
 }
 
 .topicrow-lastpost {
-	flex: 0 0 170px;
+	flex: 0 0 170px
 }
 
 .topicrow-stats {
@@ -2036,39 +2029,38 @@ topicloc:before {
 	font-family: var(--display);
 	font-weight: 300;
 	flex: 0 0 80px;
-	text-align: center;
+	text-align: center
 }
 
 .topicrow-stats strong {
 	font-weight: 700;
-	color: var(--co3);
+	color: var(--co3)
 }
 
 topictype {
 	text-transform: uppercase;
 	color: var(--co1);
 	letter-spacing: 1px;
-	font-size: var(--small);
-	padding-right: 7px;
+	;
+	padding-right: 7px
 }
 
 particpost {
 	padding-right: var(--2xsmall);
-	color: var(--neutral);
+	color: var(--neutral)
 }
 
 .post_new particpost {
-	color: var(--co3-300);
+	color: var(--co3-300)
 }
 
 particpost:empty,
 topictype:empty {
-	display: none;
+	display: none
 }
 
 .topicrow:hover topicdesc {
-	font-size: var(--small);
-	transition: 2s;
+	transition: 2s
 }
 
 topicdesc {
@@ -2076,30 +2068,30 @@ topicdesc {
 	letter-spacing: 1px;
 	text-transform: lowercase;
 	transition: 2s;
-	font-size: 0px;
+	font-size: 0px
 }
 
 .topicrow:has(topicdesc:not(empty)) topicauthor:after {
 	content: " €¢€¢€¢";
-	color: var(--group-color-300, var(--co3-300));
+	color: var(--group-color-300, var(--co3-300))
 }
 
 .topictitle {
 	font-family: var(--serif);
 	display: inline-flex;
 	color: var(--lighterdark) !important;
-	text-transform: lowercase;
+	text-transform: lowercase
 }
 
 .topicrow-title:has(topictype:empty) .topictitle {
 	overflow: hidden;
 	text-overflow: ellipsis;
 	max-width: 490px;
-	white-space: nowrap;
+	white-space: nowrap
 }
 
 .post_new .topictitle {
-	color: var(--black) !important;
+	color: var(--black) !important
 }
 
 .topiclist {
@@ -2107,7 +2099,7 @@ topicdesc {
 	flex-direction: column;
 	gap: var(--large);
 	padding: var(--large);
-	background: var(--light);
+	background: var(--light)
 }
 
 .post {
@@ -2117,7 +2109,7 @@ topicdesc {
 	padding: var(--large);
 	justify-content: space-between;
 	flex-wrap: wrap;
-	background-color: var(--light);
+	background-color: var(--light)
 }
 
 .postlinks {
@@ -2126,39 +2118,39 @@ topicdesc {
 	text-transform: lowercase;
 	font-family: var(--mono);
 	color: var(--co1);
-	margin: var(--2xsmall);
+	margin: var(--2xsmall)
 }
 
 .postlinks i,
 .postlinks strong,
 .postlinks a {
-	color: var(--co1);
+	color: var(--co1)
 }
 
 .post.online .postprofile-online {
-	display: block;
+	display: block
 }
 
 .post:has(.ficheadmin, .fichelisting, .fichefam, .fichemoodboard, .ficheperso, .fichepl, .fichepredef, .ficherec, .ficheinsta,
 	.fichetinder, .fichetodo) .postprofile,
 .post:has(.ficheadmin, .fichepredef) .postbody-icons,
 #u1 .postprofile-online {
-	display: none;
+	display: none
 }
 
 #u1.minipostprofile {
-	display: none !important;
+	display: none !important
 }
 
 .post:has(.fichefam, .fichemoodboard, .ficheperso, .fichepl) .minipostprofile {
-	display: flex !important;
+	display: flex !important
 }
 
 .postprofile-online {
 	position: absolute;
 	display: none;
 	top: -10px;
-	left: -10px;
+	left: -10px
 }
 
 .postprofile-online:before {
@@ -2172,7 +2164,7 @@ topicdesc {
 	width: 20px;
 	border-radius: 50%;
 	align-items: center;
-	justify-content: center;
+	justify-content: center
 }
 
 .postprofile {
@@ -2180,7 +2172,7 @@ topicdesc {
 	flex-direction: column;
 	gap: var(--large);
 	width: 232px;
-	position: relative;
+	position: relative
 }
 
 #postprofile-rang .postprofile-field-content {
@@ -2188,62 +2180,62 @@ topicdesc {
 	color: var(--group-color, var(--darkerneutral));
 	letter-spacing: 1px;
 	text-align: center;
-	font-size: var(--small);
+	;
 	width: 100%;
-	display: block;
+	display: block
 }
 
 .postprofile-rank:empty {
-	display: none !important;
+	display: none !important
 }
 
 #postprofile-rang .postprofile-field-label,
 .postprofile-icon,
 #postprofile-zodiaque .postprofile-field-label {
-	display: none;
+	display: none
 }
 
 #postprofile-zodiaque {
-	margin-left: var(--large);
+	margin-left: var(--large)
 }
 
 #postprofile-contenu-sensible .postprofile-field-content,
 #field_id16 .field_uneditable {
 	filter: blur(3px);
-	transition-duration: 2s;
+	transition-duration: 2s
 }
 
 #postprofile-contenu-sensible .postprofile-field-content:hover,
 #field_id16 .field_uneditable:hover {
 	filter: blur(0px);
-	transition-duration: 2s;
+	transition-duration: 2s
 }
 
 #u1 .postprofile-rank {
-	font-family: var(--mono);
+	font-family: var(--mono)
 }
 
 .content {
 	text-align: justify;
 	padding: var(--large);
-	line-height: 1.1rem;
+	line-height: 1.1rem
 }
 
 .postbody {
-	flex: 1;
+	flex: 1
 }
 
 .quickreply .h3 {
-	display: none;
+	display: none
 }
 
 #quick_reply>div:last-of-type {
 	margin-top: var(--large) !important;
-	font-size: 0;
+	font-size: 0
 }
 
 #quick_reply>div:last-of-type .button2+.button2 {
-	margin-left: var(--large) !important;
+	margin-left: var(--large) !important
 }
 
 .postprofile-avatar img {
@@ -2251,7 +2243,7 @@ topicdesc {
 	height: 370px;
 	object-fit: cover;
 	padding: var(--large);
-	background-color: var(--white);
+	background-color: var(--white)
 }
 
 .postprofile-pseudo {
@@ -2261,27 +2253,27 @@ topicdesc {
 	font-size: var(--large);
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: center
 }
 
 .postprofile-pseudo strong {
-	font-weight: 100 !important;
+	font-weight: 100 !important
 }
 
 .minipostprofile .postprofile-pseudo {
 	font-size: var(--large);
 	text-align: center;
-	width: 250px;
+	width: 250px
 }
 
 .postprofile-field {
 	text-align: justify;
-	width: 100%;
+	width: 100%
 }
 
 #postprofile-age.postprofile-field,
 #postprofile-zodiaque.postprofile-field {
-	width: fit-content !important;
+	width: fit-content !important
 }
 
 .postprofile-field-label {
@@ -2294,22 +2286,21 @@ topicdesc {
 	border-radius: var(--small);
 	text-align: center;
 	border: .5px solid;
-	color: var(--group-color, var(--co1));
+	color: var(--group-color, var(--co1))
 }
 
 .postprofile-tab-content[data-tab="1"] .postprofile-field-label {
 	font-style: italic;
-	text-transform: lowercase;
+	text-transform: lowercase
 }
 
 .postprofile-tab-content[data-tab="2"] .postprofile-field-label {
-	text-transform: uppercase;
-	font-size: var(--small);
+	text-transform: uppercase
 }
 
 .postprofile-tab-content {
 	max-height: 300px;
-	overflow: auto;
+	overflow: auto
 }
 
 .postprofile-tabs,
@@ -2319,13 +2310,13 @@ topicdesc {
 	align-items: center;
 	position: relative;
 	justify-content: space-evenly;
-	margin-bottom: var(--large);
+	margin-bottom: var(--large)
 }
 
 .profile-tab-content {
 	height: 250px;
 	row-gap: var(--small);
-	column-gap: var(--large);
+	column-gap: var(--large)
 }
 
 .profile-tab {
@@ -2335,13 +2326,13 @@ topicdesc {
 	padding: 0 var(--large);
 	background-color: var(--group-color, var(--co2));
 	z-index: 9;
-	font-weight: 300;
+	font-weight: 300
 }
 
 .profile-tabs {
 	height: 20px;
 	background-color: var(--group-color, var(--co2));
-	margin-bottom: var(--large);
+	margin-bottom: var(--large)
 }
 
 .profile-tabs:after {
@@ -2349,7 +2340,7 @@ topicdesc {
 	content: '';
 	top: 10px;
 	width: calc(100% - var(--2xlarge));
-	position: absolute;
+	position: absolute
 }
 
 .postprofile-tab {
@@ -2359,20 +2350,20 @@ topicdesc {
 	font-family: var(--display);
 	flex: 1;
 	text-align: center;
-	font-size: var(--small);
+	;
 	border-bottom: 0.5px solid var(--neutral);
-	padding-bottom: var(--large);
+	padding-bottom: var(--large)
 }
 
 .postprofile-tab.active {
-	border-color: var(--group-color, var(--co1));
+	border-color: var(--group-color, var(--co1))
 }
 
 .postprofile-tab-content,
 .profile-tab-content {
 	display: none;
 	transition-duration: 2s;
-	overflow: auto;
+	overflow: auto
 }
 
 .postprofile-tab-content.active,
@@ -2382,12 +2373,12 @@ topicdesc {
 	row-gap: var(--3xsmall);
 	padding-top: 1px;
 	align-content: flex-start;
-	align-items: center;
+	align-items: center
 }
 
 .postprofile-gif .postprofile-field-label,
 .postprofile-gif:empty {
-	display: none;
+	display: none
 }
 
 .postprofile-gif img {
@@ -2395,7 +2386,7 @@ topicdesc {
 	max-height: 150px;
 	padding: var(--large);
 	background-color: var(--white);
-	object-fit: cover;
+	object-fit: cover
 }
 
 .postprofile-contact {
@@ -2403,21 +2394,21 @@ topicdesc {
 	padding: var(--large);
 	align-items: center;
 	justify-content: space-evenly;
-	display: flex;
+	display: flex
 }
 
 .minipostprofile .postprofile-contact {
 	width: fit-content;
 	gap: var(--large);
-	flex-direction: column;
+	flex-direction: column
 }
 
 .postprofile-contact a {
-	color: var(--group-color);
+	color: var(--group-color)
 }
 
 .icon-fiche:empty {
-	display: none;
+	display: none
 }
 
 .postbody-icons {
@@ -2431,11 +2422,11 @@ topicdesc {
 	font-weight: 700;
 	font-family: var(--serif);
 	letter-spacing: 2.5px;
-	text-transform: lowercase;
+	text-transform: lowercase
 }
 
 .postbody-icons i {
-	letter-spacing: 0px;
+	letter-spacing: 0px
 }
 
 .postlist.sms .signature_div,
@@ -2443,17 +2434,17 @@ topicdesc {
 .postlist.sms .postprofile-tab-system,
 .postlist.sms .postprofile-gif,
 .postlist.sms .postprofile-avatar {
-	display: none;
+	display: none
 }
 
 .postlist.sms .postprofile-icon,
 .minipostprofile .postprofile-icon {
-	display: block !important;
+	display: block !important
 }
 
 .postlist.sms .postprofile-field-label,
 .minipostprofile .postprofile-field-label {
-	display: none;
+	display: none
 }
 
 .postlist.sms .postprofile-icon img {
@@ -2461,7 +2452,7 @@ topicdesc {
 	height: 100px;
 	border-radius: 50%;
 	padding: 0px !important;
-	object-fit: cover;
+	object-fit: cover
 }
 
 .minipostprofile .postprofile-icon img {
@@ -2469,34 +2460,34 @@ topicdesc {
 	height: 110px;
 	border-radius: var(--small);
 	padding: 0px !important;
-	object-fit: cover;
+	object-fit: cover
 }
 
 .postlist.sms .postprofile-field-content {
 	display: block;
 	width: 100%;
-	text-align: center;
+	text-align: center
 }
 
 .postlist.sms .postprofile-pseudo {
 	padding: 0px !important;
-	background: transparent;
+	background: transparent
 }
 
 .postlist.sms .postprofile {
-	width: 150px;
+	width: 150px
 }
 
 .postlist.sms .postprofile-contact {
 	gap: var(--large);
-	width: 150px;
+	width: 150px
 }
 
 .postlist {
 	display: flex;
 	flex-direction: column;
 	gap: var(--2xlarge);
-	background-color: var(--darklight);
+	background-color: var(--darklight)
 }
 
 .topic-actions {
@@ -2505,7 +2496,7 @@ topicdesc {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;
+	align-items: center
 }
 
 .topic-actions-buttons {
@@ -2513,7 +2504,7 @@ topicdesc {
 	justify-content: center;
 	align-items: center;
 	margin-bottom: var(--large);
-	gap: var(--6xlarge);
+	gap: var(--6xlarge)
 }
 
 .new-reply-button,
@@ -2529,11 +2520,11 @@ topicdesc {
 	width: 200px;
 	text-shadow: 1px 1px var(--white);
 	font-family: var(--serif);
-	color: var(--co2) !important;
+	color: var(--co2) !important
 }
 
 .pathname-box {
-	color: var(--co1);
+	color: var(--co1)
 }
 
 .pathname-box a {
@@ -2546,13 +2537,13 @@ topicdesc {
 	font-weight: 300;
 	letter-spacing: 2.5px;
 	text-transform: uppercase;
-	border-radius: 2.5px;
+	border-radius: 2.5px
 }
 
 .sceditor-container {
 	background-color: transparent !important;
 	border: 1px solid var(--darklight) !important;
-	border-radius: 0px !important;
+	border-radius: 0px !important
 }
 
 .word-count {
@@ -2563,11 +2554,11 @@ topicdesc {
 	font-weight: 300;
 	letter-spacing: 2.5px;
 	padding-bottom: var(--large);
-	color: var(--lighterdark);
+	color: var(--lighterdark)
 }
 
 .word-count strong {
-	color: var(--co2);
+	color: var(--co2)
 }
 
 .sceditor-container iframe,
@@ -2582,12 +2573,12 @@ topicdesc {
 	border-radius: 0 !important;
 	width: -webkit-fill-available !important;
 	height: 250px !important;
-	padding-top: 0px !important;
+	padding-top: 0px !important
 }
 
 #quick_reply {
 	background: var(--light);
-	padding: var(--large);
+	padding: var(--large)
 }
 
 div.sceditor-toolbar,
@@ -2602,7 +2593,7 @@ div.sceditor-toolbar,
 	align-items: center !important;
 	justify-content: center !important;
 	border-radius: 0 !important;
-	width: -webkit-fill-available !important;
+	width: -webkit-fill-available !important
 }
 
 .sceditor-button {
@@ -2616,7 +2607,7 @@ div.sceditor-toolbar,
 	text-indent: 0 !important;
 	border-radius: 0 !important;
 	box-shadow: none !important;
-	padding: 0 !important;
+	padding: 0 !important
 }
 
 .sceditor-group {
@@ -2626,26 +2617,26 @@ div.sceditor-toolbar,
 	border-radius: 0 !important;
 	background-color: var(--co2) !important;
 	padding: var(--2xsmall) !important;
-	margin: 0 !important;
+	margin: 0 !important
 }
 
 .sceditor-button:hover {
 	box-shadow: 0 !important;
 	-webkit-box-shadow: 0 !important;
-	color: var(--co2-200) !important;
+	color: var(--co2-200) !important
 }
 
 #textarea_content {
-	width: 100% !important;
+	width: 100% !important
 }
 
 #message-box #textarea_content {
-	width: 100% !important;
+	width: 100% !important
 }
 
 .sceditor-button-twemojifa,
 .sceditor-group:has(.sceditor-button-more) {
-	display: none !important;
+	display: none !important
 }
 
 .button2,
@@ -2662,7 +2653,7 @@ button1,
 	color: var(--co2);
 	border: 0.5px solid var(--co2);
 	border-radius: var(--2xlarge);
-	text-shadow: 1px 1px var(--white);
+	text-shadow: 1px 1px var(--white)
 }
 
 input,
@@ -2673,18 +2664,18 @@ select {
 	border-radius: 0;
 	font-weight: 300;
 	background-color: var(--darklight) !important;
-	padding: var(--2xsmall) !important;
+	padding: var(--2xsmall) !important
 }
 
 button {
-	cursor: pointer !important;
+	cursor: pointer !important
 }
 
 textarea {
 	font-family: var(--main) !important;
 	padding: var(--2xsmall) !important;
 	background-color: var(--darklight) !important;
-	border: 0px !important;
+	border: 0px !important
 }
 
 .titreadmin,
@@ -2698,7 +2689,7 @@ textarea {
 	background: var(--white);
 	width: 100%;
 	text-align: right;
-	padding: var(--large);
+	padding: var(--large)
 }
 
 .soustitreadmin {
@@ -2711,29 +2702,29 @@ textarea {
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
-	color: var(--co2);
+	color: var(--co2)
 }
 
 .soustitreadmin:before {
 	flex: 1;
 	border-bottom: 0.5px solid var(--co2);
-	content: '';
+	content: ''
 }
 
 .textlisting {
 	width: 100%;
 	padding: var(--large);
-	background-color: var(--white);
+	background-color: var(--white)
 }
 
 .ficheadmin .textlisting .mentiontag {
-	color: var(--black) !important;
+	color: var(--black) !important
 }
 
 .mentiontag {
 	font-weight: 500;
 	color: var(--group-color) !important;
-	text-transform: capitalize;
+	text-transform: capitalize
 }
 
 .ficheadmin .textlisting backi1,
@@ -2741,35 +2732,35 @@ textarea {
 	font-size: var(--large);
 	font-weight: 700;
 	text-transform: lowercase;
-	padding-left: calc(var(--small) + 1px);
+	padding-left: calc(var(--small) + 1px)
 }
 
 .ficheadmin .textlisting wback1,
 .ficheadmin .textlisting wback2 {
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	margin-left: var(--large);
+	margin-left: var(--large)
 }
 
 .ficheadmin .textlisting wback1 {
-	background-color: var(--co1-50);
+	background-color: var(--co1-50)
 }
 
 .ficheadmin .textlisting wback2 {
-	background-color: var(--co2-50);
+	background-color: var(--co2-50)
 }
 
 .ficheadmin upp {
 	letter-spacing: 1.5px;
 	padding-left: 1.5px;
-	font-weight: 200;
+	font-weight: 200
 }
 
 .ficheadmin .textlisting underbi1,
 .ficheadmin .textlisting underbi2 {
 	font-family: var(--serif);
 	font-size: var(--large);
-	margin-left: var(--large);
+	margin-left: var(--large)
 }
 
 .ficheadmin .textlisting upp1,
@@ -2777,7 +2768,7 @@ textarea {
 	display: block;
 	border: 0.5px solid;
 	padding: 0.5rem;
-	background: var(--light);
+	background: var(--light)
 }
 
 .ficheadmin .textlisting sstit1,
@@ -2787,25 +2778,25 @@ textarea {
 	gap: var(--2xlarge);
 	padding: 0 var(--large);
 	align-items: center;
-	justify-content: center;
+	justify-content: center
 }
 
 .ficheadmin .textlisting sstit1:after,
 .ficheadmin .textlisting sstit2:after {
 	content: "";
-	flex: 1;
+	flex: 1
 }
 
 .ficheadmin .textlisting sstit1:after {
-	border-bottom: 0.5px solid var(--co1-300);
+	border-bottom: 0.5px solid var(--co1-300)
 }
 
 .ficheadmin .textlisting sstit2:after {
-	border-bottom: 0.5px solid var(--co2-300);
+	border-bottom: 0.5px solid var(--co2-300)
 }
 
 .textadmin {
-	width: 100%;
+	width: 100%
 }
 
 .ficheadmin i:not(.fi),
@@ -2815,35 +2806,35 @@ textarea {
 .ficheadmin u {
 	font-family: var(--serif);
 	font-weight: 500;
-	color: var(--co3) !important;
+	color: var(--co3) !important
 }
 
 .ficheadmin maj3 {
 	color: var(--co3);
 	font-weight: 200;
 	border: 0.5px solid var(--co3-100);
-	padding: var(--small);
+	padding: var(--small)
 }
 
 .ficheadmin strike {
 	text-decoration: line-through;
 	text-decoration-style: wavy;
 	text-decoration-thickness: 1px;
-	text-decoration-color: var(--co3-50);
+	text-decoration-color: var(--co3-50)
 }
 
 .ficheadmin strong {
-	font-weight: 700;
+	font-weight: 700
 }
 
 .ficheadmin a:not(.mentiontag) {
 	background-color: var(--co3-50);
-	padding: 0 var(--2xsmall);
+	padding: 0 var(--2xsmall)
 }
 
 .ficheadmin a:not(.mentiontag):hover {
 	background-color: var(--co3-400);
-	color: var(--white) !important;
+	color: var(--white) !important
 }
 
 .inneradmin:before {
@@ -2853,17 +2844,17 @@ textarea {
 	width: 5px;
 	background: var(--white);
 	top: var(--large);
-	bottom: var(--large);
+	bottom: var(--large)
 }
 
 .ficheadmin u {
 	text-decoration: none;
-	box-shadow: inset 0 -5px 0 var(--co3-50);
+	box-shadow: inset 0 -5px 0 var(--co3-50)
 }
 
 .inneradmin u {
 	text-decoration: none;
-	box-shadow: inset 0 -5px 0 var(--white) !important;
+	box-shadow: inset 0 -5px 0 var(--white) !important
 }
 
 .inneradmin {
@@ -2873,17 +2864,17 @@ textarea {
 	width: 100%;
 	text-align: justify;
 	width: 100%;
-	background-color: var(--darklight);
+	background-color: var(--darklight)
 }
 
 .panel-content button {
 	padding: var(--2xsmall);
 	background-color: var(--darklight);
-	border: 1px solid var(--neutral);
+	border: 1px solid var(--neutral)
 }
 
 .panel-content button:hover {
-	background-color: var(--darkerlight);
+	background-color: var(--darkerlight)
 }
 
 button.toggle-panel {
@@ -2891,7 +2882,7 @@ button.toggle-panel {
 	border-radius: 0 !important;
 	background-color: none !important;
 	padding: 0 !important;
-	margin: 0 !important;
+	margin: 0 !important
 }
 
 button.toggle-panel .fi:before {
@@ -2901,17 +2892,17 @@ button.toggle-panel .fi:before {
 	width: 31px;
 	align-items: center;
 	justify-content: center;
-	color: var(--white);
+	color: var(--white)
 }
 
 button.toggle-panel .fi:before:hover {
-	color: var(--co2-200) !important;
+	color: var(--co2-200) !important
 }
 
 .panel-content {
 	background-color: var(--light);
 	padding: var(--small) !important;
-	padding-bottom: 0px !important;
+	padding-bottom: 0px !important
 }
 
 .panel-content div {
@@ -2921,18 +2912,18 @@ button.toggle-panel .fi:before:hover {
 	gap: var(--small);
 	flex-wrap: wrap;
 	justify-content: flex-start;
-	align-items: center;
+	align-items: center
 }
 
 .post-box {
 	display: flex;
-	gap: var(--large);
+	gap: var(--large)
 }
 
 #sce_smilies_body {
 	background-color: var(--light) !important;
 	padding: var(--large) !important;
-	width: -webkit-fill-available;
+	width: -webkit-fill-available
 }
 
 .smiley-element {
@@ -2941,37 +2932,37 @@ button.toggle-panel .fi:before:hover {
 	padding: 0 !important;
 	gap: 2.55px;
 	justify-content: center;
-	align-items: center;
+	align-items: center
 }
 
 #smilies_header {
-	margin-bottom: var(--small) !important;
+	margin-bottom: var(--small) !important
 }
 
 #smilies_header select {
 	text-transform: lowercase;
 	font-weight: 700;
 	font-family: calibri;
-	color: var(--co3-300);
+	color: var(--co3-300)
 }
 
 .profile-content {
 	display: flex;
 	gap: var(--large);
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: space-between
 }
 
 .profile-avatar {
 	text-align: center;
-	position: relative;
+	position: relative
 }
 
 .profile-avatar img {
 	width: 200px;
 	height: 314px;
 	border: var(--small) solid var(--light);
-	object-fit: cover;
+	object-fit: cover
 }
 
 .profile-bloc {
@@ -2984,29 +2975,29 @@ button.toggle-panel .fi:before:hover {
 	align-content: flex-start;
 	background-color: var(--light);
 	padding: var(--large);
-	border: 1px solid var(--neutral);
+	border: 1px solid var(--neutral)
 }
 
 .profile-bloc.one {
-	gap: var(--large);
+	gap: var(--large)
 }
 
 .profile-bloc.two>div,
 .profile-contact,
 .awards_block_simple,
 .profile-links {
-	width: 100%;
+	width: 100%
 }
 
 .profile-pseudo {
 	font-size: var(--3xlarge);
 	font-weight: 100;
 	font-family: var(--spe);
-	text-shadow: 1px 1px #fff;
+	text-shadow: 1px 1px #fff
 }
 
 .profile-pseudo strong {
-	font-weight: 100;
+	font-weight: 100
 }
 
 .profile-header {
@@ -3014,7 +3005,7 @@ button.toggle-panel .fi:before:hover {
 	align-items: center;
 	justify-content: space-between;
 	width: 100%;
-	margin: var(--large) auto;
+	margin: var(--large) auto
 }
 
 .profile-status {
@@ -3023,22 +3014,22 @@ button.toggle-panel .fi:before:hover {
 	padding: var(--2xsmall);
 	padding-right: calc(var(--2xsmall) - 2.5px);
 	text-align: center;
-	font-size: var(--small);
+	;
 	font-weight: 300;
 	background-color: var(--white);
 	border: 0.5px solid var(--group-color, var(--co));
-	color: var(--group-color, var(--co2));
+	color: var(--group-color, var(--co2))
 }
 
 #field_id7 {
 	display: inline-flex;
-	font-weight: 700;
+	font-weight: 700
 }
 
 #field_id7:after {
 	content: "€”";
 	font-weight: 300;
-	padding: 0 var(--2xsmall);
+	padding: 0 var(--2xsmall)
 }
 
 #field_id7 .profile-field-label,
@@ -3046,11 +3037,11 @@ button.toggle-panel .fi:before:hover {
 #field_id-13 .profile-field-label,
 #field_id14 .profile-field-label,
 #field_id6 {
-	display: none !important;
+	display: none !important
 }
 
 #field_id-5 .field_uneditable:after {
-	content: " ans";
+	content: " ans"
 }
 
 #field_id-6,
@@ -3065,28 +3056,28 @@ button.toggle-panel .fi:before:hover {
 	color: var(--group-color);
 	align-items: center;
 	justify-content: center;
-	background-color: var(--group-color-50, var(--darklight));
+	background-color: var(--group-color-50, var(--darklight))
 }
 
 #field_id-6 .field_uneditable:after {
 	content: "messages";
 	font-weight: 500;
-	padding-left: var(--2xsmall);
+	padding-left: var(--2xsmall)
 }
 
 #field_id-13 .field_uneditable:after {
 	content: "points";
 	font-weight: 500;
-	padding-left: var(--2xsmall);
+	padding-left: var(--2xsmall)
 }
 
 .profile-tab-content [id^="field_id"] {
-	flex: 1 1 100%;
+	flex: 1 1 100%
 }
 
 #field_id-5,
 #field_id2 {
-	flex: 1 1 calc(50% - var(--2xsmall));
+	flex: 1 1 calc(50% - var(--2xsmall))
 }
 
 .profile-group {
@@ -3096,22 +3087,22 @@ button.toggle-panel .fi:before:hover {
 	text-transform: lowercase;
 	font-size: var(--large);
 	font-weight: 100;
-	font-family: var(--mono);
+	font-family: var(--mono)
 }
 
 .profile-group:empty {
-	display: none;
+	display: none
 }
 
 .profile-bloc.two .field_uneditable {
-	text-align: justify;
+	text-align: justify
 }
 
 .profile-contact {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	gap: var(--large);
+	gap: var(--large)
 }
 
 .profile-contact-icons {
@@ -3120,22 +3111,22 @@ button.toggle-panel .fi:before:hover {
 	justify-content: center;
 	gap: var(--small);
 	flex-direction: column;
-	color: var(--group-color);
+	color: var(--group-color)
 }
 
 .profile-contact-icons i {
 	color: var(--group-color);
-	text-transform: lowercase;
+	text-transform: lowercase
 }
 
 .profile-field-label {
 	color: var(--group-color);
 	text-transform: uppercase;
-	font-size: var(--small);
+	;
 	font-weight: 900;
 	text-align: right;
 	margin-bottom: var(--3xsmall);
-	border-left: 5px solid var(--group-color-50, var(--co1-50));
+	border-left: 5px solid var(--group-color-50, var(--co1-50))
 }
 
 .profile-links {
@@ -3148,14 +3139,14 @@ button.toggle-panel .fi:before:hover {
 	font-weight: 300;
 	font-family: var(--serif);
 	font-size: var(--large);
-	padding: var(--large) 0;
+	padding: var(--large) 0
 }
 
 .memberlist {
 	display: flex;
 	flex-wrap: wrap;
 	gap: var(--large);
-	margin-top: var(--large);
+	margin-top: var(--large)
 }
 
 .member {
@@ -3172,18 +3163,18 @@ button.toggle-panel .fi:before:hover {
 	gap: var(--2xsmall);
 	margin: var(--2xsmall);
 	flex: 0 0 calc((100% - 4 * var(--large)) / 5 - 2 * var(--2xsmall));
-	flex-direction: column;
+	flex-direction: column
 }
 
 .member:hover {
-	box-shadow: 0 0 0rem 0.55rem var(--group-color-100, var(--darkneutral));
+	box-shadow: 0 0 0rem 0.55rem var(--group-color-100, var(--darkneutral))
 }
 
 .member-avatar img {
 	height: 50px;
 	width: 50px;
 	border-radius: 50%;
-	object-fit: cover;
+	object-fit: cover
 }
 
 .member-pseudo {
@@ -3191,22 +3182,22 @@ button.toggle-panel .fi:before:hover {
 	font-size: var(--large);
 	width: 100%;
 	text-align: center;
-	font-weight: 100;
+	font-weight: 100
 }
 
 .member-pseudo strong {
-	font-weight: 300;
+	font-weight: 300
 }
 
 .member-celeb {
 	padding: var(--3xsmall);
 	width: 100%;
-	font-size: var(--small);
+	;
 	font-family: var(--mono);
 	text-align: center;
 	text-transform: uppercase;
 	background: var(--group-color, var(--dark));
-	color: var(--white);
+	color: var(--white)
 }
 
 .member-data {
@@ -3214,19 +3205,18 @@ button.toggle-panel .fi:before:hover {
 	font-weight: 300;
 	width: 100%;
 	padding-left: var(--2xsmall);
-	text-transform: lowercase;
-	font-size: var(--small);
+	text-transform: lowercase
 }
 
 .member-contact {
 	display: flex;
 	align-items: center;
 	width: 100%;
-	justify-content: space-evenly;
+	justify-content: space-evenly
 }
 
 .member-contact i {
-	color: var(--group-color);
+	color: var(--group-color)
 }
 
 .member-infos {
@@ -3235,7 +3225,7 @@ button.toggle-panel .fi:before:hover {
 	gap: var(--2xsmall);
 	flex: 1;
 	width: 100%;
-	align-items: center;
+	align-items: center
 }
 
 .memberlist-panel {
@@ -3244,7 +3234,7 @@ button.toggle-panel .fi:before:hover {
 	justify-content: space-between;
 	color: var(--co3);
 	text-transform: uppercase;
-	letter-spacing: 1px;
+	letter-spacing: 1px
 }
 
 .groups-panel,
@@ -3253,62 +3243,62 @@ button.toggle-panel .fi:before:hover {
 	padding: var(--large);
 	text-transform: uppercase;
 	font-weight: 300;
-	margin-bottom: var(--large);
+	margin-bottom: var(--large)
 }
 
 .groups-panel a {
 	text-transform: lowercase;
 	font-weight: 700;
-	letter-spacing: 2.5px;
+	letter-spacing: 2.5px
 }
 
 .groups-panel ul,
 .groups-panel li {
 	margin: 0 !important;
 	padding: 0 !important;
-	display: block;
+	display: block
 }
 
 .groups-div {
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
-	padding: var(--large);
+	padding: var(--large)
 }
 
 .groups-div div {
-	text-align: center;
+	text-align: center
 }
 
 .prof-desc {
 	text-transform: lowercase;
 	font-style: italic;
-	color: var(--co2-600);
+	color: var(--co2-600)
 }
 
 .prof-desc:not(:empty):before {
-	content: "! ";
+	content: "! "
 }
 
 .profile-panel fieldset {
 	padding: var(--large) !important;
 	display: flex;
 	gap: var(--large);
-	flex-direction: column;
+	flex-direction: column
 }
 
 .profile-panel dl {
-	margin: 0 !important;
+	margin: 0 !important
 }
 
 .profile-panel .inputbox,
 .profile-panel select {
 	margin-right: var(--large);
-	margin-left: 0;
+	margin-left: 0
 }
 
 input#profile_field_4_-12_0 {
-	width: 100px !important;
+	width: 100px !important
 }
 
 #privmsgs-menu {
@@ -3318,7 +3308,7 @@ input#profile_field_4_-12_0 {
 	padding: var(--large);
 	gap: var(--large);
 	background-color: var(--light);
-	margin: var(--large) 0;
+	margin: var(--large) 0
 }
 
 #privmsgs-menu div {
@@ -3328,43 +3318,43 @@ input#profile_field_4_-12_0 {
 	font-size: var(--large);
 	text-transform: lowercase;
 	font-weight: 700;
-	gap: var(--small);
+	gap: var(--small)
 }
 
 #privmsgs-menu i {
 	font-size: var(--large);
-	color: var(--co1);
+	color: var(--co1)
 }
 
 #topic_review_box {
-	background-color: var(--light);
+	background-color: var(--light)
 }
 
 .mespriv-display.post {
 	border: 1px solid var(--group-color, var(--co1));
 	margin: var(--large);
 	background-color: var(--white);
-	flex-direction: row-reverse !important;
+	flex-direction: row-reverse !important
 }
 
 .mespriv-display .postprofile br {
-	display: none !important;
+	display: none !important
 }
 
 .mespriv-display .postprofile {
 	width: 150px;
 	align-items: center;
 	justify-content: center;
-	text-align: center;
+	text-align: center
 }
 
 .mespriv-display .postprofile span {
-	text-transform: uppercase;
+	text-transform: uppercase
 }
 
 .mespriv-display .postprofile img {
 	width: 100px;
-	object-fit: cover;
+	object-fit: cover
 }
 
 .mespriv-display {
@@ -3374,44 +3364,44 @@ input#profile_field_4_-12_0 {
 	flex-wrap: wrap;
 	gap: var(--large);
 	background-color: var(--light);
-	margin: var(--large) 0;
+	margin: var(--large) 0
 }
 
 .mespriv-display .inner {
 	display: flex;
 	flex-wrap: wrap;
-	gap: var(--large);
+	gap: var(--large)
 }
 
 .mespriv-display h3 {
-	width: 100%;
+	width: 100%
 }
 
 .mespriv-display .postbody {
-	width: calc(100% - 169px) !important;
+	width: calc(100% - 169px) !important
 }
 
 .mespriv-display .author {
 	text-align: center;
 	letter-spacing: 2.5px;
 	text-transform: lowercase;
-	padding-left: 2.5px;
+	padding-left: 2.5px
 }
 
 .mespriv-display .author a {
 	font-family: var(--mono);
 	background: var(--neutral);
 	padding: 0.2rem 0.5rem;
-	margin-left: var(--large);
+	margin-left: var(--large)
 }
 
 .mespriv-icon {
-	display: none;
+	display: none
 }
 
 .mespriv-mark {
 	width: 35px;
-	text-align: center;
+	text-align: center
 }
 
 .mespriv-list {
@@ -3422,14 +3412,14 @@ input#profile_field_4_-12_0 {
 	gap: var(--large);
 	padding: var(--large);
 	background-color: var(--light);
-	justify-content: center;
+	justify-content: center
 }
 
 .mespriv-row {
 	width: 100%;
 	display: flex;
 	gap: var(--large);
-	align-items: center;
+	align-items: center
 }
 
 .mespriv-left-box {
@@ -3439,17 +3429,17 @@ input#profile_field_4_-12_0 {
 	font-weight: 700;
 	letter-spacing: 2.5px;
 	font-family: var(--display);
-	font-size: var(--large);
+	font-size: var(--large)
 }
 
 .mespriv-content {
-	flex: 1;
+	flex: 1
 }
 
 .mespriv-content span {
 	text-transform: uppercase;
 	font-weight: 300;
-	letter-spacing: 1px;
+	letter-spacing: 1px
 }
 
 .topicactionsadmin {
@@ -3458,7 +3448,7 @@ input#profile_field_4_-12_0 {
 	justify-content: center;
 	margin: var(--large) 0;
 	font-size: 0;
-	gap: var(--large);
+	gap: var(--large)
 }
 
 .topicactionsadmin i:before {
@@ -3472,14 +3462,14 @@ input#profile_field_4_-12_0 {
 	border: 2px solid var(--white);
 	align-items: center;
 	justify-content: center;
-	outline: 0.5px solid var(--co3-200);
+	outline: 0.5px solid var(--co3-200)
 }
 
 .jumpbox {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	gap: var(--large);
+	gap: var(--large)
 }
 
 .submit-buttons {
@@ -3488,72 +3478,72 @@ input#profile_field_4_-12_0 {
 	align-items: center;
 	justify-content: center;
 	gap: var(--large);
-	font-size: 0;
+	font-size: 0
 }
 
 .contenttoggle {
-	display: none;
+	display: none
 }
 
 .contenttoggle.is-open {
-	display: block;
+	display: block
 }
 
 #c8 .contenttoggle.is-open {
-	display: flex;
+	display: flex
 }
 
 .avct.bloctoggle {
 	width: 80%;
-	margin: 0 auto;
+	margin: 0 auto
 }
 
 .avct .titletoggle {
 	text-transform: lowercase;
 	font-weight: 200;
 	text-align: center;
-	color: var(--group-color, var(--co3));
+	color: var(--group-color, var(--co3))
 }
 
 .avct .contenttoggle {
 	color: var(--group-color, var(--group-color-co3));
 	background-color: var(--group-color-50, var(--group-color-co3));
-	padding: var(--large);
+	padding: var(--large)
 }
 
 avct {
 	filter: blur(3px);
-	transition-duration: 0.7s;
+	transition-duration: 0.7s
 }
 
 avct:hover {
 	filter: blur(0px);
-	transition-duration: 0.7s;
+	transition-duration: 0.7s
 }
 
 avhi {
 	background-color: var(--darkerlight);
 	color: var(--darkerlight);
-	transition-duration: 0.7s;
+	transition-duration: 0.7s
 }
 
 avhi:hover {
 	background-color: transparent;
 	color: var(--lightdark);
-	transition-duration: 0.7s;
+	transition-duration: 0.7s
 }
 
 .activity-feed {
 	display: flex;
 	flex-direction: column;
-	gap: var(--3xsmall);
+	gap: var(--3xsmall)
 }
 
 .feed-item {
 	display: flex;
 	align-items: center;
 	flex: 1;
-	justify-content: center;
+	justify-content: center
 }
 
 .feed-item .time {
@@ -3566,14 +3556,14 @@ avhi:hover {
 	display: flex;
 	color: var(--co1);
 	align-items: center;
-	justify-content: space-between;
+	justify-content: space-between
 }
 
 .feed-item .time:before {
 	content: "";
 	flex: 1;
 	margin: 0 var(--large);
-	border-bottom: 0.5px solid var(--neutral);
+	border-bottom: 0.5px solid var(--neutral)
 }
 
 .feed-item .text {
@@ -3582,50 +3572,50 @@ avhi:hover {
 	gap: 4.5px;
 	text-transform: lowercase;
 	letter-spacing: 1px;
-	margin-left: var(--large);
+	margin-left: var(--large)
 }
 
 .feed-item .text a:nth-of-type(2) {
 	max-width: 300px;
 	overflow: hidden;
 	text-overflow: ellipsis;
-	white-space: nowrap;
+	white-space: nowrap
 }
 
 .feed-item .collapsed-count {
-	display: none;
+	display: none
 }
 
 .feed-avatar,
 .feed-item .act-icon {
 	height: 35px;
 	width: 35px;
-	object-fit: cover;
+	object-fit: cover
 }
 
 .feed-item .feed-avatar {
-	border-radius: 50%;
+	border-radius: 50%
 }
 
 #u1.postprofile .postprofile-tabs,
 #u1.postprofile .postprofile-tab-content[data-tab="1"] {
-	display: none;
+	display: none
 }
 
 #u1.postprofile .postprofile-tab-content[data-tab="2"] {
 	display: block;
-	height: fit-content !important;
+	height: fit-content !important
 }
 
 [data-color-scheme="dark"] .color-scheme-toggle .dark,
 [data-color-scheme="light"] .color-scheme-toggle .light {
-	display: none;
+	display: none
 }
 
 .color-scheme-toggle {
 	border: 0 !important;
 	padding: 0 !important;
-	background-color: transparent !important;
+	background-color: transparent !important
 }
 
 .tool-box a,
@@ -3638,7 +3628,7 @@ avhi:hover {
 	background-color: var(--co3);
 	transition-duration: 2s;
 	width: 35px;
-	height: 35px;
+	height: 35px
 }
 
 blockquote,
@@ -3646,11 +3636,11 @@ blockquote,
 .spoiler_content.hidden {
 	padding: var(--large);
 	background-color: var(--white);
-	width: -webkit-fill-available;
+	width: -webkit-fill-available
 }
 
 blockquote {
-	margin: var(--large);
+	margin: var(--large)
 }
 
 cite {
@@ -3662,7 +3652,7 @@ cite {
 	font-style: normal !important;
 	color: var(--group-color, var(--co3));
 	margin-left: var(--2xlarge);
-	display: block;
+	display: block
 }
 
 cite:before {
@@ -3671,7 +3661,7 @@ cite:before {
 	padding-left: var(--large);
 	transform: scaleX(-1);
 	display: inline-block;
-	font-style: normal;
+	font-style: normal
 }
 
 .spoiler_title {
@@ -3682,7 +3672,7 @@ cite:before {
 	font-size: var(--large);
 	letter-spacing: 1px;
 	font-weight: 700;
-	padding-left: 1px;
+	padding-left: 1px
 }
 
 .copy-code {
@@ -3692,23 +3682,23 @@ cite:before {
 	color: var(--co3);
 	float: right;
 	position: relative;
-	padding: var(--2xsmall);
+	padding: var(--2xsmall)
 }
 
 .copy-code.copied,
 .copy-code:hover {
 	background-color: var(--co3-400);
-	color: var(--white) !important;
+	color: var(--white) !important
 }
 
 dl.codebox {
 	margin: 0 auto !important;
-	width: 475px;
+	width: 475px
 }
 
 .codebox dd {
 	margin: 0;
-	position: relative;
+	position: relative
 }
 
 .codebox.code code {
@@ -3716,7 +3706,7 @@ dl.codebox {
 	font-size: var(--medium);
 	max-height: 210px;
 	overflow: auto;
-	display: block;
+	display: block
 }
 
 [class^="fi-ts-"]:before,
@@ -3728,11 +3718,11 @@ dl.codebox {
 	text-transform: none;
 	line-height: 1;
 	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+	-moz-osx-font-smoothing: grayscale
 }
 
 .d-flex {
-	display: flex !important;
+	display: flex !important
 }
 
 .reverse {
@@ -3741,26 +3731,24 @@ dl.codebox {
 	--gradient23: linear-gradient(to left, var(--co2), var(--co3));
 	--gradient12-50: linear-gradient(to left, var(--co1-50), var(--co2-50));
 	--gradient13-50: linear-gradient(to left, var(--co1-50), var(--co3-50));
-	--gradient23-50: linear-gradient(to left, var(--co2-50), var(--co3-50));
+	--gradient23-50: linear-gradient(to left, var(--co2-50), var(--co3-50))
 }
 
-fssmalll {
-	font-size: var(--small);
-}
+fssmalll {}
 
 fsmedium {
-	font-size: var(--medium);
+	font-size: var(--medium)
 }
 
 fslarge {
-	font-size: var(--large);
+	font-size: var(--large)
 }
 
 .posttabsystem {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
-	gap: var(--large);
+	gap: var(--large)
 }
 
 .posttabs {
@@ -3770,20 +3758,20 @@ fslarge {
 	justify-content: center;
 	gap: var(--large);
 	flex-wrap: wrap;
-	width: 100%;
+	width: 100%
 }
 
 .posttab-content {
-	display: none;
+	display: none
 }
 
 .posttab-content.active {
-	display: block;
+	display: block
 }
 
 .posttab.active backbi3 {
 	color: var(--co3) !important;
-	background: var(--white);
+	background: var(--white)
 }
 
 .group-7 {
@@ -3807,7 +3795,7 @@ fslarge {
 	--gradientgc3: linear-gradient(to right, ;
 			var(--group-color-600), ;
 			var(--group-color-800), ;
-			var(--group-color-600));
+			var(--group-color-600))
 }
 
 .group-4 {
@@ -3819,7 +3807,7 @@ fslarge {
 	--group-color: #A7AD37;
 	--group-color-600: #8C912E;
 	--group-color-700: #707425;
-	--group-color-800: #54571C;
+	--group-color-800: #54571C
 }
 
 .group-5 {
@@ -3831,7 +3819,7 @@ fslarge {
 	--group-color: #9E5F1D;
 	--group-color-600: #855018;
 	--group-color-700: #6A4013;
-	--group-color-800: #50300F;
+	--group-color-800: #50300F
 }
 
 .group-6 {
@@ -3843,7 +3831,7 @@ fslarge {
 	--group-color: #729DAD;
 	--group-color-600: #588596;
 	--group-color-700: #466B78;
-	--group-color-800: #35505A;
+	--group-color-800: #35505A
 }
 
 .group-def {
@@ -3867,7 +3855,7 @@ fslarge {
 	--gradientgc3: linear-gradient(to right, ;
 			var(--group-color-600), ;
 			var(--group-color-800), ;
-			var(--group-color-600));
+			var(--group-color-600))
 }
 
 [data-color-scheme="dark"] .group-7 {
@@ -3891,7 +3879,7 @@ fslarge {
 	--gradientgc3: linear-gradient(to right, ;
 			var(--group-color-600), ;
 			var(--group-color-800), ;
-			var(--group-color-600));
+			var(--group-color-600))
 }
 
 [data-color-scheme="dark"] .group-def {
@@ -3915,7 +3903,7 @@ fslarge {
 	--gradientgc3: linear-gradient(to right, ;
 			var(--group-color-600), ;
 			var(--group-color-800), ;
-			var(--group-color-600));
+			var(--group-color-600))
 }
 
 .titrefam {
@@ -3926,7 +3914,7 @@ fslarge {
 	font-weight: 900;
 	letter-spacing: var(--3xsmall);
 	padding-left: var(--3xsmall);
-	color: var(--co2);
+	color: var(--co2)
 }
 
 .sstitrefam {
@@ -3935,13 +3923,13 @@ fslarge {
 	letter-spacing: var(--3xsmall);
 	padding-left: var(--3xsmall);
 	font-weight: 300;
-	color: var(--co1);
+	color: var(--co1)
 }
 
 .imgfam {
 	display: flex;
 	gap: var(--large);
-	width: 100%;
+	width: 100%
 }
 
 .fichefam .posttab {
@@ -3949,7 +3937,7 @@ fslarge {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	position: relative;
+	position: relative
 }
 
 .imgfam img {
@@ -3960,19 +3948,19 @@ fslarge {
 	align-items: center;
 	justify-content: center;
 	position: relative;
-	object-fit: cover;
+	object-fit: cover
 }
 
 .imgfam .active img {
-	filter: grayscale(0);
+	filter: grayscale(0)
 }
 
 .fichefam .posttab:first-of-type:before {
-	content: "personnages";
+	content: "personnages"
 }
 
 .fichefam .posttab:last-of-type:before {
-	content: "attentes";
+	content: "attentes"
 }
 
 .fichefam .posttab:before {
@@ -3984,27 +3972,27 @@ fslarge {
 	padding-left: 1px;
 	font-family: var(--display);
 	font-size: var(--5xlarge);
-	position: absolute;
+	position: absolute
 }
 
 .fichefam .posttab:hover:before {
-	display: block;
+	display: block
 }
 
 .fichefam mainbd {
 	text-transform: lowercase;
 	letter-spacing: 2.5px;
 	padding-left: 2.5px;
-	border-bottom: 0.5px solid var(--neutral);
+	border-bottom: 0.5px solid var(--neutral)
 }
 
 .fichepl .posttabs {
 	font-size: var(--large);
-	color: var(--darkneutral);
+	color: var(--darkneutral)
 }
 
 .fichepl .posttabs .active {
-	color: var(--co3);
+	color: var(--co3)
 }
 
 .codeslisting {
@@ -4012,19 +4000,19 @@ fslarge {
 	margin: 0 auto;
 	justify-content: space-between;
 	align-items: flex-start;
-	width: 100%;
+	width: 100%
 }
 
 .codeslistingmini {
 	display: flex;
 	gap: var(--small);
 	flex-direction: column;
-	align-items: center;
+	align-items: center
 }
 
 .contentfam,
 .contentpredef {
-	width: 100%;
+	width: 100%
 }
 
 .quoteadmin,
@@ -4039,7 +4027,7 @@ fslarge {
 	color: var(--co3);
 	border-left: var(--3xsmall) solid;
 	border-radius: var(--3xsmall);
-	padding: var(--large);
+	padding: var(--large)
 }
 
 .ficheperso,
@@ -4056,7 +4044,7 @@ fslarge {
 	margin: 0 auto;
 	display: flex;
 	justify-content: center;
-	flex-direction: column;
+	flex-direction: column
 }
 
 .fichefam,
@@ -4064,7 +4052,7 @@ fslarge {
 	padding: var(--2xlarge);
 	border: 0.5px solid var(--darkneutral);
 	outline: var(--large) solid var(--darklight);
-	margin-top: var(--large);
+	margin-top: var(--large)
 }
 
 .fichepredef,
@@ -4073,7 +4061,7 @@ fslarge {
 	padding: var(--2xlarge);
 	border: 0.5px solid var(--neutral);
 	outline: var(--large) solid var(--white);
-	margin-top: var(--large);
+	margin-top: var(--large)
 }
 
 .ficheperso,
@@ -4083,12 +4071,12 @@ fslarge {
 	padding: var(--2xlarge);
 	border: 1px solid var(--group-color, var(--neutral));
 	outline: var(--large) solid var(--group-color-50, var(--darklight));
-	margin-top: var(--large);
+	margin-top: var(--large)
 }
 
 .fichepredef .posttabsystem {
 	flex-direction: row;
-	align-items: flex-start;
+	align-items: flex-start
 }
 
 .fichepredef .posttabs {
@@ -4096,60 +4084,60 @@ fslarge {
 	flex-direction: column;
 	height: -webkit-fill-available;
 	flex-wrap: nowrap;
-	align-items: flex-start;
+	align-items: flex-start
 }
 
 .fichepredef .posttab {
 	width: 100%;
 	text-transform: uppercase;
 	color: var(--darkneutral);
-	font-weight: 900;
+	font-weight: 900
 }
 
 .fichepredef .posttab:nth-of-type(odd) {
 	text-align: right;
 	border-left: var(--3xsmall) solid var(--neutral);
-	padding-left: var(--3xsmall);
+	padding-left: var(--3xsmall)
 }
 
 .fichepredef .posttab:nth-of-type(even) {
 	border-right: var(--3xsmall) solid var(--neutral);
-	padding-right: var(--3xsmall);
+	padding-right: var(--3xsmall)
 }
 
 .fichepredef .posttab.active {
 	border-color: var(--co3-100);
-	color: var(--co3);
+	color: var(--co3)
 }
 
 .fichepredef .posttabs img {
 	width: 100%;
 	height: -webkit-fill-available;
 	filter: grayscale(1);
-	object-fit: cover;
+	object-fit: cover
 }
 
 .fichepredef .textlisting {
-	padding: var(--2xlarge);
+	padding: var(--2xlarge)
 }
 
 .fichepredef serifi1 {
-	color: var(--co1-700);
+	color: var(--co1-700)
 }
 
 .fichepredef serifi2 {
-	color: var(--co2-700);
+	color: var(--co2-700)
 }
 
 .fichepredef borderd {
 	display: block;
 	margin-top: var(--3xsmall);
-	width: fit-content;
+	width: fit-content
 }
 
 .fichepredef .posttab-content {
 	height: 404px;
-	overflow: auto;
+	overflow: auto
 }
 
 .titrepredef {
@@ -4162,7 +4150,7 @@ fslarge {
 	letter-spacing: var(--3xsmall);
 	padding-left: var(--3xsmall);
 	color: var(--co2);
-	text-shadow: 1px 1px var(--co2-50);
+	text-shadow: 1px 1px var(--co2-50)
 }
 
 .sstitrepredef {
@@ -4173,7 +4161,7 @@ fslarge {
 	padding-left: var(--3xsmall);
 	font-weight: 900;
 	font-family: var(--display);
-	color: var(--co1);
+	color: var(--co1)
 }
 
 .headpl,
@@ -4183,21 +4171,20 @@ fslarge {
 	justify-content: space-between;
 	align-items: center;
 	gap: var(--large);
-	width: 100%;
+	width: 100%
 }
 
 .headperso {
 	flex-wrap: wrap;
 	gap: var(--2xlarge);
-	justify-content: center !important;
+	justify-content: center !important
 }
 
 .quoteperso {
 	font-style: italic;
 	text-transform: lowercase;
 	width: 100%;
-	text-align: center;
-	font-size: var(--small);
+	text-align: center
 }
 
 .pseudoperso {
@@ -4205,7 +4192,7 @@ fslarge {
 	align-items: center;
 	justify-content: center;
 	flex: 1 1 100%;
-	flex-direction: column;
+	flex-direction: column
 }
 
 .pseudoperso nom {
@@ -4214,7 +4201,7 @@ fslarge {
 	font-size: var(--3xlarge);
 	text-transform: lowercase;
 	line-height: var(--2xlarge);
-	margin-top: var(--large);
+	margin-top: var(--large)
 }
 
 .pseudoperso prenom {
@@ -4223,49 +4210,49 @@ fslarge {
 	font-size: var(--3xlarge);
 	text-transform: uppercase;
 	letter-spacing: var(--4xsmall);
-	padding-left: var(--4xsmall);
+	padding-left: var(--4xsmall)
 }
 
 .pseudoperso pronom {
 	color: var(--darkerneutral);
 	letter-spacing: 2.5px;
 	padding-left: 2.5px;
-	font-family: var(--mono);
+	font-family: var(--mono)
 }
 
 .pseudoperso pronom:before {
-	content: '(';
+	content: '('
 }
 
 .pseudoperso pronom:after {
-	content: ')';
+	content: ')'
 }
 
 .headperso img {
 	width: 300px;
 	border-radius: var(--3xsmall);
 	height: 400px;
-	object-fit: cover;
+	object-fit: cover
 }
 
 .headrec img {
 	width: 200px;
 	border-radius: var(--3xsmall);
 	height: 100px;
-	object-fit: cover;
+	object-fit: cover
 }
 
 .imganec {
 	height: 100px;
 	width: 150px;
 	object-fit: cover;
-	margin: 0 var(--small);
+	margin: 0 var(--small)
 }
 
 .blocperso.one {
 	background-color: var(--white);
 	border: 1px solid var(--group-color-200, var(--co3-200));
-	padding: var(--2xlarge);
+	padding: var(--2xlarge)
 }
 
 lblprs {
@@ -4279,17 +4266,17 @@ lblprs {
 	align-items: center;
 	margin: var(--small);
 	justify-content: flex-end;
-	gap: var(--small);
+	gap: var(--small)
 }
 
 lblprs:not(:first-of-type) {
-	margin-top: var(--large);
+	margin-top: var(--large)
 }
 
 lblprs:after {
 	content: "";
 	width: 100px;
-	border-bottom: 0.5px solid;
+	border-bottom: 0.5px solid
 }
 
 lblprs:before {
@@ -4297,7 +4284,7 @@ lblprs:before {
 	width: 2px;
 	border-radius: 50%;
 	border-bottom: 2px solid;
-	order: 2;
+	order: 2
 }
 
 lblqst {
@@ -4307,14 +4294,14 @@ lblqst {
 	font-size: var(--large);
 	letter-spacing: 1.5px;
 	color: var(--group-color, var(--co1));
-	box-shadow: inset 0 -9px 0 var(--group-color-50, var(--co1-50));
+	box-shadow: inset 0 -9px 0 var(--group-color-50, var(--co1-50))
 }
 
 blockquote.blocperso i {
 	font-weight: 300;
 	letter-spacing: 1px;
 	text-transform: lowercase;
-	color: var(--group-color, var(--co3));
+	color: var(--group-color, var(--co3))
 }
 
 lblchrn {
@@ -4324,35 +4311,35 @@ lblchrn {
 	letter-spacing: 5px;
 	font-weight: 200;
 	text-transform: uppercase;
-	font-size: var(--small);
-	color: var(--white);
+	;
+	color: var(--white)
 }
 
 lblfvr {
 	font-family: var(--serif);
 	text-transform: lowercase;
-	color: var(--group-color, var(--co3));
+	color: var(--group-color, var(--co3))
 }
 
 lblfvr:not(:first-of-type),
 lblprtt:not(:first-of-type) {
-	padding-left: var(--small);
+	padding-left: var(--small)
 }
 
 lblfvr:after,
 lblprtt:after {
 	content: "€”";
-	margin: 0 var(--2xsmall);
+	margin: 0 var(--2xsmall)
 }
 
 lbldvrs {
 	letter-spacing: 2.5px;
 	text-transform: uppercase;
-	font-size: var(--small);
+	;
 	font-weight: 700;
 	color: var(--group-color, var(--co3));
 	background: var(--group-color-50, var(--co3-50));
-	padding: 1px 5px 1px 7.5px;
+	padding: 1px 5px 1px 7.5px
 }
 
 lblplyr {
@@ -4361,7 +4348,7 @@ lblplyr {
 	letter-spacing: 2.5px;
 	padding: 1px 2.5px 1px 5px;
 	color: var(--group-color, var(--co1));
-	background-color: var(--group-color-50, var(--co1-50));
+	background-color: var(--group-color-50, var(--co1-50))
 }
 
 .idperso .contenttoggle {
@@ -4369,41 +4356,41 @@ lblplyr {
 	margin: var(--2xlarge) var(--large) 0;
 	outline: var(--large) solid var(--white);
 	background: var(--light);
-	border: 1px solid var(--group-color-50, var(--co1-50)) !important;
+	border: 1px solid var(--group-color-50, var(--co1-50)) !important
 }
 
 lblrchrch {
 	font-family: var(--mono);
 	text-transform: uppercase;
-	font-size: var(--small);
+	;
 	color: var(--group-color, var(--co1));
 	letter-spacing: .5px;
-	padding-left: 2px;
+	padding-left: 2px
 }
 
 .groupperso {
 	text-transform: uppercase;
 	font-weight: 700;
 	letter-spacing: 5px;
-	color: var(--group-color, var(--dark));
+	color: var(--group-color, var(--dark))
 }
 
 .blocperso.two {
 	background-color: var(--darklight);
-	padding: var(--2xlarge);
+	padding: var(--2xlarge)
 }
 
 .blocperso.three {
-	padding: var(--large);
+	padding: var(--large)
 }
 
 blockquote.blocperso {
 	border: 1px solid var(--group-color-50, var(--co3-50));
-	outline: var(--large) solid var(--white);
+	outline: var(--large) solid var(--white)
 }
 
 .idperso {
-	width: -webkit-fill-available;
+	width: -webkit-fill-available
 }
 
 .idperso .titletoggle {
@@ -4412,7 +4399,7 @@ blockquote.blocperso {
 	font-family: var(--display);
 	color: var(--group-color, var(--co1)) !important;
 	text-align: center;
-	margin-bottom: var(--large);
+	margin-bottom: var(--large)
 }
 
 .blocperso.four {
@@ -4420,14 +4407,14 @@ blockquote.blocperso {
 	align-items: center;
 	justify-content: center;
 	margin-top: var(--large);
-	gap: var(--3xlarge);
+	gap: var(--3xlarge)
 }
 
 .blocperso.four img {
 	height: 50px;
 	width: 50px;
 	object-fit: cover;
-	border-radius: 50px;
+	border-radius: 50px
 }
 
 .blocperso.four:after,
@@ -4435,19 +4422,19 @@ blockquote.blocperso {
 	content: "\f2eb";
 	font-family: uicons-thin-straight !important;
 	color: var(--group-color, var(--co1)) !important;
-	font-size: var(--2xlarge);
+	font-size: var(--2xlarge)
 }
 
 .blocperso.four:after {
 	transform: scaleX(-1);
-	display: inline-block;
+	display: inline-block
 }
 
 .headpl div {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
-	flex: 1;
+	flex: 1
 }
 
 .headpl strong {
@@ -4455,31 +4442,31 @@ blockquote.blocperso {
 	font-size: var(--2xlarge);
 	letter-spacing: 2.5px;
 	font-weight: 700;
-	text-align: right;
+	text-align: right
 }
 
 .headpl i {
 	color: var(--darkneutral);
 	text-transform: lowercase;
-	letter-spacing: 2.5px;
+	letter-spacing: 2.5px
 }
 
 .headpl img:first-of-type {
-	width: 100px;
+	width: 100px
 }
 
 .headpl img {
 	height: 100px;
 	width: 150px;
 	border-radius: var(--3xsmall);
-	object-fit: cover;
+	object-fit: cover
 }
 
 .blocpl,
 .blocrec,
 .blocperso {
 	text-align: justify;
-	width: -webkit-fill-available;
+	width: -webkit-fill-available
 }
 
 .blocpl.one {
@@ -4489,17 +4476,17 @@ blockquote.blocperso {
 	text-transform: lowercase;
 	font-style: italic;
 	padding: var(--large);
-	text-align: center !important;
+	text-align: center !important
 }
 
 .blocpl.one strong {
 	font-style: normal;
 	text-transform: uppercase;
-	font-weight: 700;
+	font-weight: 700
 }
 
 .blocpl.one strong:before {
-	content: "ft. ";
+	content: "ft. "
 }
 
 .blocpl.three .mentiontag {
@@ -4507,7 +4494,7 @@ blockquote.blocperso {
 	text-transform: uppercase;
 	display: block;
 	color: var(--group-color, var(--co2));
-	letter-spacing: 5px;
+	letter-spacing: 5px
 }
 
 .attentes strong:first-child {
@@ -4520,7 +4507,7 @@ blockquote.blocperso {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 100%;
+	width: 100%
 }
 
 .attentes strong:first-child:before,
@@ -4528,24 +4515,24 @@ blockquote.blocperso {
 	content: "";
 	border-bottom: 0.5px solid var(--neutral);
 	flex: 1;
-	margin: 0 var(--3xlarge);
+	margin: 0 var(--3xlarge)
 }
 
 .attentes .blocpl {
 	background: var(--white);
-	padding: var(--large);
+	padding: var(--large)
 }
 
 .ficheperso.rep blockquote {
-	margin-top: 0px;
+	margin-top: 0px
 }
 
 .ficheperso.rep backgc a {
-	color: var(--white) !important;
+	color: var(--white) !important
 }
 
 .ficheperso.rep lbackbgc a {
-	color: var(--group-color) !important;
+	color: var(--group-color) !important
 }
 
 .pseudorec {
@@ -4558,7 +4545,7 @@ blockquote.blocperso {
 	text-align: center;
 	align-items: center;
 	padding: 0 var(--large);
-	justify-content: space-between;
+	justify-content: space-between
 }
 
 .pseudorec i {
@@ -4569,13 +4556,13 @@ blockquote.blocperso {
 	align-items: center;
 	gap: var(--large);
 	display: flex;
-	flex: 1;
+	flex: 1
 }
 
 .pseudorec i:after {
 	flex: 1;
 	border-bottom: 0.5px solid var(--darkneutral);
-	content: "";
+	content: ""
 }
 
 .pseudorec strong {
@@ -4585,12 +4572,12 @@ blockquote.blocperso {
 	height: 64px;
 	font-style: italic;
 	display: flex;
-	align-items: center;
+	align-items: center
 }
 
 .lien .pseudorec i {
 	font-family: var(--mono);
-	font-size: var(--large);
+	font-size: var(--large)
 }
 
 recdtls,
@@ -4599,15 +4586,15 @@ reclinks {
 	display: flex;
 	justify-content: flex-start;
 	align-items: flex-start;
-	flex-direction: column;
+	flex-direction: column
 }
 
 recdtls {
-	flex: 1;
+	flex: 1
 }
 
 reclinks {
-	align-items: flex-end;
+	align-items: flex-end
 }
 
 recdtls i {
@@ -4615,85 +4602,85 @@ recdtls i {
 	font-family: var(--mono);
 	font-style: normal;
 	text-transform: lowercase;
-	font-weight: 300;
+	font-weight: 300
 }
 
 recdtls i:before {
 	content: "€”";
 	padding-right: var(--large);
-	color: var(--group-color, var(--co3));
+	color: var(--group-color, var(--co3))
 }
 
 reclinks a {
 	color: var(--group-color, var(--co3)) !important;
 	text-transform: lowercase;
-	font-weight: 700;
+	font-weight: 700
 }
 
 reclinks a:after {
 	content: '€”';
 	padding-left: var(--large);
 	font-weight: 100;
-	color: var(--group-color, var(--co3));
+	color: var(--group-color, var(--co3))
 }
 
 .blocrec.one {
 	background-color: var(--white);
-	padding: var(--large);
+	padding: var(--large)
 }
 
 .blocrec.two {
 	border: 0.5px solid var(--group-color-100, var(--co1-100));
-	padding: var(--large);
+	padding: var(--large)
 }
 
 .blocrec.one bordergc {
 	padding: 0rem var(--large);
 	font-weight: 200;
-	letter-spacing: 1.5px;
+	letter-spacing: 1.5px
 }
 
 .dotlist:before {
 	content: "—";
 	margin: var(--large);
-	color: var(--co3);
+	color: var(--co3)
 }
 
 .inneradmin .dotlist:before {
 	margin-right: var(--large);
-	margin-left: 0px !important;
+	margin-left: 0px !important
 }
 
 .blocmsmall {
-	margin-left: var(--small);
+	margin-left: var(--small)
 }
 
 .blocmmedium {
-	margin-left: var(--medium);
+	margin-left: var(--medium)
 }
 
 .blocmlarge {
-	margin-left: var(--large);
+	margin-left: var(--large)
 }
 
 .blocmxlarge {
-	margin-left: var(--large);
+	margin-left: var(--large)
 }
 
 .blocm2xlarge {
-	margin-left: var(--2xlarge);
+	margin-left: var(--2xlarge)
 }
 
 .blocm3xlarge {
-	margin-left: var(--3xlarge);
+	margin-left: var(--3xlarge)
 }
 
 .blocm4xlarge {
-	margin-left: var(--4xlarge);
+	margin-left: var(--4xlarge)
 }
 
 .blocm5xlarge {
-	margin-left: var(--5xlarge);
+	margin-left: var(--5xlarge)
 }
 
 border1,
@@ -4722,7 +4709,7 @@ borderbid,
 borderbigc {
 	border: 0.5px solid;
 	font-weight: 300;
-	padding: var(--4xsmall) var(--large);
+	padding: var(--4xsmall) var(--large)
 }
 
 bborder1,
@@ -4751,7 +4738,7 @@ bborderbid,
 bborderbigc {
 	border-bottom: 2px solid;
 	padding: 0.1rem var(--small);
-	background-color: var(--white);
+	background-color: var(--white)
 }
 
 mborder1,
@@ -4781,7 +4768,7 @@ mborderbigc {
 	border: 0.5px solid;
 	background-color: var(--white);
 	padding: 0.1rem var(--2xsmall);
-	font-family: var(--mono);
+	font-family: var(--mono)
 }
 
 border1,
@@ -4796,7 +4783,7 @@ mborder1,
 mborderb1,
 mborderi1,
 mborderbi1 {
-	color: var(--co1);
+	color: var(--co1)
 }
 
 border2,
@@ -4811,7 +4798,7 @@ mborder2,
 mborderb2,
 mborderi2,
 mborderbi2 {
-	color: var(--co2);
+	color: var(--co2)
 }
 
 border3,
@@ -4826,7 +4813,7 @@ mborder3,
 mborderb3,
 mborderi3,
 mborderbi3 {
-	color: var(--co3);
+	color: var(--co3)
 }
 
 bordern,
@@ -4841,7 +4828,7 @@ mbordern,
 mborderbn,
 mborderin,
 mborderbin {
-	color: var(--darkneutral);
+	color: var(--darkneutral)
 }
 
 borderd,
@@ -4856,7 +4843,7 @@ mborderd,
 mborderbd,
 mborderid,
 mborderbid {
-	color: var(--dark);
+	color: var(--dark)
 }
 
 bordergc,
@@ -4871,175 +4858,175 @@ mborgcergc,
 mborgcerbgc,
 mborgcerigc,
 mborgcerbigc {
-	color: var(--group-color, var(--lightdark));
+	color: var(--group-color, var(--lightdark))
 }
 
 back1,
 backb1,
 backi1,
 backbi1 {
-	background-color: var(--co1);
+	background-color: var(--co1)
 }
 
 back2,
 backb2,
 backi2,
 backbi2 {
-	background-color: var(--co2);
+	background-color: var(--co2)
 }
 
 back3,
 backb3,
 backi3,
 backbi3 {
-	background-color: var(--co3);
+	background-color: var(--co3)
 }
 
 backn,
 backbn,
 backin,
 backbin {
-	background-color: var(--darkneutral);
+	background-color: var(--darkneutral)
 }
 
 backd,
 backbd,
 backid,
 backbid {
-	background-color: var(--dark);
+	background-color: var(--dark)
 }
 
 backgc,
 backbgc,
 backigc,
 backbigc {
-	background-color: var(--group-color, var(--lightdark));
+	background-color: var(--group-color, var(--lightdark))
 }
 
 lback1,
 lbackb1,
 lbacki1,
 lbackbi1 {
-	background-color: var(--co1-50);
+	background-color: var(--co1-50)
 }
 
 lback2,
 lbackb2,
 lbacki2,
 lbackbi2 {
-	background-color: var(--co2-50);
+	background-color: var(--co2-50)
 }
 
 lback3,
 lbackb3,
 lbacki3,
 lbackbi3 {
-	background-color: var(--co3-50);
+	background-color: var(--co3-50)
 }
 
 lbackn,
 lbackbn,
 lbackin,
 lbackbin {
-	background-color: var(--darklight);
+	background-color: var(--darklight)
 }
 
 lbackd,
 lbackbd,
 lbackid,
 lbackbid {
-	background-color: var(--neutral);
+	background-color: var(--neutral)
 }
 
 lbackgc,
 lbackbgc,
 lbackigc,
 lbackbigc {
-	background-color: var(--group-color-50);
+	background-color: var(--group-color-50)
 }
 
 dback1,
 dbackb1,
 dbacki1,
 dbackbi1 {
-	background-color: var(--co1-700);
+	background-color: var(--co1-700)
 }
 
 dback2,
 dbackb2,
 dbacki2,
 dbackbi2 {
-	background-color: var(--co2-700);
+	background-color: var(--co2-700)
 }
 
 dback3,
 dbackb3,
 dbacki3,
 dbackbi3 {
-	background-color: var(--co3-700);
+	background-color: var(--co3-700)
 }
 
 dbackn,
 dbackbn,
 dbackin,
 dbackbin {
-	background-color: var(--darkneutral);
+	background-color: var(--darkneutral)
 }
 
 dbackd,
 dbackbd,
 dbackid,
 dbackbid {
-	background-color: var(--black);
+	background-color: var(--black)
 }
 
 dbackgc,
 dbackbgc,
 dbackigc,
 dbackbigc {
-	background-color: var(--group-color-700);
+	background-color: var(--group-color-700)
 }
 
 mback1,
 mbackb1,
 mbacki1,
 mbackbi1 {
-	background-color: var(--co1-300);
+	background-color: var(--co1-300)
 }
 
 mback2,
 mbackb2,
 mbacki2,
 mbackbi2 {
-	background-color: var(--co2-300);
+	background-color: var(--co2-300)
 }
 
 mback3,
 mbackb3,
 mbacki3,
 mbackbi3 {
-	background-color: var(--co3-300);
+	background-color: var(--co3-300)
 }
 
 mbackn,
 mbackbn,
 mbackin,
 mbackbin {
-	background-color: var(--neutral);
+	background-color: var(--neutral)
 }
 
 mbackd,
 mbackbd,
 mbackid,
 mbackbid {
-	background-color: var(--black);
+	background-color: var(--black)
 }
 
 mbackgc,
 mbackbgc,
 mbackigc,
 mbackbigc {
-	background-color: var(--group-color-300);
+	background-color: var(--group-color-300)
 }
 
 wback1,
@@ -5050,7 +5037,7 @@ lback1,
 lbackb1,
 lbacki1,
 lbackbi1 {
-	color: var(--co1);
+	color: var(--co1)
 }
 
 wback2,
@@ -5061,7 +5048,7 @@ lback2,
 lbackb2,
 lbacki2,
 lbackbi2 {
-	color: var(--co2);
+	color: var(--co2)
 }
 
 wback3,
@@ -5072,7 +5059,7 @@ lback3,
 lbackb3,
 lbacki3,
 lbackbi3 {
-	color: var(--co3);
+	color: var(--co3)
 }
 
 wbackn,
@@ -5083,7 +5070,7 @@ lbackn,
 lbackbn,
 lbackin,
 lbackbin {
-	color: var(--darkneutral);
+	color: var(--darkneutral)
 }
 
 wbackd,
@@ -5094,7 +5081,7 @@ lbackd,
 lbackbd,
 lbackid,
 lbackbid {
-	color: var(--dark);
+	color: var(--dark)
 }
 
 wbackgc,
@@ -5105,7 +5092,7 @@ lbackgc,
 lbackbgc,
 lbackigc,
 lbackbigc {
-	color: var(--group-color, var(--lightdark));
+	color: var(--group-color, var(--lightdark))
 }
 
 back1,
@@ -5220,7 +5207,7 @@ lbgradgc a,
 lbgradbgc a,
 lbgradigc a,
 lbgradbigc {
-	color: var(--white) !important;
+	color: var(--white) !important
 }
 
 wback1,
@@ -5247,7 +5234,7 @@ wbackgc,
 wbackbgc,
 wbackigc,
 wbackbigc {
-	background-color: var(--white);
+	background-color: var(--white)
 }
 
 lback1,
@@ -5322,7 +5309,7 @@ backgc,
 backbgc,
 backigc,
 backbigc {
-	padding: 0 var(--small);
+	padding: 0 var(--small)
 }
 
 bgrad1,
@@ -5357,7 +5344,7 @@ lbgradb1,
 lbgradb2,
 lbgradb3,
 lbgradbgc {
-	padding: 0 var(--medium);
+	padding: 0 var(--medium)
 }
 
 lback1,
@@ -5384,7 +5371,7 @@ lbackgc,
 lbackbgc,
 lbackigc,
 lbackbigc {
-	font-family: var(--mono);
+	font-family: var(--mono)
 }
 
 dback1,
@@ -5414,9 +5401,9 @@ dbackbigc {
 	padding-left: calc(var(--large) + 2.5px);
 	padding-right: var(--large);
 	letter-spacing: 2.5px;
-	font-size: var(--small);
+	;
 	text-transform: uppercase;
-	color: var(--white);
+	color: var(--white)
 }
 
 mback1,
@@ -5446,9 +5433,9 @@ mbackbigc {
 	padding-left: calc(var(--3xsmall) + 5px);
 	padding-right: var(--3xsmall);
 	letter-spacing: 5px;
-	font-size: var(--small);
+	;
 	text-transform: lowercase;
-	color: var(--white);
+	color: var(--white)
 }
 
 grad1,
@@ -5459,7 +5446,7 @@ bgrad1,
 bgradb1,
 bgradi1,
 bgradbi1 {
-	background: var(--gradient12);
+	background: var(--gradient12)
 }
 
 grad2,
@@ -5470,7 +5457,7 @@ bgrad2,
 bgradb2,
 bgradi2,
 bgradbi2 {
-	background: var(--gradient13);
+	background: var(--gradient13)
 }
 
 grad3,
@@ -5481,7 +5468,7 @@ bgrad3,
 bgradb3,
 bgradi3,
 bgradbi3 {
-	background: var(--gradient23);
+	background: var(--gradient23)
 }
 
 gradgc,
@@ -5492,7 +5479,7 @@ bgradgc,
 bgradbgc,
 bgradigc,
 bgradbigc {
-	background: var(--gradientgc2);
+	background: var(--gradientgc2)
 }
 
 lbgrad1,
@@ -5503,7 +5490,7 @@ lgrad1,
 lgradb1,
 lgradi1,
 lgradbi1 {
-	background: var(--gradient12-50);
+	background: var(--gradient12-50)
 }
 
 lbgrad2,
@@ -5514,7 +5501,7 @@ lgrad2,
 lgradb2,
 lgradi2,
 lgradbi2 {
-	background: var(--gradient13-50);
+	background: var(--gradient13-50)
 }
 
 lbgrad3,
@@ -5525,7 +5512,7 @@ lgrad3,
 lgradb3,
 lgradi3,
 lgradbi3 {
-	background: var(--gradient23-50);
+	background: var(--gradient23-50)
 }
 
 lbgradgc,
@@ -5536,7 +5523,7 @@ lgradgc,
 lgradbgc,
 lgradigc,
 lgradbigc {
-	background: var(--gradientgc1);
+	background: var(--gradientgc1)
 }
 
 grad1,
@@ -5573,7 +5560,7 @@ lgradb3,
 lgradbgc {
 	-webkit-background-clip: text;
 	background-clip: text;
-	-webkit-text-fill-color: transparent;
+	-webkit-text-fill-color: transparent
 }
 
 back1,
@@ -5648,49 +5635,49 @@ serifbi3,
 serifbin,
 serifbid,
 serifbigc {
-	font-family: var(--serif);
+	font-family: var(--serif)
 }
 
 serif1,
 serifb1,
 serifi1,
 serifbi1 {
-	color: var(--co1);
+	color: var(--co1)
 }
 
 serif2,
 serifb2,
 serifi2,
 serifbi2 {
-	color: var(--co2);
+	color: var(--co2)
 }
 
 serif3,
 serifb3,
 serifi3,
 serifbi3 {
-	color: var(--co3);
+	color: var(--co3)
 }
 
 serifn,
 serifbn,
 serifin,
 serifbin {
-	color: var(--darkneutral);
+	color: var(--darkneutral)
 }
 
 serifd,
 serifbd,
 serifid,
 serifbid {
-	color: var(--dark);
+	color: var(--dark)
 }
 
 serifgc,
 serifbgc,
 serifigc,
 serifbigc {
-	color: var(--group-color, var(--lightdark));
+	color: var(--group-color, var(--lightdark))
 }
 
 under1,
@@ -5743,7 +5730,7 @@ displaybid,
 displaybigc {
 	font-family: var(--display);
 	font-weight: 500;
-	font-size: var(--large);
+	font-size: var(--large)
 }
 
 mono1,
@@ -5770,91 +5757,91 @@ monobi3,
 monobin,
 monobid,
 monobigc {
-	font-family: var(--mono);
+	font-family: var(--mono)
 }
 
 display1,
 displayb1,
 displayi1,
 displaybi1 {
-	color: var(--co1);
+	color: var(--co1)
 }
 
 display2,
 displayb2,
 displayi2,
 displaybi2 {
-	color: var(--co2);
+	color: var(--co2)
 }
 
 display3,
 displayb3,
 displayi3,
 displaybi3 {
-	color: var(--co3);
+	color: var(--co3)
 }
 
 displayn,
 displaybn,
 displayin,
 displaybin {
-	color: var(--darkneutral);
+	color: var(--darkneutral)
 }
 
 displayd,
 displaybd,
 displayid,
 displaybid {
-	color: var(--dark);
+	color: var(--dark)
 }
 
 displaygc,
 displaybgc,
 displayigc,
 displaybigc {
-	color: var(--group-color, var(--lightdark));
+	color: var(--group-color, var(--lightdark))
 }
 
 mono1,
 monob1,
 monoi1,
 monobi1 {
-	color: var(--co1);
+	color: var(--co1)
 }
 
 mono2,
 monob2,
 monoi2,
 monobi2 {
-	color: var(--co2);
+	color: var(--co2)
 }
 
 mono3,
 monob3,
 monoi3,
 monobi3 {
-	color: var(--co3);
+	color: var(--co3)
 }
 
 monon,
 monobn,
 monoin,
 monobin {
-	color: var(--darkneutral);
+	color: var(--darkneutral)
 }
 
 monod,
 monobd,
 monoid,
 monobid {
-	color: var(--dark);
+	color: var(--dark)
 }
 
 monogc,
 monobgc,
 monoigc,
 monobigc {
-	color: var(--group-color, var(--lightdark));
+	color: var(--group-color, var(--lightdark))
 }
 
 under1,
@@ -5864,7 +5851,7 @@ underbi1 {
 	box-shadow: inset 0 -8px 0 var(--co1-50);
 	letter-spacing: 2.5px;
 	padding-left: 2.5px;
-	color: var(--co1-600);
+	color: var(--co1-600)
 }
 
 under2,
@@ -5874,7 +5861,7 @@ underbi2 {
 	box-shadow: inset 0 -8px 0 var(--co2-50);
 	letter-spacing: 2.5px;
 	padding-left: 2.5px;
-	color: var(--co2-600);
+	color: var(--co2-600)
 }
 
 under3,
@@ -5884,7 +5871,7 @@ underbi3 {
 	box-shadow: inset 0 -8px 0 var(--co3-50);
 	letter-spacing: 2.5px;
 	padding-left: 2.5px;
-	color: var(--co3-600);
+	color: var(--co3-600)
 }
 
 undern,
@@ -5894,7 +5881,7 @@ underbin {
 	box-shadow: inset 0 -8px 0 var(--darklight);
 	letter-spacing: 2.5px;
 	padding-left: 2.5px;
-	color: var(--darkneutral);
+	color: var(--darkneutral)
 }
 
 underd,
@@ -5903,7 +5890,7 @@ underid,
 underbid {
 	box-shadow: inset 0 -8px 0 var(--white);
 	letter-spacing: 2.5px;
-	padding-left: 2.5px;
+	padding-left: 2.5px
 }
 
 undergc,
@@ -5913,49 +5900,49 @@ underbigc {
 	box-shadow: inset 0 -8px 0 var(--group-color-50);
 	letter-spacing: 2.5px;
 	padding-left: 2.5px;
-	color: var(--group-color-600);
+	color: var(--group-color-600)
 }
 
 main1,
 mainb1,
 maini1,
 mainbi1 {
-	color: var(--co1);
+	color: var(--co1)
 }
 
 main2,
 mainb2,
 maini2,
 mainbi2 {
-	color: var(--co2);
+	color: var(--co2)
 }
 
 main3,
 mainb3,
 maini3,
 mainbi3 {
-	color: var(--co3);
+	color: var(--co3)
 }
 
 mainn,
 mainbn,
 mainin,
 mainbin {
-	color: var(--darkneutral);
+	color: var(--darkneutral)
 }
 
 maind,
 mainbd,
 mainid,
 mainbid {
-	color: var(--dark);
+	color: var(--dark)
 }
 
 maingc,
 mainbgc,
 mainigc,
 mainbigc {
-	color: var(--group-color, var(--lightdark));
+	color: var(--group-color, var(--lightdark))
 }
 
 lbackb1,
@@ -6060,7 +6047,7 @@ underb3,
 underbn,
 underbd,
 underbgc {
-	font-weight: 700;
+	font-weight: 700
 }
 
 lbacki1,
@@ -6165,7 +6152,7 @@ underi3,
 underin,
 underid,
 underigc {
-	font-style: italic;
+	font-style: italic
 }
 
 lbackbi1,
@@ -6263,7 +6250,7 @@ underbin,
 underbid,
 underbigc {
 	font-weight: 700;
-	font-style: italic;
+	font-style: italic
 }
 
 tit1,
@@ -6275,37 +6262,37 @@ titgc {
 	font-size: var(--2xlarge);
 	letter-spacing: 2.5px;
 	color: transparent;
-	font-weight: 700;
+	font-weight: 700
 }
 
 tit1 {
 	-webkit-text-stroke: 1px var(--co1);
-	color: var(--co1-200);
+	color: var(--co1-200)
 }
 
 tit2 {
 	-webkit-text-stroke: 1px var(--co2);
-	color: var(--co2-200);
+	color: var(--co2-200)
 }
 
 tit3 {
 	-webkit-text-stroke: 1px var(--co3);
-	color: var(--co3-200);
+	color: var(--co3-200)
 }
 
 titn {
 	-webkit-text-stroke: 1px var(--darkneutral);
-	color: var(--neutral);
+	color: var(--neutral)
 }
 
 titd {
 	-webkit-text-stroke: 1px var(--dark);
-	color: var(--lighterdark);
+	color: var(--lighterdark)
 }
 
 titgc {
 	-webkit-text-stroke: 1px var(--group-color, var(--lightdark));
-	color: var(--group-color-200, var(--neutral));
+	color: var(--group-color-200, var(--neutral))
 }
 
 sstit1,
@@ -6319,31 +6306,31 @@ sstitgc {
 	color: var(--white);
 	color: transparent;
 	font-weight: 700;
-	font-family: var(--serif);
+	font-family: var(--serif)
 }
 
 sstit1 {
-	-webkit-text-stroke: 1px var(--co1);
+	-webkit-text-stroke: 1px var(--co1)
 }
 
 sstit2 {
-	-webkit-text-stroke: 1px var(--co2);
+	-webkit-text-stroke: 1px var(--co2)
 }
 
 sstit3 {
-	-webkit-text-stroke: 1px var(--co3);
+	-webkit-text-stroke: 1px var(--co3)
 }
 
 sstitn {
-	-webkit-text-stroke: 1px var(--darkneutral);
+	-webkit-text-stroke: 1px var(--darkneutral)
 }
 
 sstitd {
-	-webkit-text-stroke: 1px var(--dark);
+	-webkit-text-stroke: 1px var(--dark)
 }
 
 sstitgc {
-	-webkit-text-stroke: 1px var(--group-color, var(--darkneutral));
+	-webkit-text-stroke: 1px var(--group-color, var(--darkneutral))
 }
 
 upp1,
@@ -6354,7 +6341,7 @@ uppd,
 uppgc {
 	text-transform: uppercase;
 	font-weight: 200;
-	border-bottom: 0.5px solid;
+	border-bottom: 0.5px solid
 }
 
 spcl1,
@@ -6366,43 +6353,43 @@ spclgc {
 	font-family: var(--spe);
 	font-weight: 100;
 	font-size: var(--large);
-	letter-spacing: 1px;
+	letter-spacing: 1px
 }
 
 upp1,
 maj1,
 spcl1 {
-	color: var(--co1);
+	color: var(--co1)
 }
 
 upp2,
 maj2,
 spcl2 {
-	color: var(--co2);
+	color: var(--co2)
 }
 
 upp3,
 maj3,
 spcl3 {
-	color: var(--co3);
+	color: var(--co3)
 }
 
 uppn,
 majn,
 spcln {
-	color: var(--darkneutral);
+	color: var(--darkneutral)
 }
 
 uppd,
 majd,
 spcld {
-	color: var(--dark);
+	color: var(--dark)
 }
 
 uppgc,
 majgc,
 spclgc {
-	color: var(--group-color, var(--darkneutral));
+	color: var(--group-color, var(--darkneutral))
 }
 
 blsp1,
@@ -6414,35 +6401,35 @@ blspgc {
 	text-transform: lowercase;
 	font-weight: 700;
 	letter-spacing: 5px;
-	padding-left: 5px;
+	padding-left: 5px
 }
 
 blsp1 {
-	color: var(--co1);
+	color: var(--co1)
 }
 
 blsp2 {
-	color: var(--co2);
+	color: var(--co2)
 }
 
 blsp3 {
-	color: var(--co3);
+	color: var(--co3)
 }
 
 blsp4 {
-	color: var(--co3);
+	color: var(--co3)
 }
 
 blspn {
-	color: var(--darkneutral);
+	color: var(--darkneutral)
 }
 
 blspd {
-	color: var(--dark);
+	color: var(--dark)
 }
 
 blspgc {
-	color: var(--group-color, var(--darkneutral));
+	color: var(--group-color, var(--darkneutral))
 }
 
 maj1,
@@ -6453,7 +6440,7 @@ majd,
 majgc {
 	font-weight: 300;
 	text-transform: uppercase;
-	display: inline-block;
+	display: inline-block
 }
 
 maj1::first-letter,
@@ -6464,7 +6451,7 @@ majd::first-letter,
 majgc::first-letter {
 	font-size: var(--large) !important;
 	text-transform: lowercase !important;
-	font-family: var(--spe);
+	font-family: var(--spe)
 }
 
 .brf2,
@@ -6494,23 +6481,23 @@ majgc::first-letter {
 	width: -webkit-fill-available;
 	align-items: center;
 	justify-content: center;
-	background-color: var(--co1);
+	background-color: var(--co1)
 }
 
 .brf2,
 .brf1 {
-	background-color: var(--group-color, var(--black)) !important;
+	background-color: var(--group-color, var(--black)) !important
 }
 
 .brf2:before {
-	color: var(--group-color, var(--black)) !important;
+	color: var(--group-color, var(--black)) !important
 }
 
 .brf1 {
 	background: linear-gradient(to right,
 			var(--light),
 			var(--group-color, var(--black)),
-			var(--light)) !important;
+			var(--light)) !important
 }
 
 .brf2:before,
@@ -6524,7 +6511,7 @@ majgc::first-letter {
 	position: absolute;
 	background: var(--light);
 	padding: 0 var(--small);
-	color: var(--co1);
+	color: var(--co1)
 }
 
 .brf1,
@@ -6536,7 +6523,7 @@ majgc::first-letter {
 .br2gc {
 	align-items: center;
 	justify-content: center;
-	background: linear-gradient(to right, var(--light), var(--co1), var(--light));
+	background: linear-gradient(to right, var(--light), var(--co1), var(--light))
 }
 
 .br51:before,
@@ -6549,12 +6536,12 @@ majgc::first-letter {
 	position: absolute;
 	background: var(--light);
 	padding: 0 var(--3xlarge);
-	color: var(--co1);
+	color: var(--co1)
 }
 
 .br12,
 .br52 {
-	background-color: var(--co2);
+	background-color: var(--co2)
 }
 
 .br12:before,
@@ -6563,12 +6550,12 @@ majgc::first-letter {
 .br52:before,
 .br62:before,
 .br72:before {
-	color: var(--co2);
+	color: var(--co2)
 }
 
 .br13,
 .br53 {
-	background-color: var(--co3);
+	background-color: var(--co3)
 }
 
 .br13:before,
@@ -6577,12 +6564,12 @@ majgc::first-letter {
 .br53:before,
 .br63:before,
 .br73:before {
-	color: var(--co3);
+	color: var(--co3)
 }
 
 .br1n,
 .br5n {
-	background-color: var(--darkneutral);
+	background-color: var(--darkneutral)
 }
 
 .br1n:before,
@@ -6591,12 +6578,12 @@ majgc::first-letter {
 .br5n:before,
 .br6n:before,
 .br7n:before {
-	color: var(--darkneutral);
+	color: var(--darkneutral)
 }
 
 .br1d,
 .br5d {
-	background-color: var(--dark);
+	background-color: var(--dark)
 }
 
 .br1d:before,
@@ -6605,12 +6592,12 @@ majgc::first-letter {
 .br5d:before,
 .br6d:before,
 .br7d:before {
-	color: var(--dark);
+	color: var(--dark)
 }
 
 .br1gc,
 .br5gc {
-	background-color: var(--group-color, var(--darkneutral));
+	background-color: var(--group-color, var(--darkneutral))
 }
 
 .br1gc:before,
@@ -6619,40 +6606,40 @@ majgc::first-letter {
 .br5gc:before,
 .br6gc:before,
 .br7gc:before {
-	color: var(--group-color, var(--darkneutral));
+	color: var(--group-color, var(--darkneutral))
 }
 
 .br22 {
-	background: linear-gradient(to right, var(--light), var(--co2), var(--light));
+	background: linear-gradient(to right, var(--light), var(--co2), var(--light))
 }
 
 .br23 {
-	background: linear-gradient(to right, var(--light), var(--co3), var(--light));
+	background: linear-gradient(to right, var(--light), var(--co3), var(--light))
 }
 
 .br24 {
-	background: linear-gradient(to right, var(--light), var(--co3), var(--light));
+	background: linear-gradient(to right, var(--light), var(--co3), var(--light))
 }
 
 .br2n {
 	background: linear-gradient(to right,
 			var(--light),
 			var(--darkneutral),
-			var(--light));
+			var(--light))
 }
 
 .br2d {
 	background: linear-gradient(to right,
 			var(--light),
 			var(--dark),
-			var(--light));
+			var(--light))
 }
 
 .br2gc {
 	background: linear-gradient(to right,
 			var(--light),
 			var(--group-color, var(--darkneutral)),
-			var(--light));
+			var(--light))
 }
 
 .br31,
@@ -6682,7 +6669,7 @@ majgc::first-letter {
 	font-size: var(--2xsmall);
 	display: block;
 	letter-spacing: var(--2xlarge);
-	padding-left: var(--2xlarge);
+	padding-left: var(--2xlarge)
 }
 
 .br91,
@@ -6690,7 +6677,7 @@ majgc::first-letter {
 .br93 {
 	color: transparent !important;
 	-webkit-background-clip: text !important;
-	background-clip: text !important;
+	background-clip: text !important
 }
 
 .br71,
@@ -6701,7 +6688,7 @@ majgc::first-letter {
 .br7gc {
 	letter-spacing: var(--large);
 	padding-left: var(--large);
-	font-size: var(--medium);
+	font-size: var(--medium)
 }
 
 .br31:before,
@@ -6710,7 +6697,7 @@ majgc::first-letter {
 .br3n:before,
 .br3d:before,
 .br3gc:before {
-	content: "——————————";
+	content: "——————————"
 }
 
 .br41,
@@ -6721,7 +6708,7 @@ majgc::first-letter {
 .br4gc {
 	font-size: var(--medium);
 	letter-spacing: var(--3xlarge);
-	padding-left: var(--3xlarge);
+	padding-left: var(--3xlarge)
 }
 
 .br71:before,
@@ -6730,7 +6717,7 @@ majgc::first-letter {
 .br7n:before,
 .br7d:before,
 .br7gc:before {
-	content: "——————————";
+	content: "——————————"
 }
 
 .br41:before,
@@ -6740,7 +6727,7 @@ majgc::first-letter {
 .br4d:before,
 .br4gc:before {
 	content: "\eb42 \eb42 \eb42 \eb42 \eb42";
-	font-family: uicons-thin-straight !important;
+	font-family: uicons-thin-straight !important
 }
 
 .br61:before,
@@ -6749,14 +6736,14 @@ majgc::first-letter {
 .br6n:before,
 .br6d:before,
 .br6gc:before {
-	content: "~~~~~~~~~~~~~~~~~~~~";
+	content: "~~~~~~~~~~~~~~~~~~~~"
 }
 
 .br91:before,
 .br92:before,
 .br93:before {
 	content: "\ea5a \ea5a \ea5a \ea5a \ea5a";
-	font-family: uicons-thin-straight !important;
+	font-family: uicons-thin-straight !important
 }
 
 .br61,
@@ -6771,7 +6758,7 @@ majgc::first-letter {
 	font-size: var(--2xlarge);
 	color: var(--co1);
 	font-weight: 100;
-	letter-spacing: -0.34rem;
+	letter-spacing: -0.34rem
 }
 
 .br81,
@@ -6783,72 +6770,72 @@ majgc::first-letter {
 .br8w {
 	background-color: var(--co1-50);
 	width: 35%;
-	height: 2.5px;
+	height: 2.5px
 }
 
 .br82 {
-	background-color: var(--co2-50);
+	background-color: var(--co2-50)
 }
 
 .br83 {
-	background-color: var(--co3-50);
+	background-color: var(--co3-50)
 }
 
 .br8n {
-	background-color: var(--darkneutral);
+	background-color: var(--darkneutral)
 }
 
 .br8d {
-	background-color: var(--dark);
+	background-color: var(--dark)
 }
 
 .br8w {
-	background-color: var(--white);
+	background-color: var(--white)
 }
 
 .br8gc {
-	background-color: var(--group-color-50);
+	background-color: var(--group-color-50)
 }
 
 .br91 {
-	background: var(--gradient12);
+	background: var(--gradient12)
 }
 
 .br92 {
-	background: var(--gradient13);
+	background: var(--gradient13)
 }
 
 .br93 {
-	background: var(--gradient14);
+	background: var(--gradient14)
 }
 
 .br94 {
-	background: var(--gradient23);
+	background: var(--gradient23)
 }
 
 .br95 {
-	background: var(--gradient24);
+	background: var(--gradient24)
 }
 
 .br96 {
-	background: var(--gradient34);
+	background: var(--gradient34)
 }
 
 .brpost dl.codebox {
-	width: 375px !important;
+	width: 375px !important
 }
 
 .brpost .codebox dd {
 	margin: var(--small) 0 var(--large) !important;
-	padding: var(--small);
+	padding: var(--small)
 }
 
 .brpost br {
-	display: none;
+	display: none
 }
 
 #postprofile-libre .postprofile-field-label {
-	display: none;
+	display: none
 }
 
 #postprofile-libre i,
@@ -6861,23 +6848,23 @@ majgc::first-letter {
 .postprofile-libre u,
 #postprofile-libre strike,
 .postprofile-libre strike {
-	color: var(--group-color, var(--co2));
+	color: var(--group-color, var(--co2))
 }
 
 #postprofile-libre i,
 .postprofile-libre i {
-	font-family: var(--serif);
+	font-family: var(--serif)
 }
 
 #postprofile-libre u,
 .postprofile-libre u {
 	font-family: var(--display);
-	font-size: var(--large);
+	font-size: var(--large)
 }
 
 #postprofile-libre strong,
 .postprofile-libre strong {
-	font-weight: 700;
+	font-weight: 700
 }
 
 #postprofile-libre a,
@@ -6885,13 +6872,13 @@ majgc::first-letter {
 	background-color: var(--group-color-50, var(--co2-50));
 	padding: 0 var(--2xsmall);
 	color: var(--group-color, var(--co2)) !important;
-	font-family: var(--mono);
+	font-family: var(--mono)
 }
 
 #postprofile-libre a:hover,
 .postprofile-libre a:hover {
 	background-color: var(--group-color, var(--co2));
-	color: var(--white) !important;
+	color: var(--white) !important
 }
 
 #postprofile-libre strike,
@@ -6900,19 +6887,19 @@ majgc::first-letter {
 	letter-spacing: 1px;
 	text-decoration-style: dashed;
 	text-decoration-thickness: 1px;
-	text-decoration-color: var(--group-color-600, var(--co2-600));
+	text-decoration-color: var(--group-color-600, var(--co2-600))
 }
 
 #postprofile-libre u,
 .postprofile-libre u {
 	text-decoration: none;
-	box-shadow: inset 0 -5px 0 var(--group-color-50, var(--co2-50));
+	box-shadow: inset 0 -5px 0 var(--group-color-50, var(--co2-50))
 }
 
 #postprofile-libre blockquote,
 .postprofile-libre blockquote {
 	padding: var(--2xsmall) !important;
-	margin: var(--2xsmall) !important;
+	margin: var(--2xsmall) !important
 }
 
 #postprofile-libre h2,
@@ -6924,7 +6911,7 @@ majgc::first-letter {
 	color: var(--group-color, var(--co1));
 	font-style: normal;
 	margin: 0px !important;
-	padding: 0px !important;
+	padding: 0px !important
 }
 
 #postprofile-libre ol[type="a"],
@@ -6932,7 +6919,7 @@ majgc::first-letter {
 #postprofile-libre ul,
 .postprofile-libre ul {
 	margin: 0px;
-	padding: 0px;
+	padding: 0px
 }
 
 #postprofile-libre ul,
@@ -6940,24 +6927,24 @@ majgc::first-letter {
 	text-transform: uppercase;
 	color: var(--group-color, var(--co1));
 	letter-spacing: 1px;
-	font-size: var(--small);
+	;
 	width: 232px;
 	padding: var(--large);
-	font-family: var(--mono);
+	font-family: var(--mono)
 }
 
 #postprofile-libre li::marker,
 .postprofile-libre li::marker,
 #postprofile-libre ol[type="a"] li::marker,
 .postprofile-libre ol[type="a"] li::marker {
-	content: "";
+	content: ""
 }
 
 #postprofile-libre ul li::before,
 .postprofile-libre ul li::before {
 	content: "€”";
 	color: var(--darkneutral);
-	margin-right: var(--large);
+	margin-right: var(--large)
 }
 
 #postprofile-libre ol[type="1"],
@@ -6972,26 +6959,26 @@ majgc::first-letter {
 	gap: var(--small);
 	width: 232px;
 	margin: 0px !important;
-	padding: 0px;
+	padding: 0px
 }
 
 #postprofile-libre ol[type="a"],
 .postprofile-libre ol[type="a"] {
 	flex-wrap: wrap;
-	gap: var(--4xsmall);
+	gap: var(--4xsmall)
 }
 
 #postprofile-libre ol[type="a"] li,
 .postprofile-libre ol[type="a"] li {
 	width: calc(50% - 0.125rem);
-	font-size: var(--small);
+	;
 	text-transform: lowercase;
-	color: var(--group-color, var(--co1));
+	color: var(--group-color, var(--co1))
 }
 
 #postprofile-libre ol[type="i"],
 .postprofile-libre ol[type="i"] {
-	gap: var(--medium);
+	gap: var(--medium)
 }
 
 #postprofile-libre ol[type="1"] img,
@@ -7001,24 +6988,24 @@ majgc::first-letter {
 	width: 0;
 	flex-grow: 1;
 	aspect-ratio: 1 / 1;
-	object-fit: cover;
+	object-fit: cover
 }
 
 #postprofile-libre ol[type="i"] img,
 .postprofile-libre ol[type="i"] img {
-	border-radius: 100%;
+	border-radius: 100%
 }
 
 .fichepredef displayb1,
 .fichepredef displayb2 {
 	font-size: var(--large);
 	letter-spacing: 1px;
-	text-transform: uppercase;
+	text-transform: uppercase
 }
 
 .fichepredef displayb3 {
 	letter-spacing: 1px;
-	text-transform: uppercase;
+	text-transform: uppercase
 }
 
 .tabicon {
@@ -7032,23 +7019,23 @@ majgc::first-letter {
 	justify-content: center;
 	column-gap: var(--large);
 	row-gap: var(--2xsmall);
-	flex-wrap: wrap;
+	flex-wrap: wrap
 }
 
 .tabicon div {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	gap: var(--small);
+	gap: var(--small)
 }
 
 .tabicon div:first-child span {
-	display: none;
+	display: none
 }
 
 .tabicon input {
 	width: fit-content !important;
-	margin: 0 !important;
+	margin: 0 !important
 }
 
 bbloc1,
@@ -7070,32 +7057,32 @@ bblocgc,
 	outline: 1px solid var(--co1);
 	display: block;
 	width: 50%;
-	margin: 0 auto;
+	margin: 0 auto
 }
 
 bbloc2,
 .bbloc2 {
-	outline-color: var(--co2);
+	outline-color: var(--co2)
 }
 
 bbloc3,
 .bbloc3 {
-	outline-color: var(--co3);
+	outline-color: var(--co3)
 }
 
 bblocn,
 .bblocn {
-	outline-color: var(--darkneutral);
+	outline-color: var(--darkneutral)
 }
 
 bblocd,
 .bblocd {
-	outline-color: var(--dark);
+	outline-color: var(--dark)
 }
 
 bblocgc,
 .bblocgc {
-	outline-color: var(--group-color, var(--darkneutral));
+	outline-color: var(--group-color, var(--darkneutral))
 }
 
 lbloc1,
@@ -7127,7 +7114,7 @@ rblocgc,
 	border-radius: 2.5px;
 	display: block;
 	width: 50%;
-	margin: 0 auto;
+	margin: 0 auto
 }
 
 rbloc1,
@@ -7145,49 +7132,49 @@ rblocgc,
 	padding-right: 10px;
 	border-right: 2.5px solid;
 	padding-left: 0px;
-	border-left: 0px;
+	border-left: 0px
 }
 
 lbloc1,
 rbloc1,
 .lbloc1,
 .rbloc1 {
-	border-color: var(--co1);
+	border-color: var(--co1)
 }
 
 lbloc2,
 rbloc2,
 .lbloc2,
 .rbloc2 {
-	border-color: var(--co2);
+	border-color: var(--co2)
 }
 
 lbloc3,
 rbloc3,
 .lbloc3,
 .rbloc3 {
-	border-color: var(--co3);
+	border-color: var(--co3)
 }
 
 lblocn,
 rblocn,
 .lblocn,
 .rblocn {
-	border-color: var(--darkneutral);
+	border-color: var(--darkneutral)
 }
 
 lblocd,
 rblocd,
 .lblocd,
 .rblocd {
-	border-color: var(--dark);
+	border-color: var(--dark)
 }
 
 lblocgc,
 rblocgc,
 .lblocgc,
 .rblocgc {
-	border-color: var(--group-color, var(--darkneutral));
+	border-color: var(--group-color, var(--darkneutral))
 }
 
 pbloc1,
@@ -7207,37 +7194,37 @@ pblocgc,
 	margin: 0 auto;
 	padding: var(--small);
 	background-color: var(--co1-50);
-	color: var(--co1);
+	color: var(--co1)
 }
 
 pbloc2,
 .pbloc2 {
 	background-color: var(--co2-50);
-	color: var(--co2);
+	color: var(--co2)
 }
 
 pbloc3,
 .pbloc3 {
 	background-color: var(--co3-50);
-	color: var(--co3);
+	color: var(--co3)
 }
 
 pblocn,
 .pblocn {
 	background-color: var(--neutral);
-	color: var(--dark);
+	color: var(--dark)
 }
 
 pblocd,
 .pblocd {
 	background-color: var(--dark);
-	color: var(--white);
+	color: var(--white)
 }
 
 pblocgc,
 .pblocgc {
 	background-color: var(--group-color-50);
-	color: var(--group-color, var(--darkneutral));
+	color: var(--group-color, var(--darkneutral))
 }
 
 .fichemoodboard {
@@ -7246,66 +7233,66 @@ pblocgc,
 	justify-content: center;
 	gap: var(--large);
 	width: 100%;
-	margin: 0 auto;
+	margin: 0 auto
 }
 
 .fichemoodboard.mix {
 	flex-wrap: wrap;
-	width: 400px;
+	width: 400px
 }
 
 .fichemoodboard.mix.one img {
 	height: 100px;
-	object-fit: cover;
+	object-fit: cover
 }
 
 .fichemoodboard.mix.two img {
 	height: 75px;
-	object-fit: cover;
+	object-fit: cover
 }
 
 .fichemoodboard.mix.one img:nth-child(1),
 .fichemoodboard.mix.one img:nth-child(3),
 .fichemoodboard.mix.two img:nth-child(9) {
-	width: 100px;
+	width: 100px
 }
 
 .fichemoodboard.mix.two img:nth-child(1),
 .fichemoodboard.mix.two img:nth-child(2),
 .fichemoodboard.mix.two img:nth-child(4),
 .fichemoodboard.mix.two img:nth-child(7) {
-	width: 75px;
+	width: 75px
 }
 
 .fichemoodboard.mix.one img:nth-child(2) {
-	width: 168px;
+	width: 168px
 }
 
 .fichemoodboard.mix.two img:nth-child(3) {
-	width: 127px;
+	width: 127px
 }
 
 .fichemoodboard.mix.one img:nth-child(8) {
-	width: 150px;
+	width: 150px
 }
 
 .fichemoodboard.mix.one img:nth-child(9) {
-	width: 234px;
+	width: 234px
 }
 
 .fichemoodboard.mix.two img:nth-child(6),
 .fichemoodboard.mix.two img:nth-child(5) {
-	width: calc(384px / 2);
+	width: calc(384px / 2)
 }
 
 .fichemoodboard.mix.one img:nth-child(7),
 .fichemoodboard.mix.one img:nth-child(5),
 .fichemoodboard.mix.one img:nth-child(6) {
-	width: calc(368px / 3);
+	width: calc(368px / 3)
 }
 
 .fichemoodboard.mix.two img:nth-child(8) {
-	width: 193px;
+	width: 193px
 }
 
 .fichemoodboard div {
@@ -7316,55 +7303,55 @@ pblocgc,
 	flex-direction: column;
 	flex-grow: 1;
 	aspect-ratio: 1 / 1;
-	width: 0;
+	width: 0
 }
 
 .fichemoodboard img {
 	width: 100%;
-	height: auto;
+	height: auto
 }
 
 .gray,
 .grayh {
-	filter: grayscale(1);
+	filter: grayscale(1)
 }
 
 .grayh:hover {
-	filter: grayscale(0);
+	filter: grayscale(0)
 }
 
 .fichemoodboard.carre img {
 	width: -webkit-fill-available;
 	object-fit: cover;
 	flex-grow: 1;
-	aspect-ratio: 1 / 1;
+	aspect-ratio: 1 / 1
 }
 
 .icon50,
 .logo50 {
 	object-fit: cover;
 	width: 50px;
-	height: 50px;
+	height: 50px
 }
 
 .icon75,
 .logo75 {
 	object-fit: cover;
 	width: 75px;
-	height: 75px;
+	height: 75px
 }
 
 .icon100,
 .logo100 {
 	object-fit: cover;
 	width: 100px;
-	height: 100px;
+	height: 100px
 }
 
 .logo50,
 .logo75,
 .logo100 {
-	border-radius: 100%;
+	border-radius: 100%
 }
 
 .tooltip-rank,
@@ -7372,61 +7359,61 @@ pblocgc,
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	text-transform: lowercase;
+	text-transform: lowercase
 }
 
 .tooltip-rank:empty {
-	display: none;
+	display: none
 }
 
 .tooltip-rank age:before {
 	content: "\e354";
 	font-family: uicons-thin-straight !important;
 	padding-right: var(--small);
-	color: var(--group-color, var(--co1));
+	color: var(--group-color, var(--co1))
 }
 
 .tooltip-rank celeb:before {
 	content: "\ed00";
 	font-family: uicons-thin-straight !important;
 	padding-right: var(--small);
-	color: var(--group-color, var(--co1));
+	color: var(--group-color, var(--co1))
 }
 
 .tooltipster-content .tooltip-rank celeb {
-	text-transform: capitalize !important;
+	text-transform: capitalize !important
 }
 
 .tooltip-rank job:before {
 	content: "\e2ea";
 	font-family: uicons-thin-straight !important;
 	padding-right: var(--small);
-	color: var(--group-color, var(--co1));
+	color: var(--group-color, var(--co1))
 }
 
 .tooltip-rank stat:before {
 	content: "\ea5a";
 	font-family: uicons-thin-straight !important;
 	padding-right: var(--small);
-	color: var(--group-color, var(--co1));
+	color: var(--group-color, var(--co1))
 }
 
 .tooltip-rank>*:before {
-	letter-spacing: 0px;
+	letter-spacing: 0px
 }
 
 .minipostprofile .tooltip-rank>*:before {
 	order: 3;
 	padding-right: 0px !important;
-	padding-left: var(--small);
+	padding-left: var(--small)
 }
 
 .tooltip-rank>* {
-	display: flex;
+	display: flex
 }
 
 .tooltip-details a {
-	color: var(--group-color, var(--co2)) !important;
+	color: var(--group-color, var(--co2)) !important
 }
 
 .tooltip-content {
@@ -7434,20 +7421,20 @@ pblocgc,
 	height: 115px;
 	width: -webkit-fill-available;
 	justify-content: space-between;
-	align-items: flex-start;
+	align-items: flex-start
 }
 
 .tooltip-avatar {
 	object-fit: cover;
 	height: 115px;
-	width: 75px;
+	width: 75px
 }
 
 .tooltip-details {
 	display: flex;
 	width: -webkit-fill-available;
 	justify-content: space-evenly;
-	color: var(--group-color, var(--dark)) !important;
+	color: var(--group-color, var(--dark)) !important
 }
 
 .tooltip-pseudo {
@@ -7456,7 +7443,7 @@ pblocgc,
 	font-weight: 700;
 	text-align: center;
 	text-transform: capitalize;
-	font-family: var(--serif);
+	font-family: var(--serif)
 }
 
 .tooltipster-default {
@@ -7468,7 +7455,7 @@ pblocgc,
 	width: fit-content !important;
 	max-width: 500px !important;
 	min-width: 300px !important;
-	display: flex;
+	display: flex
 }
 
 .tooltipster-content {
@@ -7480,15 +7467,15 @@ pblocgc,
 	align-items: center;
 	width: -webkit-fill-available;
 	padding: var(--small) !important;
-	gap: var(--small) !important;
+	gap: var(--small) !important
 }
 
 .tooltip-rank an:before {
-	content: " ans ";
+	content: " ans "
 }
 
 .tooltipster-arrow {
-	display: none !important;
+	display: none !important
 }
 
 .fa_like_div {
@@ -7496,11 +7483,11 @@ pblocgc,
 	align-items: center;
 	position: relative;
 	text-transform: uppercase;
-	justify-content: center;
+	justify-content: center
 }
 
 .group-7.post .fa_like_div {
-	display: none !important;
+	display: none !important
 }
 
 .fa_like_list {
@@ -7508,20 +7495,20 @@ pblocgc,
 	font-family: var(--main);
 	position: absolute;
 	padding: var(--large);
-	font-size: var(--small);
+	;
 	width: 300px;
 	border: 0.5px solid var(--neutral);
 	height: fit-content;
 	background-color: var(--light);
 	letter-spacing: 0px;
-	text-align: justify;
+	text-align: justify
 }
 
 .fa_like_div:hover .fa_like_list {
 	display: block;
 	top: var(--2xlarge);
 	right: 50%;
-	transform: translateX(50%);
+	transform: translateX(50%)
 }
 
 .rep-button {
@@ -7530,26 +7517,26 @@ pblocgc,
 	padding: 0px;
 	margin: 0px;
 	background: transparent;
-	align-items: center;
+	align-items: center
 }
 
 .fa_like_div:has(.fa_like_list:empty) .rep-button:after {
-	content: "\e49f";
+	content: "\e49f"
 }
 
 .fa_like_list a {
-	font-weight: 100;
+	font-weight: 100
 }
 
 .rep-button:after {
 	content: "\f2ed";
-	font-family: "uicons-thin-straight" !important;
+	font-family: "uicons-thin-straight" !important
 }
 
 .rep-nb {
 	margin-right: var(--2xsmall);
 	font-family: var(--serif);
-	font-weight: 700;
+	font-weight: 700
 }
 
 .indivhead {
@@ -7558,21 +7545,21 @@ pblocgc,
 	align-items: center;
 	justify-content: space-between;
 	gap: var(--2xlarge);
-	font-size: var(--large);
+	font-size: var(--large)
 }
 
 .indivhead img {
 	height: 50px;
 	width: 50px;
 	object-fit: cover;
-	border-radius: 100%;
+	border-radius: 100%
 }
 
 .indivhead div:before {
 	content: "";
 	font-family: "TES" !important;
 	content: "\e04d";
-	color: var(--group-color-200);
+	color: var(--group-color-200)
 }
 
 .indivhead span {
@@ -7582,24 +7569,24 @@ pblocgc,
 	letter-spacing: 2.5px;
 	padding-left: 2.5px;
 	font-weight: 700;
-	color: var(--group-color, var(--darkneutral));
+	color: var(--group-color, var(--darkneutral))
 }
 
 .ficheperso.indiv blockquote {
-	margin: 0px var(--large);
+	margin: 0px var(--large)
 }
 
 .indivquote {
 	text-transform: lowercase;
-	font-size: var(--small);
+	;
 	font-family: var(--serif);
-	font-style: italic;
+	font-style: italic
 }
 
 .indivhead.mood img {
 	height: 75px !important;
 	width: 75px !important;
-	border-radius: 0px !important;
+	border-radius: 0px !important
 }
 
 blockquote.indiv {
@@ -7607,11 +7594,11 @@ blockquote.indiv {
 	background-color: var(--group-color-50);
 	line-height: var(--large);
 	letter-spacing: 1px;
-	font-family: var(--mono);
+	font-family: var(--mono)
 }
 
 blockquote.indiv a {
-	color: var(--group-color, var(--darkneutral));
+	color: var(--group-color, var(--darkneutral))
 }
 
 chronodate {
@@ -7620,7 +7607,7 @@ chronodate {
 	justify-content: space-between;
 	color: var(--group-color, var(--darkneutral));
 	font-family: var(--mono);
-	width: 100px;
+	width: 100px
 }
 
 chronodate:after {
@@ -7632,18 +7619,18 @@ chronodate:after {
 	border-radius: 100%;
 	margin-right: -5px;
 	background-color: var(--white);
-	z-index: 9;
+	z-index: 9
 }
 
 chronoevent {
 	display: block;
 	flex: 1;
 	padding-left: var(--2xlarge);
-	border-left: 1px solid var(--group-color, var(--darkneutral));
+	border-left: 1px solid var(--group-color, var(--darkneutral))
 }
 
 .blochrono div:not(:last-child) chronoevent {
-	padding-bottom: var(--large);
+	padding-bottom: var(--large)
 }
 
 chronoevent strong {
@@ -7654,13 +7641,13 @@ chronoevent strong {
 	background-color: var(--group-color, var(--darkneutral));
 	padding-right: 2.5px;
 	padding-left: 5px;
-	letter-spacing: 2.5px;
+	letter-spacing: 2.5px
 }
 
 .blochrono>div {
 	display: flex;
 	align-items: flex-start;
-	justify-content: flex-start;
+	justify-content: flex-start
 }
 
 .notiffi_body_notepad {
@@ -7668,7 +7655,7 @@ chronoevent strong {
 	flex: 1;
 	position: relative;
 	background-color: var(--group-color-50, var(--co1-50)) !important;
-	padding: var(--large) !important;
+	padding: var(--large) !important
 }
 
 #fa_notepad {
@@ -7677,19 +7664,19 @@ chronoevent strong {
 	overflow: auto;
 	background-color: var(--group-color-50, var(--co1-50)) !important;
 	padding: 0px !important;
-	width: 100%;
+	width: 100%
 }
 
 .post#forum_rules {
 	flex-direction: column;
-	gap: 0px !important;
+	gap: 0px !important
 }
 
 .rules.content strong {
 	background: var(--co3);
 	color: var(--white);
 	padding: var(--3xsmall) var(--2xlarge);
-	font-size: var(--large);
+	font-size: var(--large)
 }
 
 .rules.content i:not(.ph) {
@@ -7698,30 +7685,30 @@ chronoevent strong {
 	font-weight: 500;
 	color: var(--white);
 	padding: var(--3xsmall) var(--2xlarge);
-	font-family: var(--serif);
+	font-family: var(--serif)
 }
 
 .listcult .posttab:not(.active) borderb1,
 .listcult .posttab:not(.active) borderb2,
 .listcult .posttab:not(.active) borderb3,
 .listcult .posttab:not(.active) borderb4 {
-	color: var(--darkneutral) !important;
+	color: var(--darkneutral) !important
 }
 
 .topic-actions-buttons:empty {
-	display: none;
+	display: none
 }
 
 p {
-	text-align: justify;
+	text-align: justify
 }
 
 .center {
-	text-align: center !important;
+	text-align: center !important
 }
 
 #postprofile-age .postprofile-field-content:after {
-	content: " ans";
+	content: " ans"
 }
 
 #restricted-block {
@@ -7729,24 +7716,24 @@ p {
 	gap: var(--3xsmall);
 	flex-wrap: wrap;
 	align-items: center;
-	width: 100% !important;
+	width: 100% !important
 }
 
 #restricted-block a {
 	width: calc(50% - var(--3xsmall) / 2);
 	font-family: var(--display);
-	font-size: var(--small);
+	;
 	text-transform: uppercase;
 	font-weight: 700;
-	height: fit-content;
+	height: fit-content
 }
 
 .postprofile.cam .postprofile-rank {
-	font-family: var(--serif);
+	font-family: var(--serif)
 }
 
 .ficval {
-	margin: var(--2xlarge);
+	margin: var(--2xlarge)
 }
 
 .ficval mono2 {
@@ -7755,18 +7742,18 @@ p {
 	display: block;
 	padding-bottom: var(--large);
 	border-bottom: 1px solid;
-	margin-bottom: -1rem;
+	margin-bottom: -1rem
 }
 
 .ficval border1 {
 	font-size: var(--2xlarge);
 	letter-spacing: 2.5px;
 	font-family: var(--display);
-	font-weight: 800;
+	font-weight: 800
 }
 
 .ficval blockquote {
-	text-align: justify;
+	text-align: justify
 }
 
 .ficval a {
@@ -7774,36 +7761,36 @@ p {
 	background: var(--gradient12);
 	color: var(--white) !important;
 	padding: 0 var(--2xsmall);
-	font-family: var(--serif);
+	font-family: var(--serif)
 }
 
 #fa_toolbar {
-	display: none;
+	display: none
 }
 
 #notiffi_button {
 	cursor: pointer;
 	display: flex;
-	align-items: center;
+	align-items: center
 }
 
 .unread_count {
 	scale: 1;
 	opacity: 1;
 	aspect-ratio: 1;
-	transition: scale ease-out 0.2s;
+	transition: scale ease-out 0.2s
 }
 
 .unread_count:empty {
 	scale: 0;
 	opacity: 0;
 	display: none !important;
-	transition: all ease-out 0.2s;
+	transition: all ease-out 0.2s
 }
 
 #notiffi_button .ntf_button-text:after {
 	content: "\eceb";
-	font-family: "uicons-thin-straight" !important;
+	font-family: "uicons-thin-straight" !important
 }
 
 #notiffi_panel {
@@ -7816,7 +7803,7 @@ p {
 	padding: var(--large);
 	opacity: 0;
 	z-index: 999;
-	visibility: hidden;
+	visibility: hidden
 }
 
 #notiffi_panel.open {
@@ -7825,7 +7812,7 @@ p {
 	opacity: 1;
 	height: 100vh;
 	border-left: var(--large) solid var(--group-color, var(--co1));
-	width: 100%;
+	width: 100%
 }
 
 .notiffi_main {
@@ -7834,7 +7821,7 @@ p {
 	flex-direction: column;
 	gap: var(--large);
 	align-items: start;
-	height: -webkit-fill-available;
+	height: -webkit-fill-available
 }
 
 .all_notifications {
@@ -7853,7 +7840,7 @@ p {
 	font-weight: 300;
 	padding: var(--medium);
 	background: var(--white);
-	display: block;
+	display: block
 }
 
 .notiffi_manage {
@@ -7917,12 +7904,12 @@ p {
 }
 
 .notiffi_cation.unread .notif_text a {
-	font-weight: 700;
+	font-weight: 700
 }
 
 .notif_details {
 	position: relative;
-	align-self: start;
+	align-self: start
 }
 
 .notif_avatar {
@@ -7952,23 +7939,22 @@ p {
 	display: flex;
 	place-items: center;
 	border-radius: 50%;
-	font-size: var(--small);
+	;
 	align-items: center;
-	justify-content: center;
+	justify-content: center
 }
 
 .notiffi_cation.unread .notif_icon {
 	color: var(--white);
-	background: var(--group-color, var(--co1));
+	background: var(--group-color, var(--co1))
 }
 
 .notif_content {
-	width: 100%;
+	width: 100%
 }
 
 .notif_time {
-	font-size: var(--small);
-	opacity: 0.8;
+	opacity: 0.8
 }
 
 .notif_close,
@@ -7981,12 +7967,12 @@ p {
 	aspect-ratio: 1;
 	padding: 0px;
 	border: 0px;
-	transition: all 0.3s;
+	transition: all 0.3s
 }
 
 .notiffi_cation:hover .notif_close,
 .notiffi_cation:hover .alert_close {
-	opacity: 1;
+	opacity: 1
 }
 
 .notiffi_cation.alert {
@@ -8000,14 +7986,14 @@ p {
 	transform: translateY(100%);
 	opacity: 0;
 	filter: blur(5px);
-	transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out
 }
 
 .notiffi_cation.alert.up {
 	transform: translateY(0%);
 	opacity: 1;
 	filter: blur(0);
-	transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out
 }
 
 .notiffi_links {
@@ -8020,7 +8006,7 @@ p {
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
-	width: 300px;
+	width: 300px
 }
 
 .notiffi_links strong {
@@ -8028,7 +8014,7 @@ p {
 	text-transform: uppercase;
 	font-weight: 900;
 	font-size: var(--large);
-	font-family: var(--display);
+	font-family: var(--display)
 }
 
 .notiffi_links a {
@@ -8038,14 +8024,14 @@ p {
 	font-size: var(--large);
 	letter-spacing: var(--3xsmall);
 	padding-left: var(--3xsmall);
-	font-family: var(--display);
+	font-family: var(--display)
 }
 
 .notiffi_head_ava {
 	width: 75px;
 	height: 92px;
 	object-fit: cover;
-	border-radius: var(--3xsmall);
+	border-radius: var(--3xsmall)
 }
 
 .notiffi_head {
@@ -8055,7 +8041,7 @@ p {
 	justify-content: flex-start;
 	margin: 0 auto;
 	width: 100%;
-	flex-wrap: wrap;
+	flex-wrap: wrap
 }
 
 .notiffi_head_mini_links {
@@ -8063,7 +8049,7 @@ p {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	gap: var(--large);
+	gap: var(--large)
 }
 
 .notiffi_head_mini_links a:before {
@@ -8074,7 +8060,7 @@ p {
 	border-radius: 50%;
 	align-items: center;
 	color: var(--group-color, var(--co1));
-	justify-content: center;
+	justify-content: center
 }
 
 .notiffi_head_pseudo {
@@ -8084,7 +8070,7 @@ p {
 	padding-top: var(--small);
 	font-family: var(--spe);
 	color: var(--group-color, var(--co1));
-	grid-area: 1 / 1 / 3 / 2;
+	grid-area: 1 / 1 / 3 / 2
 }
 
 .notiffi_head_info {
@@ -8097,7 +8083,7 @@ p {
 	grid-template-rows: auto auto;
 	gap: var(--2xsmall);
 	justify-items: center;
-	align-items: center;
+	align-items: center
 }
 
 .notiffi_head_data {
@@ -8108,19 +8094,19 @@ p {
 	letter-spacing: 1px;
 	padding-left: 1px;
 	grid-area: 1 / 2 / 2 / 3;
-	font-weight: 300;
+	font-weight: 300
 }
 
 .notiffi_head_msg {
-	margin-right: var(--large);
+	margin-right: var(--large)
 }
 
 .notiffi_head_msg:after {
-	content: " messages";
+	content: " messages"
 }
 
 .notiffi_head_pts:after {
-	content: " points";
+	content: " points"
 }
 
 .notiffi_head_links {
@@ -8128,14 +8114,14 @@ p {
 	align-items: center;
 	justify-content: center;
 	grid-area: 2 / 2 / 2 / 3;
-	gap: var(--2xsmall);
+	gap: var(--2xsmall)
 }
 
 .notiffi_head_links a {
 	color: var(--group-color, var(--co1)) !important;
 	font-style: normal;
 	text-transform: lowercase;
-	font-weight: 700;
+	font-weight: 700
 }
 
 .notiffi_body_rps div {
@@ -8143,7 +8129,7 @@ p {
 	max-height: 68px;
 	overflow: auto;
 	grid-template-columns: 1fr 1fr;
-	align-content: start;
+	align-content: start
 }
 
 .notiffi_body_rps {
@@ -8151,7 +8137,7 @@ p {
 	position: relative;
 	width: 60%;
 	padding: var(--large);
-	background-color: var(--group-color, var(--co1));
+	background-color: var(--group-color, var(--co1))
 }
 
 .notiffi_body_rps a {
@@ -8160,12 +8146,12 @@ p {
 	font-weight: 300;
 	font-family: var(--mono);
 	letter-spacing: 1.5px;
-	padding-right: var(--small);
+	padding-right: var(--small)
 }
 
 .notiffi_body_rps a:before {
 	content: "€”";
-	padding-right: var(--small);
+	padding-right: var(--small)
 }
 
 .notiffi_body_rps:before,
@@ -8183,46 +8169,46 @@ p {
 	left: 0;
 	border-bottom: 1px solid var(--neutral);
 	padding-bottom: var(--3xsmall);
-	top: -34px;
+	top: -34px
 }
 
 .notiffi_body_rps:before {
-	content: "sujets";
+	content: "sujets"
 }
 
 .notiffi_body_admin:before {
-	content: "important";
+	content: "important"
 }
 
 .switcheroo:before {
-	content: "personnages";
+	content: "personnages"
 }
 
 .notiffi_body_notepad:before {
-	content: "notes";
+	content: "notes"
 }
 
 .notiffi_notiflist:before {
-	content: "notifications";
+	content: "notifications"
 }
 
 .notiffi_links:before {
-	content: "liens utiles";
+	content: "liens utiles"
 }
 
 .notiffi_news:before {
-	content: "what's up sunnyvale ?";
+	content: "what's up sunnyvale ?"
 }
 
 .notiffi_links:before {
-	content: "liens utiles";
+	content: "liens utiles"
 }
 
 .notiffi_notiflist {
 	width: 60%;
 	margin-top: 34px;
 	height: -webkit-fill-available;
-	position: relative;
+	position: relative
 }
 
 .notiffi_news {
@@ -8231,14 +8217,14 @@ p {
 	padding: var(--large);
 	position: relative;
 	margin-top: 34px;
-	background-color: var(--group-color-100, var(--co1-100));
+	background-color: var(--group-color-100, var(--co1-100))
 }
 
 .notiffi_body {
 	display: flex;
 	width: 100%;
 	gap: var(--large);
-	flex-wrap: wrap;
+	flex-wrap: wrap
 }
 
 .notiffi_body_admin {
@@ -8247,12 +8233,12 @@ p {
 	width: 50%;
 	margin-top: 34px;
 	background: var(--white);
-	text-align: justify;
+	text-align: justify
 }
 
 .notiffi_body_admin div {
 	height: 68px;
-	overflow: auto;
+	overflow: auto
 }
 
 .notiffi_body_admin:after {
@@ -8261,32 +8247,32 @@ p {
 	font-weight: 700;
 	right: var(--small);
 	top: var(--small);
-	color: var(--group-color, var(--co1));
+	color: var(--group-color, var(--co1))
 }
 
 .notiffi_body_admin strong {
 	color: var(--co3);
 	font-family: var(--display);
 	font-weight: 700;
-	font-size: var(--large);
+	font-size: var(--large)
 }
 
 .notiffi_body_admin i {
 	color: var(--co3);
 	font-family: var(--serif);
-	letter-spacing: 1px;
+	letter-spacing: 1px
 }
 
 .notiffi_body_admin u {
 	color: var(--co3);
 	text-decoration: none;
 	box-shadow: inset 0 -8px 0 var(--co3-50);
-	font-family: var(--mono);
+	font-family: var(--mono)
 }
 
 .notiffi_body_admin a {
 	color: var(--co3);
-	font-weight: 500;
+	font-weight: 500
 }
 
 .signature_div:before {
@@ -8297,12 +8283,12 @@ p {
 	display: block;
 	right: 50%;
 	transform: translate(50%, -50%);
-	background: var(--neutral);
+	background: var(--neutral)
 }
 
 .signature_div {
 	position: relative;
-	padding: var(--large);
+	padding: var(--large)
 }
 
 .ficheperso.first {
@@ -8310,7 +8296,7 @@ p {
 	gap: 0px !important;
 	align-items: stretch;
 	flex-direction: row !important;
-	justify-content: center;
+	justify-content: center
 }
 
 .ficheperso.first img {
@@ -8322,7 +8308,7 @@ p {
 	border-left: 0.5rem solid var(--white);
 	border-bottom: 0.5rem solid var(--white);
 	box-sizing: border-box;
-	object-fit: cover;
+	object-fit: cover
 }
 
 .firstcontent {
@@ -8334,14 +8320,14 @@ p {
 	flex-wrap: wrap;
 	height: -webkit-fill-available;
 	row-gap: var(--large);
-	align-content: space-between;
+	align-content: space-between
 }
 
 .ficheperso.first>div {
 	border: 1px solid var(--group-color-50, var(--co1-50));
 	display: flex;
 	width: 100%;
-	border-radius: var(--large) var(--small) var(--large) var(--small);
+	border-radius: var(--large) var(--small) var(--large) var(--small)
 }
 
 .firstpseudo {
@@ -8359,7 +8345,7 @@ p {
 	line-height: var(--2xlarge);
 	padding-left: 2.5px;
 	align-items: center;
-	justify-content: center;
+	justify-content: center
 }
 
 firstdtls {
@@ -8371,25 +8357,25 @@ firstdtls {
 	display: flex;
 	color: var(--group-color);
 	height: 55px;
-	align-items: center;
+	align-items: center
 }
 
 firstdtls:nth-last-of-type(even) {
 	border-left: 2.5px solid var(--group-color-50, var(--co1-50));
-	padding-left: 5px;
+	padding-left: 5px
 }
 
 firstdtls:nth-last-of-type(odd) {
 	justify-content: end;
 	padding-right: 4px;
-	border-right: 2.5px solid var(--group-color-50, var(--co1-50));
+	border-right: 2.5px solid var(--group-color-50, var(--co1-50))
 }
 
 .ficheperso.first a {
 	background: linear-gradient(to right, var(--group-color-300), var(--group-color-600));
 	color: var(--white);
 	padding: 0 var(--small);
-	font-size: var(--small);
+	;
 	text-transform: uppercase;
 	text-align: right;
 	font-family: var(--serif);
@@ -8398,7 +8384,7 @@ firstdtls:nth-last-of-type(odd) {
 	height: 20px;
 	display: flex;
 	align-items: center;
-	justify-content: flex-end;
+	justify-content: flex-end
 }
 
 .ficheperso.status>div {
@@ -8409,21 +8395,21 @@ firstdtls:nth-last-of-type(odd) {
 	background-color: var(--group-color-50, var(--co1-50));
 	border-radius: var(--large) var(--small) var(--large) var(--small);
 	border: 1px solid var(--group-color);
-	width: 100%;
+	width: 100%
 }
 
 .ficheperso.status img {
 	width: 200px;
 	object-fit: cover;
-	height: -webkit-fill-available;
+	height: -webkit-fill-available
 }
 
 .ficheperso.status img:first-of-type {
-	border-radius: var(--large) 0 0 var(--small);
+	border-radius: var(--large) 0 0 var(--small)
 }
 
 .ficheperso.status img:last-of-type {
-	border-radius: 0 var(--small) var(--large) 0;
+	border-radius: 0 var(--small) var(--large) 0
 }
 
 .ficheperso.status a {
@@ -8438,7 +8424,7 @@ firstdtls:nth-last-of-type(odd) {
 	align-items: center;
 	justify-content: center;
 	text-transform: lowercase;
-	border-top: 1px solid var(--group-color-50, var(--co1-50));
+	border-top: 1px solid var(--group-color-50, var(--co1-50))
 }
 
 .statuspseudo {
@@ -8455,7 +8441,7 @@ firstdtls:nth-last-of-type(odd) {
 	line-height: var(--2xlarge);
 	padding-left: 5px;
 	align-items: center;
-	justify-content: center;
+	justify-content: center
 }
 
 .statuscontent {
@@ -8463,7 +8449,7 @@ firstdtls:nth-last-of-type(odd) {
 	flex: 1;
 	display: flex;
 	flex-wrap: wrap;
-	height: -webkit-fill-available;
+	height: -webkit-fill-available
 }
 
 statusdtls {
@@ -8476,27 +8462,27 @@ statusdtls {
 	justify-content: center;
 	font-family: var(--serif);
 	text-transform: uppercase;
-	border-top: 1px solid var(--group-color-50, var(--co1-50));
+	border-top: 1px solid var(--group-color-50, var(--co1-50))
 }
 
 statusdtls:nth-of-type(odd) {
-	border-right: 1px solid var(--group-color-50, var(--co1-50));
+	border-right: 1px solid var(--group-color-50, var(--co1-50))
 }
 
 .d-none {
-	display: none;
+	display: none
 }
 
 .location .titletoggle {
 	cursor: pointer;
-	font-weight: 600;
+	font-weight: 600
 }
 
 .location .titletoggle:before {
 	content: "\e0a1";
 	font-family: uicons-thin-straight !important;
 	margin-right: var(--large);
-	color: var(--co3);
+	color: var(--co3)
 }
 
 .listing_link {
@@ -8505,7 +8491,7 @@ statusdtls:nth-of-type(odd) {
 	font-size: var(--2xlarge);
 	font-weight: 100;
 	color: var(--co2) !important;
-	letter-spacing: 5px;
+	letter-spacing: 5px
 }
 
 .listing_link:before {
@@ -8520,15 +8506,15 @@ statusdtls:nth-of-type(odd) {
 	justify-content: center;
 	border-radius: 100%;
 	height: 50px;
-	width: 50px;
+	width: 50px
 }
 
 .profile-contact-icons #field_id:not(:has(a)) {
-	display: none;
+	display: none
 }
 
 .profile-contact-icons:not(:has(a)) {
-	display: none;
+	display: none
 }
 
 .ficheinsta {
@@ -8537,11 +8523,11 @@ statusdtls:nth-of-type(odd) {
 	align-items: center;
 	justify-content: center;
 	gap: var(--large);
-	padding: var(--2xlarge);
+	padding: var(--2xlarge)
 }
 
 .ficheinsta.postinsta {
-	gap: 0px;
+	gap: 0px
 }
 
 .instapostcontent {
@@ -8550,18 +8536,18 @@ statusdtls:nth-of-type(odd) {
 	background: var(--white);
 	display: flex;
 	flex-direction: column;
-	gap: var(--large);
+	gap: var(--large)
 }
 
 .mini {
-	flex-direction: row;
+	flex-direction: row
 }
 
 .mini a {
 	font-family: var(--mono);
 	color: var(--co3, var(--group-color));
 	text-transform: uppercase;
-	text-transform: 1px;
+	text-transform: 1px
 }
 
 .headinsta {
@@ -8569,7 +8555,7 @@ statusdtls:nth-of-type(odd) {
 	align-items: center;
 	justify-content: center;
 	width: 100%;
-	gap: var(--large);
+	gap: var(--large)
 }
 
 .iconinsta {
@@ -8578,7 +8564,7 @@ statusdtls:nth-of-type(odd) {
 	object-fit: cover;
 	border-radius: 100%;
 	padding: var(--2xsmall);
-	border: 1px solid var(--group-color, var(--co1));
+	border: 1px solid var(--group-color, var(--co1))
 }
 
 .miniconinsta {
@@ -8587,59 +8573,57 @@ statusdtls:nth-of-type(odd) {
 	object-fit: cover;
 	border-radius: 100%;
 	padding: 0.2rem;
-	border: 0.5px solid var(--group-color, var(--co1));
+	border: 0.5px solid var(--group-color, var(--co1))
 }
 
 .pseudoinsta {
 	display: flex;
-	flex-direction: column;
+	flex-direction: column
 }
 
 mainpseudo {
 	text-transform: lowercase;
 	font-weight: 700;
 	letter-spacing: 1px;
-	font-size: var(--large);
+	font-size: var(--large)
 }
 
 minipseudo {
 	text-transform: lowercase;
-	font-weight: 700;
+	font-weight: 700
 }
 
 mainpseudo:before,
 minipseudo:before {
 	font-family: uicons-thin-straight !important;
-	content: "\e147";
+	content: "\e147"
 }
 
 mainpseudo:before {
-	font-size: var(--large);
+	font-size: var(--large)
 }
 
-minipseudo:before {
-	font-size: var(--small);
-}
+minipseudo:before {}
 
 instadata {
 	font-weight: 300;
 	letter-spacing: 2.5px;
 	text-transform: uppercase;
-	font-family: var(--display);
+	font-family: var(--display)
 }
 
 instadata strong {
 	font-weight: 700;
-	color: var(--group-color, var(--co2));
+	color: var(--group-color, var(--co2))
 }
 
 littlepseudo {
-	font-weight: 700;
+	font-weight: 700
 }
 
 statusinsta {
 	color: var(--darkerneutral);
-	font-weight: 300;
+	font-weight: 300
 }
 
 .followsinsta {
@@ -8648,7 +8632,7 @@ statusinsta {
 	width: 100%;
 	text-align: center;
 	text-transform: lowercase;
-	font-weight: 300;
+	font-weight: 300
 }
 
 .storiesinsta {
@@ -8659,28 +8643,28 @@ statusinsta {
 	text-transform: uppercase;
 	font-weight: 300;
 	letter-spacing: 1px;
-	width: 100%;
+	width: 100%
 }
 
 .storiesinsta img {
 	display: block;
 	border-radius: 100%;
 	height: 45px;
-	width: 45px;
+	width: 45px
 }
 
 .storiesinsta div {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	gap: var(--2xsmall);
+	gap: var(--2xsmall)
 }
 
 .contentinsta {
 	display: flex;
 	flex-wrap: wrap;
 	gap: var(--large);
-	width: 100%;
+	width: 100%
 }
 
 .imginsta {
@@ -8689,13 +8673,13 @@ statusinsta {
 	align-items: center;
 	flex: 1 1 calc(100% / 3 - 1rem);
 	aspect-ratio: 1;
-	justify-content: center;
+	justify-content: center
 }
 
 .imginsta img {
 	height: 100%;
 	width: 100%;
-	object-fit: cover;
+	object-fit: cover
 }
 
 .imgcontent {
@@ -8709,25 +8693,25 @@ statusinsta {
 	justify-content: center;
 	background-color: var(--whiteop75);
 	backdrop-filter: blur(3px);
-	flex-direction: column;
+	flex-direction: column
 }
 
 .imginsta:hover {
-	filter: grayscale(1);
+	filter: grayscale(1)
 }
 
 .imginsta:hover .imgcontent {
-	display: flex;
+	display: flex
 }
 
 .ficheinsta .imgpost {
 	width: 400px;
 	height: 500px;
-	object-fit: cover;
+	object-fit: cover
 }
 
 .ficheinsta.story {
-	position: relative;
+	position: relative
 }
 
 .ficheinsta.story .contentstory {
@@ -8737,22 +8721,22 @@ statusinsta {
 	height: 500px;
 	color: #ffffff !important;
 	display: flex;
-	flex-direction: column;
+	flex-direction: column
 }
 
 .ficheinsta.story .contentstory div:first-child {
 	padding: var(--small);
-	border-bottom: 1px solid white;
+	border-bottom: 1px solid white
 }
 
 .ficheinsta.story .contentstory div:first-child monod {
-	color: #ffffff !important;
+	color: #ffffff !important
 }
 
 .ficheinsta.story .contentstory div:last-child {
 	display: block;
 	height: -webkit-fill-available;
-	padding: var(--small);
+	padding: var(--small)
 }
 
 .ficheinsta.story .contentstory div,
@@ -8763,41 +8747,41 @@ statusinsta {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	gap: var(--large);
+	gap: var(--large)
 }
 
 .ficheinsta.postinsta .instapostdetails div {
-	justify-content: flex-start;
+	justify-content: flex-start
 }
 
 .posttext {
-	width: 100%;
+	width: 100%
 }
 
 .ficheinsta.story .contentstory .miniconinsta {
 	border: 0.5px solid var(--white);
 	height: 35px;
-	width: 35px;
+	width: 35px
 }
 
 .ficherp {
-	gap: var(--small) !important;
+	gap: var(--small) !important
 }
 
 .ficherpbody strong {
-	color: var(--group-color);
+	color: var(--group-color)
 }
 
 .ficherphead img {
 	height: 100px;
 	padding: var(--2xsmall);
 	background-color: var(--white);
-	object-fit: cover;
+	object-fit: cover
 }
 
 .ficherp.two .ficherphead img {
 	width: 100px;
-	border: 1px solid var(--neutral);
+	border: 1px solid var(--neutral)
 }
 
 .ficherp.three .ficherphead img {
@@ -8806,66 +8790,64 @@ statusinsta {
 	border: 5px solid var(--light);
 	outline: 1px solid var(--neutral);
 	border-radius: 50%;
-	padding: 0px;
+	padding: 0px
 }
 
 .ficherphead {
 	display: flex;
 	flex-direction: column;
 	gap: var(--small);
-	align-items: center;
+	align-items: center
 }
 
 .ficherp.seven .ficherphead,
 .ficherp.eight .ficherphead,
 .ficherp.nine .ficherphead {
 	align-items: flex-start !important;
-	width: 100%;
+	width: 100%
 }
 
 .ficherphead ficherptitle {
-	font-size: var(--large);
+	font-size: var(--large)
 }
 
-.ficherphead ficherpsstitle {
-	font-size: var(--small);
-}
+.ficherphead ficherpsstitle {}
 
 .ficherp.one ficherptitle {
 	font-family: var(--serif);
 	text-transform: lowercase;
-	font-weight: 700;
+	font-weight: 700
 }
 
 .ficherp.one ficherpsstitle {
 	letter-spacing: 2.5px;
 	padding-left: 2.5px;
-	text-transform: lowercase;
+	text-transform: lowercase
 }
 
 .ficherp.two ficherptitle {
 	font-family: var(--serif);
 	text-transform: uppercase;
-	font-weight: 200;
+	font-weight: 200
 }
 
 .ficherp.two ficherpsstitle {
 	letter-spacing: 5px;
-	text-transform: uppercase;
+	text-transform: uppercase
 }
 
 .ficherp.three ficherptitle {
 	letter-spacing: 5px;
 	padding-left: 5px;
 	text-transform: lowercase;
-	font-weight: 200;
+	font-weight: 200
 }
 
 .ficherp.three ficherpsstitle {
 	font-family: var(--mono);
 	letter-spacing: 1.5px;
 	padding-left: 1.5px;
-	text-transform: uppercase;
+	text-transform: uppercase
 }
 
 .ficherp.four ficherptitle {
@@ -8874,14 +8856,14 @@ statusinsta {
 	background: var(--gradientgc2);
 	color: var(--white);
 	padding: var(--4xsmall) var(--2xlarge);
-	font-weight: 600;
+	font-weight: 600
 }
 
 .ficherp.four ficherpsstitle {
 	letter-spacing: 5px;
 	padding-left: 5px;
 	font-family: var(--mono);
-	text-transform: lowercase;
+	text-transform: lowercase
 }
 
 .ficherp.five ficherptitle {
@@ -8891,12 +8873,12 @@ statusinsta {
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background: var(--gradientgc2);
-	font-weight: 200;
+	font-weight: 200
 }
 
 .ficherp.five ficherpsstitle {
 	letter-spacing: 5px;
-	text-transform: uppercase;
+	text-transform: uppercase
 }
 
 .ficherp.six ficherptitle {
@@ -8905,13 +8887,13 @@ statusinsta {
 	text-transform: lowercase;
 	padding: 0.15rem var(--3xlarge);
 	color: var(--group-color-700);
-	font-weight: 200;
+	font-weight: 200
 }
 
 .ficherp.six ficherpsstitle {
 	letter-spacing: 0.5px;
 	padding-left: 0.5px;
-	text-transform: lowercase;
+	text-transform: lowercase
 }
 
 .ficherp.seven ficherptitle {
@@ -8920,13 +8902,12 @@ statusinsta {
 	padding-left: var(--large);
 	text-transform: lowercase;
 	font-weight: 200;
-	letter-spacing: 2.5px;
+	letter-spacing: 2.5px
 }
 
 .ficherp.seven ficherpsstitle {
-	font-size: var(--small);
 	letter-spacing: 1.5px;
-	color: var(--darkneutral);
+	color: var(--darkneutral)
 }
 
 .ficherp.eight ficherptitle {
@@ -8934,21 +8915,21 @@ statusinsta {
 	text-transform: lowercase;
 	font-weight: 200;
 	letter-spacing: 5px;
-	align-self: end;
+	align-self: end
 }
 
 .ficherp.eight ficherpsstitle {
 	letter-spacing: 1.5px;
 	align-self: end;
 	text-transform: uppercase;
-	color: var(--darkneutral);
+	color: var(--darkneutral)
 }
 
 .ficherp.nine ficherptitle {
 	letter-spacing: 1px;
 	text-transform: lowercase;
 	font-weight: 700;
-	font-size: var(--medium);
+	font-size: var(--medium)
 }
 
 .ficherp.nine ficherpsstitle {
@@ -8956,14 +8937,14 @@ statusinsta {
 	padding-left: 1.5px;
 	text-transform: lowercase;
 	font-style: italic;
-	align-self: end;
+	align-self: end
 }
 
 .ficherpbanner,
 .ficherpfooter {
 	display: flex;
 	justify-content: space-evenly;
-	width: 100%;
+	width: 100%
 }
 
 .ficherp.one .ficherpbanner,
@@ -8975,7 +8956,7 @@ statusinsta {
 	padding: var(--small);
 	background-color: var(--white);
 	text-transform: uppercase;
-	font-weight: 200;
+	font-weight: 200
 }
 
 .ficherp.five .ficherpbanner,
@@ -8987,7 +8968,7 @@ statusinsta {
 	padding: var(--3xsmall);
 	background: var(--darklight);
 	text-transform: lowercase;
-	font-weight: 700;
+	font-weight: 700
 }
 
 .ficherp.seven .ficherpbanner,
@@ -8998,27 +8979,26 @@ statusinsta {
 .ficherp.nine .ficherpfooter {
 	text-transform: uppercase;
 	font-weight: 200;
-	letter-spacing: 1.5px;
-	font-size: var(--small);
+	letter-spacing: 1.5px
 }
 
 .ficherpbanner div,
 .ficherpfooter div {
 	display: flex;
-	align-items: center;
+	align-items: center
 }
 
 .ficherpbanner i,
 .ficherpfooter i,
 .ficherpfooter .mention-at {
 	color: var(--group-color) !important;
-	margin-right: var(--small);
+	margin-right: var(--small)
 }
 
 .ficherp .mentiontag {
 	color: inherit !important;
 	text-transform: inherit !important;
-	font-weight: inherit !important;
+	font-weight: inherit !important
 }
 
 .ficherp .lettrine::first-letter {
@@ -9027,7 +9007,7 @@ statusinsta {
 	margin: var(--large);
 	text-transform: uppercase;
 	font-weight: 100;
-	color: var(--group-color);
+	color: var(--group-color)
 }
 
 .ficherp.two .lettrine::first-letter,
@@ -9036,20 +9016,20 @@ statusinsta {
 .ficherp.six .lettrine::first-letter,
 .ficherp.eight .lettrine::first-letter,
 .ficherp.nine .lettrine::first-letter {
-	font-family: var(--serif);
+	font-family: var(--serif)
 }
 
 .ficherp.three .lettrine::first-letter,
 .ficherp.six .lettrine::first-letter,
 .ficherp.nine .lettrine::first-letter {
 	text-transform: lowercase;
-	font-weight: 700;
+	font-weight: 700
 }
 
 .password-container {
 	display: flex;
 	align-items: center;
-	gap: var(--small);
+	gap: var(--small)
 }
 
 .ficheperso.playlist .headplaylist {
@@ -9061,14 +9041,14 @@ statusinsta {
 	gap: var(--large);
 	padding: var(--large);
 	background-color: var(--white);
-	color: var(--group-color);
+	color: var(--group-color)
 }
 
 .ficheperso.playlist .headplaylist img {
 	border-radius: 50%;
 	width: 35px;
 	height: 35px;
-	object-fit: cover;
+	object-fit: cover
 }
 
 .ficheperso.playlist .dtlsplaylist img {
@@ -9076,7 +9056,7 @@ statusinsta {
 	padding: var(--large);
 	background-color: var(--white);
 	height: 150px;
-	object-fit: cover;
+	object-fit: cover
 }
 
 .ficheperso.playlist .dtlsplaylist,
@@ -9088,7 +9068,7 @@ statusinsta {
 	flex-direction: column;
 	color: var(--white);
 	align-items: center;
-	background: var(--group-color-300);
+	background: var(--group-color-300)
 }
 
 .ficheperso.playlist .bottomplaylist {
@@ -9096,79 +9076,79 @@ statusinsta {
 	justify-content: space-evenly;
 	text-transform: lowercase;
 	letter-spacing: 1.5px;
-	font-family: var(--mono);
+	font-family: var(--mono)
 }
 
 .ficheperso.playlist .bottomplaylist span:hover {
 	cursor: pointer;
-	font-weight: 700;
+	font-weight: 700
 }
 
 .ficheperso.playlist .dtlsplaylist div {
 	font-size: var(--2xlarge);
 	font-weight: 700;
 	text-transform: lowercase;
-	font-family: var(--serif);
+	font-family: var(--serif)
 }
 
 .ficheperso.playlist .headplaylist div {
 	font-weight: 500;
 	text-transform: lowercase;
-	flex: 1;
+	flex: 1
 }
 
 .ficheperso.playlist .headplaylist:after {
 	font-family: uicons-thin-straight !important;
-	content: "\f163";
+	content: "\f163"
 }
 
 .ficheperso.playlist .headplaylist:before {
 	font-family: uicons-thin-straight !important;
 	content: "\eab0";
-	order: 3;
+	order: 3
 }
 
 .ficheperso.playlist .headplaylist div:before {
 	font-family: uicons-thin-straight !important;
-	content: "\e147";
+	content: "\e147"
 }
 
 .ficheperso.playlist .playlistitem div {
 	flex: 1;
 	text-transform: lowercase;
 	display: flex;
-	flex-direction: column;
+	flex-direction: column
 }
 
 .ficheperso.playlist .playlistitem div span:first-of-type {
 	text-transform: uppercase;
-	letter-spacing: 1px;
+	letter-spacing: 1px
 }
 
 .ficheperso.playlist .playlistitem:hover div span:first-of-type {
-	font-weight: 700;
+	font-weight: 700
 }
 
 .ficheperso.playlist .playlistitem:hover {
-	color: var(--group-color);
+	color: var(--group-color)
 }
 
 .ficheperso.playlist .playlistitem:before,
 .ficheperso.playlist .playlistitem:after {
 	font-weight: var(--large);
-	font-family: "uicons-thin-straight" !important;
+	font-family: "uicons-thin-straight" !important
 }
 
 .ficheperso.playlist .playlistitem:before {
-	content: "\ef70";
+	content: "\ef70"
 }
 
 .ficheperso.playlist .playlistitem:hover:before {
-	content: "\ee85";
+	content: "\ee85"
 }
 
 .ficheperso.playlist .playlistitem:after {
-	content: "\ea5a";
+	content: "\ea5a"
 }
 
 .ficheperso.playlist .playlistitem {
@@ -9177,7 +9157,7 @@ statusinsta {
 	width: 100%;
 	justify-content: space-between;
 	gap: var(--large);
-	align-items: center;
+	align-items: center
 }
 
 .bodyplaylist {
@@ -9186,36 +9166,36 @@ statusinsta {
 	flex-direction: column;
 	padding: var(--large);
 	gap: var(--large);
-	background: var(--white);
+	background: var(--white)
 }
 
 .signtes {
 	display: flex;
 	gap: var(--large);
 	width: 400px;
-	align-items: center;
+	align-items: center
 }
 
 .signtes div {
 	flex: 1;
-	text-align: justify;
+	text-align: justify
 }
 
 .signtes strong,
 .signtes i {
-	color: var(--group-color, var(--co3));
+	color: var(--group-color, var(--co3))
 }
 
 .signtes u {
 	background-color: var(--group-color, var(--co3));
 	text-decoration: none !important;
 	color: var(--white);
-	padding: 0 var(--3xsmall);
+	padding: 0 var(--3xsmall)
 }
 
 .signtes img {
 	height: 75px;
-	object-fit: cover;
+	object-fit: cover
 }
 
 .signtes.one img,
@@ -9224,28 +9204,28 @@ statusinsta {
 	width: 100px;
 	padding: 5px;
 	background-color: var(--white);
-	border: 1px solid var(--darklight);
+	border: 1px solid var(--darklight)
 }
 
 .signtes.seven img {
-	width: 200px;
+	width: 200px
 }
 
 .signtes.one div,
 .signtes.eight div {
-	font-family: var(--serif);
+	font-family: var(--serif)
 }
 
 .signtes.two img,
 .signtes.nine img {
 	width: 75px;
 	padding: 5px;
-	border: 1px solid var(--group-color-100);
+	border: 1px solid var(--group-color-100)
 }
 
 .signtes.two div,
 .signtes.eight div {
-	font-family: var(--mono);
+	font-family: var(--mono)
 }
 
 .signtes.three img,
@@ -9253,45 +9233,45 @@ statusinsta {
 	width: 75px;
 	outline-offset: -5px;
 	border-radius: 50%;
-	outline: 1px solid var(--white);
+	outline: 1px solid var(--white)
 }
 
 .signtes.five,
 .signtes.six {
-	width: 500px;
+	width: 500px
 }
 
 .signtes.four div,
 .signtes.nine div {
 	font-family: var(--serif);
 	background-color: var(--white);
-	padding: var(--3xsmall);
+	padding: var(--3xsmall)
 }
 
 .signtes.five img {
 	width: 75px;
 	outline-offset: -5px;
-	outline: 1px solid var(--white);
+	outline: 1px solid var(--white)
 }
 
 .signtes.five div {
 	font-family: var(--mono);
 	background-color: var(--white);
-	padding: var(--3xsmall);
+	padding: var(--3xsmall)
 }
 
 .signtes.six img {
 	width: 75px;
 	border-radius: 50%;
 	padding: 5px;
-	border: 1px solid var(--group-color-100);
+	border: 1px solid var(--group-color-100)
 }
 
 .signtes.seven,
 .signtes.eight,
 .signtes.nine {
 	flex-direction: column;
-	width: 250px;
+	width: 250px
 }
 
 .signtes.eight span,
@@ -9299,7 +9279,7 @@ statusinsta {
 	display: flex;
 	gap: var(--large);
 	align-items: center;
-	justify-content: center;
+	justify-content: center
 }
 
 .tinderbody {
@@ -9309,7 +9289,7 @@ statusinsta {
 	flex-direction: column;
 	background: var(--white);
 	padding: var(--large);
-	padding-top: 0px;
+	padding-top: 0px
 }
 
 .fichetinder .tinderhead {
@@ -9317,7 +9297,7 @@ statusinsta {
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
-	gap: var(--large);
+	gap: var(--large)
 }
 
 .fichetinder .tinderhead span {
@@ -9331,7 +9311,7 @@ statusinsta {
 	border-radius: 50%;
 	text-transform: uppercase;
 	font-weight: 200;
-	justify-content: center;
+	justify-content: center
 }
 
 .fichetinder .tinderhead div {
@@ -9339,11 +9319,11 @@ statusinsta {
 	flex-direction: column;
 	flex: 1;
 	text-transform: lowercase;
-	align-items: flex-start;
+	align-items: flex-start
 }
 
 .fichetinder .tinderhead div strong {
-	font-size: var(--large);
+	font-size: var(--large)
 }
 
 .tindermisc {
@@ -9351,7 +9331,7 @@ statusinsta {
 	align-items: center;
 	justify-content: center;
 	flex-wrap: wrap;
-	gap: var(--large);
+	gap: var(--large)
 }
 
 .tindermisc span {
@@ -9363,25 +9343,25 @@ statusinsta {
 	color: var(--group-color);
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: center
 }
 
 .tindermisc span:hover {
 	background-color: var(--group-color);
-	color: var(--white);
+	color: var(--white)
 }
 
 .fichetinder .tinderimg img {
 	width: 400px;
 	height: 500px;
-	object-fit: cover;
+	object-fit: cover
 }
 
 .fichetinder .tinderimg {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	position: relative;
+	position: relative
 }
 
 .fichetinder .tinderimg:after {
@@ -9390,27 +9370,27 @@ statusinsta {
 	letter-spacing: var(--5xlarge);
 	padding-left: var(--5xlarge);
 	position: absolute;
-	color: transparent;
+	color: transparent
 }
 
 .fichetinder .tinderimg:hover:after {
 	color: var(--white);
-	cursor: pointer;
+	cursor: pointer
 }
 
 .fichetinder .tinderimg:after {
-	content: '\ea5a \e5e8';
+	content: '\ea5a \e5e8'
 }
 
 .fichetinder .tinderbio,
 .fichetinder .tindersearch {
-	width: 100%;
+	width: 100%
 }
 
 .tindersearch:before {
 	content: '\ece1';
 	font-family: uicons-thin-straight !important;
-	color: var(--group-color);
+	color: var(--group-color)
 }
 
 .fichetinder .tindersearch {
@@ -9419,7 +9399,7 @@ statusinsta {
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
-	gap: var(--large);
+	gap: var(--large)
 }
 
 .fichetinder .tindermoodbd {
@@ -9427,26 +9407,26 @@ statusinsta {
 	width: 100%;
 	gap: var(--large);
 	justify-content: center;
-	align-items: center;
+	align-items: center
 }
 
 .fichetinder .tindermoodbd img {
 	width: calc(100% / 3 - 0.65rem);
 	aspect-ratio: 1;
-	object-fit: cover;
+	object-fit: cover
 }
 
 .minicontinder {
 	height: 50px;
 	width: 50px;
-	object-fit: cover;
+	object-fit: cover
 }
 
 .ficheperso.astro img {
 	width: 300px;
 	height: 300px;
 	border-radius: 0 var(--small) var(--large) 0;
-	object-fit: cover;
+	object-fit: cover
 }
 
 .ficheperso.astro>div {
@@ -9456,7 +9436,7 @@ statusinsta {
 	background-color: var(--group-color-50);
 	padding: var(--large);
 	border: 0.5px solid var(--white);
-	width: 100%;
+	width: 100%
 }
 
 .astrocontent {
@@ -9467,7 +9447,7 @@ statusinsta {
 	align-items: center;
 	justify-content: center;
 	box-sizing: border-box;
-	background-color: var(--white);
+	background-color: var(--white)
 }
 
 .astrocontent span {
@@ -9483,29 +9463,29 @@ statusinsta {
 	align-items: center;
 	text-transform: lowercase;
 	height: 50%;
-	justify-content: center;
+	justify-content: center
 }
 
 .astrocontent span:nth-of-type(odd) {
-	border-right: 1px solid var(--group-color-50);
+	border-right: 1px solid var(--group-color-50)
 }
 
 .astrocontent span:nth-of-type(1),
 .astrocontent span:nth-of-type(2) {
-	border-bottom: 1px solid var(--group-color-50);
+	border-bottom: 1px solid var(--group-color-50)
 }
 
 .astrocontent i {
 	font-size: var(--3xlarge);
-	color: var(--group-color);
+	color: var(--group-color)
 }
 
 lblprtt {
 	text-transform: lowercase;
 	letter-spacing: 2.5px;
-	font-size: var(--small);
+	;
 	font-family: var(--mono);
-	color: var(--group-color, var(--co3));
+	color: var(--group-color, var(--co3))
 }
 
 lblpmdn {
@@ -9515,62 +9495,62 @@ lblpmdn {
 	padding: 1px 5px 1px 6.5px;
 	letter-spacing: 1.5px;
 	text-transform: uppercase;
-	color: var(--white);
+	color: var(--white)
 }
 
 .posttab-content.thst strong {
 	letter-spacing: 1.5px;
 	padding-left: 1.5px;
 	color: var(--group-color, var(--co3));
-	font-weight: 700;
+	font-weight: 700
 }
 
 .posttab-content.thst u {
 	color: var(--group-color-200, var(--co3-200));
-	text-decoration: none !important;
+	text-decoration: none !important
 }
 
 .ficheperso.more .posttab-contents {
 	width: 100%;
 	padding: var(--large);
 	background-color: var(--white);
-	text-align: justify;
+	text-align: justify
 }
 
 .ficheperso.more .posttab:before {
 	color: var(--darkneutral);
 	font-family: uicons-thin-straight !important;
 	font-size: var(--large);
-	margin: 0 var(--large);
+	margin: 0 var(--large)
 }
 
 .ficheperso.more .posttab.active:before {
-	color: var(--group-color, var(--co3));
+	color: var(--group-color, var(--co3))
 }
 
 .ficheperso.more .posttab[data-tab="1"]:before {
-	content: '\f2e4';
+	content: '\f2e4'
 }
 
 .ficheperso.more .posttab[data-tab="2"]:before {
-	content: '\f164';
+	content: '\f164'
 }
 
 .ficheperso.more .posttab[data-tab="4"]:before {
-	content: '\e04d';
+	content: '\e04d'
 }
 
 .ficheperso.more .posttab[data-tab="3"]:before {
-	content: '\ed44';
+	content: '\ed44'
 }
 
 .ficheperso.more .posttab[data-tab="5"]:before {
-	content: '\e45e';
+	content: '\e45e'
 }
 
 .posttab-content.thst {
 	text-align: center;
-	word-spacing: var(--large);
+	word-spacing: var(--large)
 }
 
 .ficheperso.more .posttab-title {
@@ -9581,27 +9561,27 @@ lblpmdn {
 	font-weight: 100;
 	font-size: var(--large);
 	width: 100%;
-	text-align: center;
+	text-align: center
 }
 
 .ficheperso.more .posttab[data-tab="1"].active~.posttab-title:after {
-	content: 'favoris';
+	content: 'favoris'
 }
 
 .ficheperso.more .posttab[data-tab="2"].active~.posttab-title:after {
-	content: 'mode de vie';
+	content: 'mode de vie'
 }
 
 .ficheperso.more .posttab[data-tab="3"].active~.posttab-title:after {
-	content: 'portrait imagÃ©';
+	content: 'portrait imagÃ©'
 }
 
 .ficheperso.more .posttab[data-tab="4"].active~.posttab-title:after {
-	content: 'premiers et derniers';
+	content: 'premiers et derniers'
 }
 
 .ficheperso.more .posttab[data-tab="5"].active~.posttab-title:after {
-	content: 'Ã§a ou Ã§a ?';
+	content: 'Ã§a ou Ã§a ?'
 }
 
 .ficheportrait {
@@ -9611,25 +9591,25 @@ lblpmdn {
 	flex-wrap: wrap;
 	justify-content: center;
 	margin: 0 auto;
-	align-items: center;
+	align-items: center
 }
 
 .quoteportrait {
 	width: 100%;
 	font-family: var(--serif);
 	text-align: center;
-	color: var(--group-color);
+	color: var(--group-color)
 }
 
 .ficheportrait.one .quoteportrait {
 	text-transform: lowercase;
 	font-weight: 700;
-	font-style: italic;
+	font-style: italic
 }
 
 .ficheportrait.two .quoteportrait {
 	text-transform: uppercase;
-	font-weight: 700;
+	font-weight: 700
 }
 
 .ficheportrait img {
@@ -9637,15 +9617,15 @@ lblpmdn {
 	padding: var(--small);
 	background-color: var(--white);
 	border: 1px solid var(--neutral);
-	height: 100px;
+	height: 100px
 }
 
 .ficheportrait.one img {
-	flex: 3;
+	flex: 3
 }
 
 .ficheportrait.two img {
-	flex: 4;
+	flex: 4
 }
 
 .fichetodo>div {
@@ -9658,7 +9638,7 @@ lblpmdn {
 	box-shadow: 5px 5px 0px var(--group-color-100);
 	flex-direction: column;
 	position: relative;
-	margin-top: var(--large);
+	margin-top: var(--large)
 }
 
 .fichetodo::before>div {
@@ -9670,7 +9650,7 @@ lblpmdn {
 	position: absolute;
 	top: -15px;
 	left: 50%;
-	transform: translateX(-50%) rotate(-5deg);
+	transform: translateX(-50%) rotate(-5deg)
 }
 
 .fichetodo span,
@@ -9682,47 +9662,47 @@ lblpmdn {
 	display: flex;
 	gap: var(--small);
 	align-items: center;
-	justify-content: flex-start;
+	justify-content: flex-start
 }
 
 .fichetodo span:before,
 .fichedefi span:before {
 	content: '\f28f';
 	font-family: uicons-thin-straight !important;
-	color: var(--group-color);
+	color: var(--group-color)
 }
 
 .fichetodo span.done:before,
 .fichedefi span.done:before,
 .fichetodo span:hover:before,
 .fichedefi span:hover:before {
-	content: '\e430';
+	content: '\e430'
 }
 
 .fichedefi span a {
 	color: var(--group-color);
-	letter-spacing: 1px;
+	letter-spacing: 1px
 }
 
 .fichedefi span.done a {
-	font-weight: 700;
+	font-weight: 700
 }
 
 .posttabsystem.random {
 	align-items: stretch;
-	flex-direction: row;
+	flex-direction: row
 }
 
 .random .posttabs {
 	flex-direction: column;
 	width: fit-content !important;
-	justify-content: flex-start;
+	justify-content: flex-start
 }
 
 .random .posttab-contents {
 	flex: 1;
 	padding: var(--large);
-	background: var(--white);
+	background: var(--white)
 }
 
 .random .posttab {
@@ -9732,12 +9712,12 @@ lblpmdn {
 	color: var(--group-color);
 	font-weight: 700;
 	letter-spacing: 1px;
-	border-bottom: 1px solid;
+	border-bottom: 1px solid
 }
 
 .random .posttab.active {
 	color: var(--white);
-	background-color: var(--group-color);
+	background-color: var(--group-color)
 }
 
 .defiheader {
@@ -9748,7 +9728,7 @@ lblpmdn {
 	padding: var(--large);
 	background-color: var(--white);
 	justify-content: center;
-	align-items: center;
+	align-items: center
 }
 
 .defiheader img {
@@ -9756,7 +9736,7 @@ lblpmdn {
 	width: 65px;
 	object-fit: cover;
 	filter: grayscale(1);
-	border-radius: 50%;
+	border-radius: 50%
 }
 
 .defiheader defipseudo {
@@ -9767,45 +9747,45 @@ lblpmdn {
 	font-family: var(--serif);
 	font-weight: 100;
 	font-size: var(--large);
-	color: var(--group-color);
+	color: var(--group-color)
 }
 
 .ficheperso.defis defistatus {
 	text-transform: uppercase;
-	font-size: var(--small);
+	;
 	background: var(--group-color);
 	color: var(--white);
 	padding: 0 var(--3xsmall);
-	font-weight: 200;
+	font-weight: 200
 }
 
 .ficheperso.rep .posttab-contents {
-	width: 100%;
+	width: 100%
 }
 
 .defis .blocperso a {
 	font-weight: 700;
 	letter-spacing: 1px;
-	text-transform: lowercase;
+	text-transform: lowercase
 }
 
 .trad vf {
-	display: none;
+	display: none
 }
 
 .trad:hover vo {
 	display: none;
-	transition: 0.5s;
+	transition: 0.5s
 }
 
 .trad:hover vf {
 	display: inline;
-	transition: 0.5s;
+	transition: 0.5s
 }
 
 .minipostprofile {
 	flex: 1 1 100%;
-	gap: var(--large);
+	gap: var(--large)
 }
 
 .minipostprofile .tooltip-rank {
@@ -9815,22 +9795,22 @@ lblpmdn {
 	text-transform: uppercase !important;
 	align-items: flex-end;
 	font-family: var(--display);
-	font-size: var(--large);
+	font-size: var(--large)
 }
 
 .minipostprofile .tooltip-rank br {
-	display: none;
+	display: none
 }
 
 .minipostprofile .postprofile-contact {
 	background: transparent;
-	padding: 0px;
+	padding: 0px
 }
 
 .minipostprofile .postprofile-contact i:before {
 	padding: 5px;
 	background: var(--group-color-50);
-	border-radius: 50%;
+	border-radius: 50%
 }
 
 .form-line label {
@@ -9840,7 +9820,7 @@ lblpmdn {
 	font-family: var(--display);
 	letter-spacing: 1px;
 	padding-left: 1px;
-	color: var(--co3);
+	color: var(--co3)
 }
 
 .form-line input,
@@ -9850,7 +9830,7 @@ lblpmdn {
 	flex: 1;
 	border: 0px;
 	background-color: var(--neutral);
-	font-family: var(--mono);
+	font-family: var(--mono)
 }
 
 .form-line {
@@ -9858,14 +9838,14 @@ lblpmdn {
 	align-items: center;
 	gap: var(--large);
 	margin-bottom: var(--large);
-	flex-wrap: wrap;
+	flex-wrap: wrap
 }
 
 .form-line desc {
 	text-transform: uppercase;
-	font-size: var(--small);
+	;
 	width: 100%;
-	letter-spacing: 2.5px;
+	letter-spacing: 2.5px
 }
 
 #form-presentation button,
@@ -9881,7 +9861,7 @@ lblpmdn {
 	font-family: var(--display);
 	color: var(--co3);
 	text-shadow: 1px 1px var(--white);
-	font-size: var(--large);
+	font-size: var(--large)
 }
 
 #form-presentation strong {
@@ -9893,5 +9873,5 @@ lblpmdn {
 	color: var(--white) !important;
 	font-family: var(--serif);
 	font-size: var(--large);
-	text-transform: uppercase;
+	text-transform: uppercase
 }
