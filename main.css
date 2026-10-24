@@ -439,6 +439,7 @@ body::before {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	font-size: var(--medium);
 	position: fixed;
 	padding: var(--large);
 	z-index: 999;
