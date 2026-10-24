@@ -722,7 +722,7 @@ body::before {
 .forumlist:nth-of-type(odd) .forumlist-title {
 	padding-left: var(--large);
 	border-left: 0.5px solid var(--neutral);
-	padding-top: 0.35rem;
+	padding-top: 0var(--3xsmall);
 	order: 3
 }
 
@@ -752,7 +752,7 @@ body::before {
 	margin: 0px !important;
 	color: var(--dark) !important;
 	font-size: var(--large) !important;
-	letter-spacing: 0.35rem;
+	letter-spacing: 0var(--3xsmall);
 	writing-mode: sideways-lr;
 	text-orientation: mixed;
 	text-shadow: 1px 1px var(--neutral);
@@ -790,13 +790,13 @@ body::before {
 }
 
 .thirty {
-	width: calc((100% - 2rem) / 3);
+	width: calc((100% - var(--2xlarge)) / 3);
 	flex: auto
 }
 
 .fifty,
 .fifarc {
-	flex: calc((100% - 1rem) / 2)
+	flex: calc((100% - var(--large)) / 2)
 }
 
 #c2 .forumrow,
@@ -847,7 +847,7 @@ a.forumtitle {
 	font-size: var(--large);
 	text-transform: lowercase;
 	font-weight: 700;
-	letter-spacing: 0.25rem
+	letter-spacing: 0var(--4xsmall)
 }
 
 .fifty .forumtitle {
@@ -866,7 +866,7 @@ a.forumtitle {
 	font-style: italic;
 	letter-spacing: 0;
 	display: flex;
-	gap: .35rem;
+	gap: var(--3xsmall);
 	font-weight: 300;
 	width: 65%;
 	flex-wrap: wrap;
@@ -905,7 +905,7 @@ a.forumtitle {
 }
 
 .hundred .forumtitle {
-	letter-spacing: 0.5rem
+	letter-spacing: var(--2xsmall)
 }
 
 .forumrow-details {
@@ -1288,9 +1288,9 @@ div.award.award-hj::before {
 }
 
 .profile-admin {
-	bottom: 1rem;
+	bottom: var(--large);
 	width: calc(100% - var(--2xlarge));
-	left: 1rem;
+	left: var(--large);
 	font-size: var(--2xsmall);
 	text-transform: uppercase;
 	background: var(--whiteop75);
@@ -1958,7 +1958,7 @@ topicinfo:after {
 
 .last-admin-type {
 	position: relative;
-	padding-bottom: 2rem
+	padding-bottom: var(--2xlarge)
 }
 
 .last-admin-type:after {
@@ -2217,8 +2217,7 @@ topicdesc {
 
 .content {
 	text-align: justify;
-	padding: var(--large);
-	line-height: 1.1rem
+	padding: var(--large)
 }
 
 .postbody {
@@ -2767,7 +2766,7 @@ textarea {
 .ficheadmin .textlisting upp2 {
 	display: block;
 	border: 0.5px solid;
-	padding: 0.5rem;
+	padding: var(--2xsmall);
 	background: var(--light)
 }
 
@@ -3391,7 +3390,7 @@ input#profile_field_4_-12_0 {
 .mespriv-display .author a {
 	font-family: var(--mono);
 	background: var(--neutral);
-	padding: 0.2rem 0.5rem;
+	padding: var(--4xsmall) var(--2xsmall);
 	margin-left: var(--large)
 }
 
@@ -6971,7 +6970,6 @@ majgc::first-letter {
 #postprofile-libre ol[type="a"] li,
 .postprofile-libre ol[type="a"] li {
 	width: calc(50% - 0.125rem);
-	;
 	text-transform: lowercase;
 	color: var(--group-color, var(--co1))
 }
@@ -8303,10 +8301,10 @@ p {
 	min-height: 350px;
 	width: 250px;
 	border-radius: var(--large) 0 0 var(--small);
-	padding: 0.5rem;
-	border-top: 0.5rem solid var(--white);
-	border-left: 0.5rem solid var(--white);
-	border-bottom: 0.5rem solid var(--white);
+	padding: var(--2xsmall);
+	border-top: var(--2xsmall) solid var(--white);
+	border-left: var(--2xsmall) solid var(--white);
+	border-bottom: var(--2xsmall) solid var(--white);
 	box-sizing: border-box;
 	object-fit: cover
 }
@@ -8572,7 +8570,7 @@ statusdtls:nth-of-type(odd) {
 	height: 50px;
 	object-fit: cover;
 	border-radius: 100%;
-	padding: 0.2rem;
+	padding: var(--4xsmall);
 	border: 0.5px solid var(--group-color, var(--co1))
 }
 
@@ -8671,7 +8669,7 @@ statusinsta {
 	position: relative;
 	display: flex;
 	align-items: center;
-	flex: 1 1 calc(100% / 3 - 1rem);
+	flex: 1 1 calc(100% / 3 - var(--large));
 	aspect-ratio: 1;
 	justify-content: center
 }
@@ -9573,7 +9571,7 @@ lblpmdn {
 }
 
 .ficheperso.more .posttab[data-tab="3"].active~.posttab-title:after {
-	content: 'portrait imagÃ©'
+	content: 'portrait imagé'
 }
 
 .ficheperso.more .posttab[data-tab="4"].active~.posttab-title:after {
@@ -9581,7 +9579,7 @@ lblpmdn {
 }
 
 .ficheperso.more .posttab[data-tab="5"].active~.posttab-title:after {
-	content: 'Ã§a ou Ã§a ?'
+	content: 'ça ou ça ?'
 }
 
 .ficheportrait {
