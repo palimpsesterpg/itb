@@ -6,7 +6,7 @@
 
 .cam camhd:before {
     font-family: "TES";
-    font-size: var(--xlarge);
+    font-size: var(--large);
     margin-bottom: var(--small);
     display: block
 }
@@ -104,8 +104,8 @@
     letter-spacing: 2.5px;
     font-weight: 200;
     font-size: var(--large);
-    padding-right: var(--xsmall);
-    padding-left: calc(var(--xsmall) + 2.5px)
+    padding-right: var(--2xsmall);
+    padding-left: calc(var(--2xsmall) + 2.5px)
 }
 
 .cam cam5 {
@@ -122,8 +122,8 @@
             var(--group-color),
             var(--group-color-300));
     color: var(--white);
-    padding-right: var(--xsmall);
-    padding-left: calc(var(--xsmall) + 5px);
+    padding-right: var(--2xsmall);
+    padding-left: calc(var(--2xsmall) + 5px);
     text-transform: lowercase;
     font-style: italic;
     font-weight: 200;
@@ -183,12 +183,12 @@
     outline: 2px solid var(--group-color-50);
     box-shadow: 0px 0px 0px 6px var(--white);
     background-color: var(--white);
-    padding: var(--xlarge);
+    padding: var(--large);
     display: flex;
     width: 90%;
     margin: 0 auto;
     flex-direction: column;
-    gap: var(--xlarge);
+    gap: var(--large);
     align-items: center
 }
 
@@ -214,7 +214,7 @@
 .cam .inforpcam {
     color: var(--group-color) !important;
     background: var(--group-color-50);
-    padding: var(--2xsmall);
+    padding: var(--32xsmall);
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -228,7 +228,7 @@
 .cam .inforpcam>span {
     display: flex;
     align-items: center;
-    gap: var(--2xsmall)
+    gap: var(--32xsmall)
 }
 
 .cam .inforpcam .mentiontag {
@@ -240,7 +240,7 @@
 .cam .footrpcam {
     background: var(--group-color);
     color: var(--white) !important;
-    padding: var(--2xsmall);
+    padding: var(--32xsmall);
     text-align: center;
     text-transform: lowercase;
     font-weight: 700;
@@ -264,7 +264,7 @@
 .cam .bodyrpcam i:before {
     font-family: "TES";
     content: "\E019";
-    padding-left: var(--2xsmall);
+    padding-left: var(--32xsmall);
     font-style: normal;
     display: inline-block;
     transform: rotateY(3.142rad)
@@ -283,9 +283,9 @@
 .cam .imgrpcam.two {
     width: 75px;
     height: 75px;
-    padding: var(--2xsmall);
+    padding: var(--32xsmall);
     border: 0.5px solid var(--group-color);
-    margin: 0 var(--large) var(--2xsmall) var(--large)
+    margin: 0 var(--large) var(--32xsmall) var(--large)
 }
 
 .cam #postprofile-libre div[align="left"] {
@@ -321,7 +321,7 @@
     margin: 0 auto !important;
     width: fit-content;
     text-transform: uppercase;
-    padding: var(--3xsmall) var(--xlarge) 0 !important
+    padding: var(--4xsmall) var(--large) 0 !important
 }
 
 .cam #postprofile-libre .postprofile-field-content {
@@ -338,7 +338,7 @@
 }
 
 .cam #postprofile-libre div[align="justify"] {
-    padding: var(--xsmall);
+    padding: var(--2xsmall);
     background: var(--group-color-50);
     color: var(--group-color);
     font-weight: 300;
@@ -440,7 +440,7 @@
     height: 115px;
     filter: grayscale(1);
     object-fit: cover;
-    padding: var(--xsmall);
+    padding: var(--2xsmall);
     background: white;
     border: 1px solid var(--neutral)
 }
@@ -451,7 +451,7 @@
     text-transform: uppercase;
     background-color: var(--white);
     color: var(--group-color, var(--darkneutral));
-    padding: var(--2xsmall) var(--large) var(--2xsmall) calc(var(--large) + 1.5px);
+    padding: var(--32xsmall) var(--large) var(--32xsmall) calc(var(--large) + 1.5px);
     letter-spacing: 1.5px;
     border: 0.25px solid
 }
@@ -494,7 +494,7 @@
 
 .cam .random .posttab::first-letter {
     font-family: var(--spe);
-    font-size: var(--xlarge);
+    font-size: var(--large);
     text-transform: uppercase
 }
 

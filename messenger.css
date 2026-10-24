@@ -70,7 +70,7 @@
     position: fixed;
     left: var(--large);
     bottom: var(--large);
-    font-size: var(--xlarge);
+    font-size: var(--large);
     padding: var(--large);
     display: flex;
     cursor: pointer;
@@ -103,7 +103,7 @@
     gap: var(--large);
     color: var(--white);
     background: var(--co2);
-    font-size: var(--xlarge);
+    font-size: var(--large);
     align-items: center;
     justify-content: center
 }
@@ -289,7 +289,7 @@
 }
 
 #FAM .FAM-button-input-small .FAM-button {
-    font-size: var(--xlarge);
+    font-size: var(--large);
     width: 30px;
     height: 30px;
     padding: 0
@@ -313,7 +313,7 @@
 
 .FAM-section-title {
     color: var(--co2);
-    font-size: var(--xlarge);
+    font-size: var(--large);
     font-weight: 700;
     border-bottom: 1px solid var(--co2);
     margin: var(--large)
@@ -326,7 +326,7 @@ hr.FAM-hr {
 }
 
 .FAM-icon-link {
-    font-size: var(--xlarge);
+    font-size: var(--large);
     vertical-align: middle;
     display: inline-block;
     margin: 0 6px
@@ -396,7 +396,7 @@ hr.FAM-hr {
 }
 
 #FAM .FAM-connected-buttons i {
-    font-size: var(--xlarge);
+    font-size: var(--large);
     margin-right: 3px;
     vertical-align: -2px
 }
@@ -570,7 +570,7 @@ hr.FAM-hr {
 
 #FAM-actions>button {
     color: var(--lightdark);
-    font-size: var(--xlarge);
+    font-size: var(--large);
     background: var(--light);
     border: none;
     border-left: 1px solid var(--co2-50);
@@ -642,7 +642,7 @@ hr.FAM-hr {
 .FAM-dropdown-title {
     color: var(--light);
     font-weight: 700;
-    font-size: var(--xlarge);
+    font-size: var(--large);
     background: var(--co2);
     padding: 0 6px;
     margin: -1px -1px 0
@@ -667,12 +667,12 @@ hr.FAM-hr {
 }
 
 .FAM-option-icon {
-    font-size: var(--xlarge);
+    font-size: var(--large);
     width: 50px
 }
 
 .FAM-option-icon.FAM-text-icon {
-    font-size: var(--xlarge);
+    font-size: var(--large);
     font-weight: 700;
     font-stretch: condensed
 }
@@ -858,7 +858,7 @@ a.FAM-attachment-thumb {
 #FAM a.FAM-page-link,
 .FAM-page-link {
     color: var(--light);
-    font-size: var(--xlarge);
+    font-size: var(--large);
     font-weight: 700;
     text-decoration: none;
     background: var(--co2);
@@ -1014,7 +1014,7 @@ strong.FAM-page-link {
 
 .FAM-msg-text .FAM-attachment td {
     color: var(--lightdark);
-    font-size: var(--xlarge);
+    font-size: var(--large);
     min-height: 20px;
     line-height: 20px;
     position: relative;
@@ -1224,7 +1224,7 @@ blockquote.FAM-codebox>div {
 
 #FAM-new-msg-notif:after {
     content: "\\f00d";
-    font-size: var(--xlarge);
+    font-size: var(--large);
     font-weight: 400;
     font-family: FontAwesome;
     position: absolute;
@@ -1241,7 +1241,7 @@ blockquote.FAM-codebox>div {
 
 #FAM-new-msg-divider {
     color: var(--co2);
-    font-size: var(--xlarge);
+    font-size: var(--large);
     text-align: center;
     margin: 12px
 }
@@ -1333,7 +1333,7 @@ blockquote.FAM-codebox>div {
 }
 
 #FAM-profile-username {
-    font-size: var(--xlarge);
+    font-size: var(--large);
     font-weight: 700
 }
 
@@ -1425,12 +1425,12 @@ blockquote.FAM-codebox>div {
 }
 
 #FAM-creator-info i {
-    font-size: var(--xlarge);
+    font-size: var(--large);
     vertical-align: middle
 }
 
 #FAM #FAM-search-keywords {
-    font-size: var(--xlarge);
+    font-size: var(--large);
     height: 40px;
     padding: 0 8px
 }

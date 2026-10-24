@@ -77,10 +77,10 @@ subtitle {
     font-family: var(--mono);
     color: var(--black);
     background-color: var(--neutral);
-    padding: 0 var(--xsmall);
+    padding: 0 var(--2xsmall);
     text-transform: uppercase;
     letter-spacing: 1px;
-    padding-left: calc(var(--xsmall) + 1px);
+    padding-left: calc(var(--2xsmall) + 1px);
     border: 0.5px solid var(--white);
     border-radius: var(--small)
 }

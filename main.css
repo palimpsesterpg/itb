@@ -1,11 +1,10 @@
 :root {
-	--3xsmall: 0.25rem;
-	--2xsmall: 0.375rem;
-	--xsmall: 0.5rem;
+	--4xsmall: 0.25rem;
+	--3xsmall: 0.375rem;
+	--2xsmall: 0.5rem;
 	--small: 0.75rem;
 	--medium: 0.875rem;
 	--large: 1rem;
-	--xlarge: 1.5rem;
 	--2xlarge: 2rem;
 	--3xlarge: 3rem;
 	--4xlarge: 4rem;
@@ -260,37 +259,37 @@ low,
 h1,
 .h1 {
 	font-size: var(--3xlarge) !important;
-	margin: var(--xsmall) 0 !important;
+	margin: var(--2xsmall) 0 !important;
 }
 
 h2,
 .h2 {
 	font-size: var(--2xlarge) !important;
-	margin: var(--xsmall) 0 !important;
+	margin: var(--2xsmall) 0 !important;
 }
 
 h3,
 .h3 {
-	font-size: var(--xlarge) !important;
-	margin: var(--xsmall) 0 !important;
+	font-size: var(--large) !important;
+	margin: var(--2xsmall) 0 !important;
 }
 
 h4,
 .h4 {
-	font-size: var(--large) !important;
-	margin: var(--xsmall) 0 !important;
+	font-size: var(--medium) !important;
+	margin: var(--2xsmall) 0 !important;
 }
 
 h5,
 .h5 {
-	font-size: var(--medium) !important;
-	margin: var(--xsmall) 0 !important;
+	font-size: var(--small) !important;
+	margin: var(--2xsmall) 0 !important;
 }
 
 h6,
 .h6 {
-	font-size: var(--small) !important;
-	margin: var(--xsmall) 0 !important;
+	font-size: var(--2xsmall) !important;
+	margin: var(--2xsmall) 0 !important;
 }
 
 h1,
@@ -339,7 +338,7 @@ a:hover {
 body {
 	font-family: var(--main);
 	color: var(--lightdark);
-	font-size: var(--medium);
+	font-size: var(--small);
 	margin-top: 0 !important;
 }
 
@@ -392,7 +391,7 @@ body::before {
 #tabs {
 	display: flex;
 	flex-wrap: wrap;
-	gap: var(--xlarge);
+	gap: var(--large);
 	align-items: center;
 	justify-content: center;
 	width: 650px;
@@ -561,7 +560,7 @@ body::before {
 .switcheroo__popper {
 	background-color: var(--group-color, var(--co1));
 	color: var(--white);
-	padding: var(--2xsmall);
+	padding: var(--3xsmall);
 	position: absolute;
 	width: -webkit-max-content;
 	width: max-content;
@@ -571,7 +570,7 @@ body::before {
 	pointer-events: none;
 	text-transform: uppercase;
 	font-weight: 300;
-	top: calc(26px + var(--2xsmall));
+	top: calc(26px + var(--3xsmall));
 	right: 50%;
 }
 
@@ -676,7 +675,7 @@ body::before {
 	position: absolute;
 	top: 15px;
 	right: 15px;
-	padding: var(--xsmall);
+	padding: var(--2xsmall);
 	cursor: pointer;
 	color: var(--white);
 	border: 0;
@@ -756,7 +755,7 @@ body::before {
 	font-family: var(--spe);
 	margin: 0px !important;
 	color: var(--dark) !important;
-	font-size: var(--xlarge) !important;
+	font-size: var(--large) !important;
 	letter-spacing: 0.35rem;
 	writing-mode: sideways-lr;
 	text-orientation: mixed;
@@ -830,7 +829,7 @@ body::before {
 
 .hundred .forumrow-avatar img {
 	height: 65px;
-	border-radius: var(--2xsmall) var(--small);
+	border-radius: var(--3xsmall) var(--small);
 }
 
 .forumrow-avatar img {
@@ -904,7 +903,7 @@ a.forumtitle {
 }
 
 .thirty .forumtitle dot:nth-of-type(odd) {
-	font-size: var(--xlarge);
+	font-size: var(--large);
 	height: 35px;
 	width: 35px;
 }
@@ -918,7 +917,7 @@ a.forumtitle {
 	flex: 1;
 	width: 100%;
 	display: flex;
-	gap: var(--2xsmall);
+	gap: var(--3xsmall);
 	align-items: flex-start;
 }
 
@@ -950,7 +949,7 @@ a.forumtitle {
 	font-family: uicons-thin-straight !important;
 	display: inline-block;
 	transform: scaleX(-1);
-	margin-right: var(--2xsmall);
+	margin-right: var(--3xsmall);
 }
 
 .forumlinks a {
@@ -987,11 +986,11 @@ a.forumtitle {
 	height: 35px;
 	width: 35px;
 	display: flex;
-	border-radius: var(--2xsmall);
+	border-radius: var(--3xsmall);
 	box-shadow: 2.5px 2.5px var(--white);
 	align-items: center;
 	justify-content: center;
-	font-size: var(--xlarge);
+	font-size: var(--large);
 }
 
 #c7 .forumrow-status:before {
@@ -1033,8 +1032,8 @@ a.forumtitle {
 
 .fifty .forumrow-status {
 	position: absolute;
-	right: var(--2xsmall);
-	bottom: var(--2xsmall);
+	right: var(--3xsmall);
+	bottom: var(--3xsmall);
 }
 
 .fifty .forumrow-status:before {
@@ -1078,7 +1077,7 @@ a.forumtitle {
 }
 
 .fifty .forumrow-avatar img {
-	border-radius: var(--xsmall);
+	border-radius: var(--2xsmall);
 }
 
 .forumrow-lastpost:has(a[href=""]) .forumrow-numbers {
@@ -1097,7 +1096,7 @@ a.forumtitle {
 	text-align: center;
 	width: 100%;
 	display: block;
-	margin-top: var(--xsmall);
+	margin-top: var(--2xsmall);
 	color: var(--co2);
 }
 
@@ -1287,7 +1286,7 @@ div.award.award-hj::before {
 .awards_block_simple {
 	display: flex;
 	flex-wrap: wrap;
-	gap: var(--xsmall);
+	gap: var(--2xsmall);
 	height: 96px;
 	overflow-y: auto;
 	overflow-x: hidden;
@@ -1299,7 +1298,7 @@ div.award.award-hj::before {
 	bottom: 1rem;
 	width: calc(100% - var(--2xlarge));
 	left: 1rem;
-	font-size: var(--xsmall);
+	font-size: var(--2xsmall);
 	text-transform: uppercase;
 	background: var(--whiteop75);
 	position: absolute;
@@ -1349,7 +1348,7 @@ div.award.award-hj::before {
 	text-align: center;
 	justify-content: center;
 	background-color: var(--darklight);
-	gap: var(--xsmall);
+	gap: var(--2xsmall);
 	width: 107px;
 	height: 107px;
 	top: 0;
@@ -1541,8 +1540,8 @@ div.award.award-hj::before {
 .bloc-accueil.two strong {
 	color: var(--co2);
 	font-family: var(--serif);
-	margin: 0 var(--2xsmall);
-	padding: 0 var(--2xsmall);
+	margin: 0 var(--3xsmall);
+	padding: 0 var(--3xsmall);
 	background: var(--co2-50);
 	text-shadow: 0.5px 0.5px var(--white);
 }
@@ -1605,14 +1604,14 @@ div.award.award-hj::before {
 .bloc-accueil.five div {
 	display: flex;
 	align-items: center;
-	gap: var(--xsmall);
+	gap: var(--2xsmall);
 	justify-content: center;
 }
 
 .bloc-accueil.five span {
 	text-align: center;
 	font-size: var(--small);
-	padding: var(--xsmall);
+	padding: var(--2xsmall);
 	font-family: var(--serif);
 	background-color: var(--white);
 }
@@ -1666,8 +1665,8 @@ div.award.award-hj::before {
 	letter-spacing: 1px;
 	margin: 0 auto;
 	border-bottom: 1px solid;
-	padding-bottom: var(--xsmall);
-	margin-bottom: var(--xsmall);
+	padding-bottom: var(--2xsmall);
+	margin-bottom: var(--2xsmall);
 	width: fit-content;
 	color: var(--co3);
 }
@@ -1680,7 +1679,7 @@ div.award.award-hj::before {
 .bloc-accueil.six i:after,
 .bloc-accueil.six i:before {
 	content: "€”";
-	padding: 0 var(--xsmall);
+	padding: 0 var(--2xsmall);
 }
 
 .bloc-accueil.six img {
@@ -1719,7 +1718,7 @@ div.award.award-hj::before {
 	content: "\E054";
 	font-family: "TES" !important;
 	color: var(--group-color, var(--co1));
-	margin-right: var(--2xsmall);
+	margin-right: var(--3xsmall);
 }
 
 .member .member-pseudo.cam {
@@ -1743,7 +1742,7 @@ div.award.award-hj::before {
 #total-users-online strong,
 .total-others strong {
 	color: var(--white);
-	padding-right: var(--2xsmall);
+	padding-right: var(--3xsmall);
 }
 
 #total-users-online {
@@ -1758,10 +1757,10 @@ div.award.award-hj::before {
 
 #logged-in-user-list,
 #l-connected-members {
-	padding: var(--xsmall);
+	padding: var(--2xsmall);
 	width: -webkit-fill-available;
 	text-transform: capitalize;
-	border: var(--xsmall) solid var(--light);
+	border: var(--2xsmall) solid var(--light);
 	background-color: var(--white);
 }
 
@@ -1797,7 +1796,7 @@ div.award.award-hj::before {
 	flex: 1;
 	color: var(--group-color);
 	position: relative;
-	border-left: var(--xsmall) solid var(--group-color);
+	border-left: var(--2xsmall) solid var(--group-color);
 	padding: var(--large);
 	font-size: var(--large);
 	font-family: var(--display);
@@ -1834,11 +1833,11 @@ div.award.award-hj::before {
 	align-items: center;
 	flex-direction: column;
 	height: auto;
-	padding: var(--xsmall);
+	padding: var(--2xsmall);
 	box-sizing: border-box;
 	background-color: var(--white);
-	gap: var(--xsmall);
-	border: var(--xsmall) solid var(--co3);
+	gap: var(--2xsmall);
+	border: var(--2xsmall) solid var(--co3);
 }
 
 #newest-user a,
@@ -1916,7 +1915,7 @@ div.award.award-hj::before {
 	background-color: var(--co2-50);
 	color: var(--co2-400);
 	font-size: var(--small);
-	padding: 0 var(--2xsmall);
+	padding: 0 var(--3xsmall);
 }
 
 .topicrow-title .pagination a {
@@ -1938,7 +1937,7 @@ topicinfo:empty {
 
 topicinfo {
 	color: var(--group-color-300, var(--co1-300));
-	margin-left: var(--xsmall);
+	margin-left: var(--2xsmall);
 	text-transform: lowercase;
 	font-family: var(--mono);
 }
@@ -1959,7 +1958,7 @@ topicinfo:after {
 
 .topicrow-title:has(topictype:not(:empty)) .topictitle:before {
 	content: "›";
-	padding-right: var(--xsmall);
+	padding-right: var(--2xsmall);
 	color: var(--darkneutral);
 	font-style: normal;
 }
@@ -2054,7 +2053,7 @@ topictype {
 }
 
 particpost {
-	padding-right: var(--xsmall);
+	padding-right: var(--2xsmall);
 	color: var(--neutral);
 }
 
@@ -2127,7 +2126,7 @@ topicdesc {
 	text-transform: lowercase;
 	font-family: var(--mono);
 	color: var(--co1);
-	margin: var(--xsmall);
+	margin: var(--2xsmall);
 }
 
 .postlinks i,
@@ -2270,7 +2269,7 @@ topicdesc {
 }
 
 .minipostprofile .postprofile-pseudo {
-	font-size: var(--xlarge);
+	font-size: var(--large);
 	text-align: center;
 	width: 250px;
 }
@@ -2291,7 +2290,7 @@ topicdesc {
 	width: 100px;
 	display: inline-block;
 	text-shadow: .5px .5px var(--white);
-	margin-right: var(--2xsmall);
+	margin-right: var(--3xsmall);
 	border-radius: var(--small);
 	text-align: center;
 	border: .5px solid;
@@ -2380,7 +2379,7 @@ topicdesc {
 .profile-tab-content.active {
 	display: flex;
 	flex-wrap: wrap;
-	row-gap: var(--2xsmall);
+	row-gap: var(--3xsmall);
 	padding-top: 1px;
 	align-content: flex-start;
 	align-items: center;
@@ -2622,11 +2621,11 @@ div.sceditor-toolbar,
 
 .sceditor-group {
 	display: flex !important;
-	gap: var(--xsmall);
+	gap: var(--2xsmall);
 	border: 0 !important;
 	border-radius: 0 !important;
 	background-color: var(--co2) !important;
-	padding: var(--xsmall) !important;
+	padding: var(--2xsmall) !important;
 	margin: 0 !important;
 }
 
@@ -2658,8 +2657,8 @@ button1,
 	background-color: var(--co2-50) !important;
 	font-family: var(--serif) !important;
 	text-transform: uppercase;
-	padding: var(--xsmall) !important;
-	padding-left: calc(var(--xsmall) + 2.5px) !important;
+	padding: var(--2xsmall) !important;
+	padding-left: calc(var(--2xsmall) + 2.5px) !important;
 	color: var(--co2);
 	border: 0.5px solid var(--co2);
 	border-radius: var(--2xlarge);
@@ -2674,7 +2673,7 @@ select {
 	border-radius: 0;
 	font-weight: 300;
 	background-color: var(--darklight) !important;
-	padding: var(--xsmall) !important;
+	padding: var(--2xsmall) !important;
 }
 
 button {
@@ -2683,7 +2682,7 @@ button {
 
 textarea {
 	font-family: var(--main) !important;
-	padding: var(--xsmall) !important;
+	padding: var(--2xsmall) !important;
 	background-color: var(--darklight) !important;
 	border: 0px !important;
 }
@@ -2694,7 +2693,7 @@ textarea {
 	font-weight: 700;
 	letter-spacing: 2.5px;
 	text-transform: lowercase;
-	font-size: var(--xlarge);
+	font-size: var(--large);
 	color: var(--co1);
 	background: var(--white);
 	width: 100%;
@@ -2839,7 +2838,7 @@ textarea {
 
 .ficheadmin a:not(.mentiontag) {
 	background-color: var(--co3-50);
-	padding: 0 var(--xsmall);
+	padding: 0 var(--2xsmall);
 }
 
 .ficheadmin a:not(.mentiontag):hover {
@@ -2848,7 +2847,7 @@ textarea {
 }
 
 .inneradmin:before {
-	left: var(--xlarge);
+	left: var(--large);
 	content: "";
 	position: absolute;
 	width: 5px;
@@ -2870,7 +2869,7 @@ textarea {
 .inneradmin {
 	padding-left: var(--3xlarge) !important;
 	position: relative;
-	padding: var(--xlarge);
+	padding: var(--large);
 	width: 100%;
 	text-align: justify;
 	width: 100%;
@@ -2878,7 +2877,7 @@ textarea {
 }
 
 .panel-content button {
-	padding: var(--xsmall);
+	padding: var(--2xsmall);
 	background-color: var(--darklight);
 	border: 1px solid var(--neutral);
 }
@@ -3021,8 +3020,8 @@ button.toggle-panel .fi:before:hover {
 .profile-status {
 	text-transform: uppercase;
 	letter-spacing: 2.5px;
-	padding: var(--xsmall);
-	padding-right: calc(var(--xsmall) - 2.5px);
+	padding: var(--2xsmall);
+	padding-right: calc(var(--2xsmall) - 2.5px);
 	text-align: center;
 	font-size: var(--small);
 	font-weight: 300;
@@ -3039,7 +3038,7 @@ button.toggle-panel .fi:before:hover {
 #field_id7:after {
 	content: "€”";
 	font-weight: 300;
-	padding: 0 var(--xsmall);
+	padding: 0 var(--2xsmall);
 }
 
 #field_id7 .profile-field-label,
@@ -3072,13 +3071,13 @@ button.toggle-panel .fi:before:hover {
 #field_id-6 .field_uneditable:after {
 	content: "messages";
 	font-weight: 500;
-	padding-left: var(--xsmall);
+	padding-left: var(--2xsmall);
 }
 
 #field_id-13 .field_uneditable:after {
 	content: "points";
 	font-weight: 500;
-	padding-left: var(--xsmall);
+	padding-left: var(--2xsmall);
 }
 
 .profile-tab-content [id^="field_id"] {
@@ -3087,7 +3086,7 @@ button.toggle-panel .fi:before:hover {
 
 #field_id-5,
 #field_id2 {
-	flex: 1 1 calc(50% - var(--xsmall));
+	flex: 1 1 calc(50% - var(--2xsmall));
 }
 
 .profile-group {
@@ -3095,7 +3094,7 @@ button.toggle-panel .fi:before:hover {
 	text-align: center;
 	color: var(--group-color);
 	text-transform: lowercase;
-	font-size: var(--xlarge);
+	font-size: var(--large);
 	font-weight: 100;
 	font-family: var(--mono);
 }
@@ -3135,7 +3134,7 @@ button.toggle-panel .fi:before:hover {
 	font-size: var(--small);
 	font-weight: 900;
 	text-align: right;
-	margin-bottom: var(--2xsmall);
+	margin-bottom: var(--3xsmall);
 	border-left: 5px solid var(--group-color-50, var(--co1-50));
 }
 
@@ -3148,7 +3147,7 @@ button.toggle-panel .fi:before:hover {
 	text-transform: lowercase;
 	font-weight: 300;
 	font-family: var(--serif);
-	font-size: var(--xlarge);
+	font-size: var(--large);
 	padding: var(--large) 0;
 }
 
@@ -3160,19 +3159,19 @@ button.toggle-panel .fi:before:hover {
 }
 
 .member {
-	border-left: var(--xsmall) solid var(--group-color, var(--dark)) !important;
+	border-left: var(--2xsmall) solid var(--group-color, var(--dark)) !important;
 	border: 1px solid var(--group-color, var(--dark));
 	box-shadow: 0 0 0rem .55rem var(--neutral);
 	display: flex;
-	padding: var(--xsmall) 0;
+	padding: var(--2xsmall) 0;
 	justify-content: space-between;
 	background-color: var(--light);
-	outline: var(--xsmall) solid var(--white);
+	outline: var(--2xsmall) solid var(--white);
 	align-items: center;
 	box-sizing: border-box;
-	gap: var(--xsmall);
-	margin: var(--xsmall);
-	flex: 0 0 calc((100% - 4 * var(--large)) / 5 - 2 * var(--xsmall));
+	gap: var(--2xsmall);
+	margin: var(--2xsmall);
+	flex: 0 0 calc((100% - 4 * var(--large)) / 5 - 2 * var(--2xsmall));
 	flex-direction: column;
 }
 
@@ -3200,7 +3199,7 @@ button.toggle-panel .fi:before:hover {
 }
 
 .member-celeb {
-	padding: var(--2xsmall);
+	padding: var(--3xsmall);
 	width: 100%;
 	font-size: var(--small);
 	font-family: var(--mono);
@@ -3214,7 +3213,7 @@ button.toggle-panel .fi:before:hover {
 	text-transform: uppercase;
 	font-weight: 300;
 	width: 100%;
-	padding-left: var(--xsmall);
+	padding-left: var(--2xsmall);
 	text-transform: lowercase;
 	font-size: var(--small);
 }
@@ -3233,7 +3232,7 @@ button.toggle-panel .fi:before:hover {
 .member-infos {
 	display: flex;
 	flex-direction: column;
-	gap: var(--xsmall);
+	gap: var(--2xsmall);
 	flex: 1;
 	width: 100%;
 	align-items: center;
@@ -3333,7 +3332,7 @@ input#profile_field_4_-12_0 {
 }
 
 #privmsgs-menu i {
-	font-size: var(--xlarge);
+	font-size: var(--large);
 	color: var(--co1);
 }
 
@@ -3467,7 +3466,7 @@ input#profile_field_4_-12_0 {
 	height: 25px;
 	font-size: var(--medium);
 	width: 25px;
-	border-radius: var(--2xsmall);
+	border-radius: var(--3xsmall);
 	background-color: var(--co3);
 	color: var(--white);
 	border: 2px solid var(--white);
@@ -3547,7 +3546,7 @@ avhi:hover {
 .activity-feed {
 	display: flex;
 	flex-direction: column;
-	gap: var(--2xsmall);
+	gap: var(--3xsmall);
 }
 
 .feed-item {
@@ -3573,7 +3572,7 @@ avhi:hover {
 .feed-item .time:before {
 	content: "";
 	flex: 1;
-	margin: 0 var(--xlarge);
+	margin: 0 var(--large);
 	border-bottom: 0.5px solid var(--neutral);
 }
 
@@ -3583,7 +3582,7 @@ avhi:hover {
 	gap: 4.5px;
 	text-transform: lowercase;
 	letter-spacing: 1px;
-	margin-left: var(--xlarge);
+	margin-left: var(--large);
 }
 
 .feed-item .text a:nth-of-type(2) {
@@ -3632,7 +3631,7 @@ avhi:hover {
 .tool-box a,
 .tool-box .dark-mode i {
 	display: flex;
-	padding: var(--2xsmall);
+	padding: var(--3xsmall);
 	align-items: center;
 	justify-content: center;
 	color: var(--co3-50);
@@ -3693,7 +3692,7 @@ cite:before {
 	color: var(--co3);
 	float: right;
 	position: relative;
-	padding: var(--xsmall);
+	padding: var(--2xsmall);
 }
 
 .copy-code.copied,
@@ -3734,41 +3733,6 @@ dl.codebox {
 
 .d-flex {
 	display: flex !important;
-}
-
-x2small,
-.x2small {
-	font-size: var(--2xsmall);
-}
-
-xsmall,
-.xsmall {
-	font-size: var(--xsmall);
-}
-
-small,
-.small {
-	font-size: var(--small);
-}
-
-medium,
-.medium {
-	font-size: var(--medium);
-}
-
-large,
-.large {
-	font-size: var(--large);
-}
-
-xlarge,
-.xlarge {
-	font-size: var(--xlarge);
-}
-
-x2large,
-.x2large {
-	font-size: var(--2xlarge);
 }
 
 .reverse {
@@ -3960,16 +3924,16 @@ fslarge {
 	font-family: var(--display);
 	text-transform: lowercase;
 	font-weight: 900;
-	letter-spacing: var(--2xsmall);
-	padding-left: var(--2xsmall);
+	letter-spacing: var(--3xsmall);
+	padding-left: var(--3xsmall);
 	color: var(--co2);
 }
 
 .sstitrefam {
 	text-align: center;
 	text-transform: uppercase;
-	letter-spacing: var(--2xsmall);
-	padding-left: var(--2xsmall);
+	letter-spacing: var(--3xsmall);
+	padding-left: var(--3xsmall);
 	font-weight: 300;
 	color: var(--co1);
 }
@@ -4035,7 +3999,7 @@ fslarge {
 }
 
 .fichepl .posttabs {
-	font-size: var(--xlarge);
+	font-size: var(--large);
 	color: var(--darkneutral);
 }
 
@@ -4070,11 +4034,11 @@ fslarge {
 	font-weight: 700;
 	margin-bottom: var(--large);
 	font-family: var(--display);
-	font-size: var(--xlarge);
-	letter-spacing: var(--2xsmall);
+	font-size: var(--large);
+	letter-spacing: var(--3xsmall);
 	color: var(--co3);
-	border-left: var(--2xsmall) solid;
-	border-radius: var(--2xsmall);
+	border-left: var(--3xsmall) solid;
+	border-radius: var(--3xsmall);
 	padding: var(--large);
 }
 
@@ -4144,13 +4108,13 @@ fslarge {
 
 .fichepredef .posttab:nth-of-type(odd) {
 	text-align: right;
-	border-left: var(--2xsmall) solid var(--neutral);
-	padding-left: var(--2xsmall);
+	border-left: var(--3xsmall) solid var(--neutral);
+	padding-left: var(--3xsmall);
 }
 
 .fichepredef .posttab:nth-of-type(even) {
-	border-right: var(--2xsmall) solid var(--neutral);
-	padding-right: var(--2xsmall);
+	border-right: var(--3xsmall) solid var(--neutral);
+	padding-right: var(--3xsmall);
 }
 
 .fichepredef .posttab.active {
@@ -4179,7 +4143,7 @@ fslarge {
 
 .fichepredef borderd {
 	display: block;
-	margin-top: var(--2xsmall);
+	margin-top: var(--3xsmall);
 	width: fit-content;
 }
 
@@ -4195,8 +4159,8 @@ fslarge {
 	font-family: var(--display);
 	text-transform: uppercase;
 	font-weight: 100;
-	letter-spacing: var(--2xsmall);
-	padding-left: var(--2xsmall);
+	letter-spacing: var(--3xsmall);
+	padding-left: var(--3xsmall);
 	color: var(--co2);
 	text-shadow: 1px 1px var(--co2-50);
 }
@@ -4204,9 +4168,9 @@ fslarge {
 .sstitrepredef {
 	text-align: center;
 	text-transform: lowercase;
-	letter-spacing: var(--2xsmall);
+	letter-spacing: var(--3xsmall);
 	font-size: var(--large);
-	padding-left: var(--2xsmall);
+	padding-left: var(--3xsmall);
 	font-weight: 900;
 	font-family: var(--display);
 	color: var(--co1);
@@ -4258,8 +4222,8 @@ fslarge {
 	color: var(--lightdark);
 	font-size: var(--3xlarge);
 	text-transform: uppercase;
-	letter-spacing: var(--3xsmall);
-	padding-left: var(--3xsmall);
+	letter-spacing: var(--4xsmall);
+	padding-left: var(--4xsmall);
 }
 
 .pseudoperso pronom {
@@ -4279,14 +4243,14 @@ fslarge {
 
 .headperso img {
 	width: 300px;
-	border-radius: var(--2xsmall);
+	border-radius: var(--3xsmall);
 	height: 400px;
 	object-fit: cover;
 }
 
 .headrec img {
 	width: 200px;
-	border-radius: var(--2xsmall);
+	border-radius: var(--3xsmall);
 	height: 100px;
 	object-fit: cover;
 }
@@ -4356,7 +4320,7 @@ blockquote.blocperso i {
 lblchrn {
 	background-color: var(--group-color, var(--co3));
 	padding: 0.5px 5px 0.5px 10px;
-	margin-right: var(--xsmall);
+	margin-right: var(--2xsmall);
 	letter-spacing: 5px;
 	font-weight: 200;
 	text-transform: uppercase;
@@ -4378,7 +4342,7 @@ lblprtt:not(:first-of-type) {
 lblfvr:after,
 lblprtt:after {
 	content: "€”";
-	margin: 0 var(--xsmall);
+	margin: 0 var(--2xsmall);
 }
 
 lbldvrs {
@@ -4507,7 +4471,7 @@ blockquote.blocperso {
 .headpl img {
 	height: 100px;
 	width: 150px;
-	border-radius: var(--2xsmall);
+	border-radius: var(--3xsmall);
 	object-fit: cover;
 }
 
@@ -4590,7 +4554,7 @@ blockquote.blocperso {
 	width: 90%;
 	display: flex;
 	font-family: var(--serif);
-	font-size: var(--xlarge);
+	font-size: var(--large);
 	text-align: center;
 	align-items: center;
 	padding: 0 var(--large);
@@ -4684,7 +4648,7 @@ reclinks a:after {
 }
 
 .blocrec.one bordergc {
-	padding: 0rem var(--xlarge);
+	padding: 0rem var(--large);
 	font-weight: 200;
 	letter-spacing: 1.5px;
 }
@@ -4713,7 +4677,7 @@ reclinks a:after {
 }
 
 .blocmxlarge {
-	margin-left: var(--xlarge);
+	margin-left: var(--large);
 }
 
 .blocm2xlarge {
@@ -4758,7 +4722,7 @@ borderbid,
 borderbigc {
 	border: 0.5px solid;
 	font-weight: 300;
-	padding: var(--3xsmall) var(--xlarge);
+	padding: var(--4xsmall) var(--large);
 }
 
 bborder1,
@@ -4816,7 +4780,7 @@ mborderbid,
 mborderbigc {
 	border: 0.5px solid;
 	background-color: var(--white);
-	padding: 0.1rem var(--xsmall);
+	padding: 0.1rem var(--2xsmall);
 	font-family: var(--mono);
 }
 
@@ -5479,8 +5443,8 @@ mbackgc,
 mbackbgc,
 mbackigc,
 mbackbigc {
-	padding-left: calc(var(--2xsmall) + 5px);
-	padding-right: var(--2xsmall);
+	padding-left: calc(var(--3xsmall) + 5px);
+	padding-right: var(--3xsmall);
 	letter-spacing: 5px;
 	font-size: var(--small);
 	text-transform: lowercase;
@@ -6498,7 +6462,7 @@ maj3::first-letter,
 majn::first-letter,
 majd::first-letter,
 majgc::first-letter {
-	font-size: var(--xlarge) !important;
+	font-size: var(--large) !important;
 	text-transform: lowercase !important;
 	font-family: var(--spe);
 }
@@ -6715,7 +6679,7 @@ majgc::first-letter {
 	margin: 0 auto;
 	width: fit-content;
 	color: var(--co1);
-	font-size: var(--xsmall);
+	font-size: var(--2xsmall);
 	display: block;
 	letter-spacing: var(--2xlarge);
 	padding-left: var(--2xlarge);
@@ -6735,8 +6699,8 @@ majgc::first-letter {
 .br7n,
 .br7d,
 .br7gc {
-	letter-spacing: var(--xlarge);
-	padding-left: var(--xlarge);
+	letter-spacing: var(--large);
+	padding-left: var(--large);
 	font-size: var(--medium);
 }
 
@@ -6875,7 +6839,7 @@ majgc::first-letter {
 }
 
 .brpost .codebox dd {
-	margin: var(--small) 0 var(--xlarge) !important;
+	margin: var(--small) 0 var(--large) !important;
 	padding: var(--small);
 }
 
@@ -6919,7 +6883,7 @@ majgc::first-letter {
 #postprofile-libre a,
 .postprofile-libre a {
 	background-color: var(--group-color-50, var(--co2-50));
-	padding: 0 var(--xsmall);
+	padding: 0 var(--2xsmall);
 	color: var(--group-color, var(--co2)) !important;
 	font-family: var(--mono);
 }
@@ -6947,8 +6911,8 @@ majgc::first-letter {
 
 #postprofile-libre blockquote,
 .postprofile-libre blockquote {
-	padding: var(--xsmall) !important;
-	margin: var(--xsmall) !important;
+	padding: var(--2xsmall) !important;
+	margin: var(--2xsmall) !important;
 }
 
 #postprofile-libre h2,
@@ -7014,7 +6978,7 @@ majgc::first-letter {
 #postprofile-libre ol[type="a"],
 .postprofile-libre ol[type="a"] {
 	flex-wrap: wrap;
-	gap: var(--3xsmall);
+	gap: var(--4xsmall);
 }
 
 #postprofile-libre ol[type="a"] li,
@@ -7067,7 +7031,7 @@ majgc::first-letter {
 	align-items: center;
 	justify-content: center;
 	column-gap: var(--large);
-	row-gap: var(--xsmall);
+	row-gap: var(--2xsmall);
 	flex-wrap: wrap;
 }
 
@@ -7099,10 +7063,10 @@ bblocgc,
 .bblocn,
 .bblocd,
 .bblocgc {
-	border: var(--xsmall) solid var(--light);
+	border: var(--2xsmall) solid var(--light);
 	background-color: var(--white);
 	display: block;
-	padding: var(--xsmall);
+	padding: var(--2xsmall);
 	outline: 1px solid var(--co1);
 	display: block;
 	width: 50%;
@@ -7497,7 +7461,7 @@ pblocgc,
 
 .tooltipster-default {
 	background: var(--light) !important;
-	padding: var(--2xsmall) !important;
+	padding: var(--3xsmall) !important;
 	box-shadow: none !important;
 	border: 1px solid var(--darkerlight);
 	border-radius: 0px !important;
@@ -7583,7 +7547,7 @@ pblocgc,
 }
 
 .rep-nb {
-	margin-right: var(--xsmall);
+	margin-right: var(--2xsmall);
 	font-family: var(--serif);
 	font-weight: 700;
 }
@@ -7639,9 +7603,9 @@ pblocgc,
 }
 
 blockquote.indiv {
-	padding: var(--xlarge);
+	padding: var(--large);
 	background-color: var(--group-color-50);
-	line-height: var(--xlarge);
+	line-height: var(--large);
 	letter-spacing: 1px;
 	font-family: var(--mono);
 }
@@ -7724,7 +7688,7 @@ chronoevent strong {
 .rules.content strong {
 	background: var(--co3);
 	color: var(--white);
-	padding: var(--2xsmall) var(--2xlarge);
+	padding: var(--3xsmall) var(--2xlarge);
 	font-size: var(--large);
 }
 
@@ -7733,7 +7697,7 @@ chronoevent strong {
 	font-size: var(--large);
 	font-weight: 500;
 	color: var(--white);
-	padding: var(--2xsmall) var(--2xlarge);
+	padding: var(--3xsmall) var(--2xlarge);
 	font-family: var(--serif);
 }
 
@@ -7762,14 +7726,14 @@ p {
 
 #restricted-block {
 	display: flex;
-	gap: var(--2xsmall);
+	gap: var(--3xsmall);
 	flex-wrap: wrap;
 	align-items: center;
 	width: 100% !important;
 }
 
 #restricted-block a {
-	width: calc(50% - var(--2xsmall) / 2);
+	width: calc(50% - var(--3xsmall) / 2);
 	font-family: var(--display);
 	font-size: var(--small);
 	text-transform: uppercase;
@@ -7809,7 +7773,7 @@ p {
 	font-weight: 300;
 	background: var(--gradient12);
 	color: var(--white) !important;
-	padding: 0 var(--xsmall);
+	padding: 0 var(--2xsmall);
 	font-family: var(--serif);
 }
 
@@ -8063,7 +8027,7 @@ p {
 	color: var(--group-color-700, var(--co1-700));
 	text-transform: uppercase;
 	font-weight: 900;
-	font-size: var(--xlarge);
+	font-size: var(--large);
 	font-family: var(--display);
 }
 
@@ -8072,8 +8036,8 @@ p {
 	text-transform: uppercase;
 	font-weight: 300;
 	font-size: var(--large);
-	letter-spacing: var(--2xsmall);
-	padding-left: var(--2xsmall);
+	letter-spacing: var(--3xsmall);
+	padding-left: var(--3xsmall);
 	font-family: var(--display);
 }
 
@@ -8081,7 +8045,7 @@ p {
 	width: 75px;
 	height: 92px;
 	object-fit: cover;
-	border-radius: var(--2xsmall);
+	border-radius: var(--3xsmall);
 }
 
 .notiffi_head {
@@ -8131,7 +8095,7 @@ p {
 	background-color: var(--white);
 	grid-template-columns: auto auto;
 	grid-template-rows: auto auto;
-	gap: var(--xsmall);
+	gap: var(--2xsmall);
 	justify-items: center;
 	align-items: center;
 }
@@ -8164,7 +8128,7 @@ p {
 	align-items: center;
 	justify-content: center;
 	grid-area: 2 / 2 / 2 / 3;
-	gap: var(--xsmall);
+	gap: var(--2xsmall);
 }
 
 .notiffi_head_links a {
@@ -8218,7 +8182,7 @@ p {
 	position: absolute;
 	left: 0;
 	border-bottom: 1px solid var(--neutral);
-	padding-bottom: var(--2xsmall);
+	padding-bottom: var(--3xsmall);
 	top: -34px;
 }
 
@@ -8430,7 +8394,7 @@ firstdtls:nth-last-of-type(odd) {
 	text-align: right;
 	font-family: var(--serif);
 	width: 100%;
-	letter-spacing: var(--2xsmall);
+	letter-spacing: var(--3xsmall);
 	height: 20px;
 	display: flex;
 	align-items: center;
@@ -8613,7 +8577,7 @@ statusdtls:nth-of-type(odd) {
 	height: 100px;
 	object-fit: cover;
 	border-radius: 100%;
-	padding: var(--xsmall);
+	padding: var(--2xsmall);
 	border: 1px solid var(--group-color, var(--co1));
 }
 
@@ -8635,7 +8599,7 @@ mainpseudo {
 	text-transform: lowercase;
 	font-weight: 700;
 	letter-spacing: 1px;
-	font-size: var(--xlarge);
+	font-size: var(--large);
 }
 
 minipseudo {
@@ -8709,7 +8673,7 @@ statusinsta {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	gap: var(--xsmall);
+	gap: var(--2xsmall);
 }
 
 .contentinsta {
@@ -8826,7 +8790,7 @@ statusinsta {
 
 .ficherphead img {
 	height: 100px;
-	padding: var(--xsmall);
+	padding: var(--2xsmall);
 	background-color: var(--white);
 	object-fit: cover;
 }
@@ -8860,7 +8824,7 @@ statusinsta {
 }
 
 .ficherphead ficherptitle {
-	font-size: var(--xlarge);
+	font-size: var(--large);
 }
 
 .ficherphead ficherpsstitle {
@@ -8909,7 +8873,7 @@ statusinsta {
 	text-transform: uppercase;
 	background: var(--gradientgc2);
 	color: var(--white);
-	padding: var(--3xsmall) var(--2xlarge);
+	padding: var(--4xsmall) var(--2xlarge);
 	font-weight: 600;
 }
 
@@ -8951,7 +8915,7 @@ statusinsta {
 }
 
 .ficherp.seven ficherptitle {
-	font-size: var(--xlarge);
+	font-size: var(--large);
 	border-left: 5px solid var(--group-color);
 	padding-left: var(--large);
 	text-transform: lowercase;
@@ -9020,7 +8984,7 @@ statusinsta {
 .ficherp.four .ficherpfooter,
 .ficherp.six .ficherpbanner,
 .ficherp.six .ficherpfooter {
-	padding: var(--2xsmall);
+	padding: var(--3xsmall);
 	background: var(--darklight);
 	text-transform: lowercase;
 	font-weight: 700;
@@ -9191,7 +9155,7 @@ statusinsta {
 
 .ficheperso.playlist .playlistitem:before,
 .ficheperso.playlist .playlistitem:after {
-	font-weight: var(--xlarge);
+	font-weight: var(--large);
 	font-family: "uicons-thin-straight" !important;
 }
 
@@ -9246,7 +9210,7 @@ statusinsta {
 	background-color: var(--group-color, var(--co3));
 	text-decoration: none !important;
 	color: var(--white);
-	padding: 0 var(--2xsmall);
+	padding: 0 var(--3xsmall);
 }
 
 .signtes img {
@@ -9301,7 +9265,7 @@ statusinsta {
 .signtes.nine div {
 	font-family: var(--serif);
 	background-color: var(--white);
-	padding: var(--2xsmall);
+	padding: var(--3xsmall);
 }
 
 .signtes.five img {
@@ -9313,7 +9277,7 @@ statusinsta {
 .signtes.five div {
 	font-family: var(--mono);
 	background-color: var(--white);
-	padding: var(--2xsmall);
+	padding: var(--3xsmall);
 }
 
 .signtes.six img {
@@ -9379,7 +9343,7 @@ statusinsta {
 }
 
 .fichetinder .tinderhead div strong {
-	font-size: var(--xlarge);
+	font-size: var(--large);
 }
 
 .tindermisc {
@@ -9712,7 +9676,7 @@ lblpmdn {
 .fichetodo span,
 .fichedefi span {
 	border-bottom: 1px solid var(--darklight);
-	padding-bottom: var(--2xsmall);
+	padding-bottom: var(--3xsmall);
 	text-transform: lowercase;
 	letter-spacing: 1px;
 	display: flex;
@@ -9763,7 +9727,7 @@ lblpmdn {
 
 .random .posttab {
 	width: 150px;
-	padding: var(--2xsmall);
+	padding: var(--3xsmall);
 	background-color: var(--white);
 	color: var(--group-color);
 	font-weight: 700;
@@ -9802,7 +9766,7 @@ lblpmdn {
 	display: block;
 	font-family: var(--serif);
 	font-weight: 100;
-	font-size: var(--xlarge);
+	font-size: var(--large);
 	color: var(--group-color);
 }
 
@@ -9811,7 +9775,7 @@ lblpmdn {
 	font-size: var(--small);
 	background: var(--group-color);
 	color: var(--white);
-	padding: 0 var(--2xsmall);
+	padding: 0 var(--3xsmall);
 	font-weight: 200;
 }
 
@@ -9847,7 +9811,7 @@ lblpmdn {
 .minipostprofile .tooltip-rank {
 	flex: 1;
 	padding: var(--large) 0;
-	letter-spacing: var(--2xsmall);
+	letter-spacing: var(--3xsmall);
 	text-transform: uppercase !important;
 	align-items: flex-end;
 	font-family: var(--display);
@@ -9882,7 +9846,7 @@ lblpmdn {
 .form-line input,
 .form-line textarea,
 .form-line select {
-	padding: var(--2xsmall) var(--small);
+	padding: var(--3xsmall) var(--small);
 	flex: 1;
 	border: 0px;
 	background-color: var(--neutral);
@@ -9909,7 +9873,7 @@ lblpmdn {
 	border: 0.5px solid var(--co3);
 	background: var(--co3-50);
 	border-radius: var(--small);
-	padding: var(--2xsmall) var(--2xlarge);
+	padding: var(--3xsmall) var(--2xlarge);
 	margin: 0 auto;
 	display: block;
 	text-transform: lowercase;
@@ -9917,14 +9881,14 @@ lblpmdn {
 	font-family: var(--display);
 	color: var(--co3);
 	text-shadow: 1px 1px var(--white);
-	font-size: var(--xlarge);
+	font-size: var(--large);
 }
 
 #form-presentation strong {
 	display: block;
 	margin-bottom: var(--large);
 	width: 100%;
-	padding: var(--2xsmall) var(--large);
+	padding: var(--3xsmall) var(--large);
 	background: var(--co3);
 	color: var(--white) !important;
 	font-family: var(--serif);
