@@ -726,7 +726,7 @@ body::before {
 .forumlist:nth-of-type(odd) .forumlist-title {
 	padding-left: var(--large);
 	border-left: 0.5px solid var(--neutral);
-	padding-top: 0var(--3xsmall);
+	padding-top: 0 var(--3xsmall);
 	order: 3
 }
 
@@ -755,12 +755,10 @@ body::before {
 	font-family: var(--spe);
 	margin: 0px !important;
 	color: var(--dark) !important;
-	font-size: var(--large) !important;
-	letter-spacing: 0var(--3xsmall);
+	letter-spacing: 0 var(--3xsmall);
 	writing-mode: sideways-lr;
 	text-orientation: mixed;
-	text-shadow: 1px 1px var(--neutral);
-	text-transform: lowercase
+	text-shadow: 1px 1px var(--neutral)
 }
 
 .forumlist:nth-of-type(odd) .forumlist-title h2 {
@@ -851,7 +849,7 @@ a.forumtitle {
 	font-size: var(--large);
 	text-transform: lowercase;
 	font-weight: 700;
-	letter-spacing: 0var(--4xsmall)
+	letter-spacing: 0 var(--4xsmall)
 }
 
 .fifty .forumtitle {
@@ -993,8 +991,7 @@ a.forumtitle {
 }
 
 #c7 .forumrow-status:before {
-	font-family: var(--icons-thin) !important;
-	font-size: var(--large)
+	font-family: var(--icons-solid) !important
 }
 
 #f51 .forumrow-status:before {
