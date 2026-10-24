@@ -17,6 +17,10 @@
 	--display: 'Bebas';
 	--serif: 'Playfair Display';
 
+	--icons-thin: "uicons-solid-straight";
+	--icons-solid: "uicons-solid-straight";
+	--icons-custom: "uicons-custom-itb";
+
 	--co1-50: #F3F4DB;
 	--co1-100: #E6E9B8;
 	--co1-200: #DADD94;
@@ -941,7 +945,7 @@ a.forumtitle {
 
 .forumlinks a:first-child::before {
 	content: "\f3db";
-	font-family: uicons-thin-straight !important;
+	font-family: var(--icons-thin) !important;
 	display: inline-block;
 	transform: scaleX(-1);
 	margin-right: var(--3xsmall)
@@ -976,7 +980,7 @@ a.forumtitle {
 
 .forumrow-status:before {
 	content: "\E04A";
-	font-family: "TES" !important;
+	font-family: var(--icons-custom) !important;
 	background-color: var(--darkerlight);
 	height: 35px;
 	width: 35px;
@@ -989,7 +993,7 @@ a.forumtitle {
 }
 
 #c7 .forumrow-status:before {
-	font-family: uicons-thin-straight !important;
+	font-family: var(--icons-thin) !important;
 	font-size: var(--large)
 }
 
@@ -1709,7 +1713,7 @@ div.award.award-hj::before {
 .postprofile-pseudo a.cam:before,
 .cam .profile-pseudo:before {
 	content: "\E054";
-	font-family: "TES" !important;
+	font-family: var(--icons-custom) !important;
 	color: var(--group-color, var(--co1));
 	margin-right: var(--3xsmall)
 }
@@ -1882,7 +1886,7 @@ div.award.award-hj::before {
 
 .topicrow-status:before {
 	content: "\E04B";
-	font-family: "TES" !important;
+	font-family: var(--icons-custom) !important;
 	background-color: var(--darklight);
 	color: var(--darkneutral);
 	height: 25px;
@@ -1990,7 +1994,7 @@ topicloc {
 }
 
 topicdate:before {
-	font-family: uicons-thin-straight !important;
+	font-family: var(--icons-thin) !important;
 	content: "\e370";
 	margin-right: 3.5px;
 	font-weight: 300;
@@ -1998,21 +2002,21 @@ topicdate:before {
 }
 
 topicauthor:before {
-	font-family: uicons-thin-straight !important;
+	font-family: var(--icons-thin) !important;
 	content: "\eea4";
 	margin-right: 3.5px;
 	color: var(--neutral)
 }
 
 topicauthor:before {
-	font-family: uicons-thin-straight !important;
+	font-family: var(--icons-thin) !important;
 	content: "\eea4";
 	margin-right: 3.5px;
 	color: var(--neutral)
 }
 
 topicloc:before {
-	font-family: uicons-thin-straight !important;
+	font-family: var(--icons-thin) !important;
 	content: "\eca9";
 	margin-right: 3.5px;
 	color: var(--neutral)
@@ -2155,7 +2159,7 @@ topicdesc {
 
 .postprofile-online:before {
 	content: "\e974";
-	font-family: uicons-thin-straight !important;
+	font-family: var(--icons-thin) !important;
 	display: flex;
 	height: 20px;
 	font-size: var(--medium);
@@ -3656,7 +3660,7 @@ cite {
 
 cite:before {
 	content: "\f018";
-	font-family: uicons-thin-straight !important;
+	font-family: var(--icons-thin) !important;
 	padding-left: var(--large);
 	transform: scaleX(-1);
 	display: inline-block;
@@ -3710,7 +3714,7 @@ dl.codebox {
 
 [class^="fi-ts-"]:before,
 [class*="fi-ts-"]:before {
-	font-family: uicons-thin-straight !important;
+	font-family: var(--icons-thin) !important;
 	font-style: normal;
 	font-weight: normal !important;
 	font-variant: normal;
@@ -4419,7 +4423,7 @@ blockquote.blocperso {
 .blocperso.four:after,
 .blocperso.four:before {
 	content: "\f2eb";
-	font-family: uicons-thin-straight !important;
+	font-family: var(--icons-thin) !important;
 	color: var(--group-color, var(--co1)) !important;
 	font-size: var(--2xlarge)
 }
@@ -6726,7 +6730,7 @@ majgc::first-letter {
 .br4d:before,
 .br4gc:before {
 	content: "\eb42 \eb42 \eb42 \eb42 \eb42";
-	font-family: uicons-thin-straight !important
+	font-family: var(--icons-thin) !important
 }
 
 .br61:before,
@@ -6742,7 +6746,7 @@ majgc::first-letter {
 .br92:before,
 .br93:before {
 	content: "\ea5a \ea5a \ea5a \ea5a \ea5a";
-	font-family: uicons-thin-straight !important
+	font-family: var(--icons-thin) !important
 }
 
 .br61,
@@ -7366,14 +7370,14 @@ pblocgc,
 
 .tooltip-rank age:before {
 	content: "\e354";
-	font-family: uicons-thin-straight !important;
+	font-family: var(--icons-thin) !important;
 	padding-right: var(--small);
 	color: var(--group-color, var(--co1))
 }
 
 .tooltip-rank celeb:before {
 	content: "\ed00";
-	font-family: uicons-thin-straight !important;
+	font-family: var(--icons-thin) !important;
 	padding-right: var(--small);
 	color: var(--group-color, var(--co1))
 }
@@ -7384,14 +7388,14 @@ pblocgc,
 
 .tooltip-rank job:before {
 	content: "\e2ea";
-	font-family: uicons-thin-straight !important;
+	font-family: var(--icons-thin) !important;
 	padding-right: var(--small);
 	color: var(--group-color, var(--co1))
 }
 
 .tooltip-rank stat:before {
 	content: "\ea5a";
-	font-family: uicons-thin-straight !important;
+	font-family: var(--icons-thin) !important;
 	padding-right: var(--small);
 	color: var(--group-color, var(--co1))
 }
@@ -7528,7 +7532,7 @@ pblocgc,
 
 .rep-button:after {
 	content: "\f2ed";
-	font-family: "uicons-thin-straight" !important
+	font-family: var(--icons-thin) !important
 }
 
 .rep-nb {
@@ -7555,7 +7559,7 @@ pblocgc,
 
 .indivhead div:before {
 	content: "";
-	font-family: "TES" !important;
+	font-family: var(--icons-custom) !important;
 	content: "\e04d";
 	color: var(--group-color-200)
 }
@@ -7788,7 +7792,7 @@ p {
 
 #notiffi_button .ntf_button-text:after {
 	content: "\eceb";
-	font-family: "uicons-thin-straight" !important
+	font-family: var(--icons-thin) !important
 }
 
 #notiffi_panel {
@@ -8478,7 +8482,7 @@ statusdtls:nth-of-type(odd) {
 
 .location .titletoggle:before {
 	content: "\e0a1";
-	font-family: uicons-thin-straight !important;
+	font-family: var(--icons-thin) !important;
 	margin-right: var(--large);
 	color: var(--co3)
 }
@@ -8494,7 +8498,7 @@ statusdtls:nth-of-type(odd) {
 
 .listing_link:before {
 	content: "\ec9e";
-	font-family: uicons-thin-straight !important;
+	font-family: var(--icons-thin) !important;
 	margin-right: var(--large);
 	background-color: var(--co2);
 	color: var(--white);
@@ -8593,7 +8597,7 @@ minipseudo {
 
 mainpseudo:before,
 minipseudo:before {
-	font-family: uicons-thin-straight !important;
+	font-family: var(--icons-thin) !important;
 	content: "\e147"
 }
 
@@ -9096,18 +9100,18 @@ statusinsta {
 }
 
 .ficheperso.playlist .headplaylist:after {
-	font-family: uicons-thin-straight !important;
+	font-family: var(--icons-thin) !important;
 	content: "\f163"
 }
 
 .ficheperso.playlist .headplaylist:before {
-	font-family: uicons-thin-straight !important;
+	font-family: var(--icons-thin) !important;
 	content: "\eab0";
 	order: 3
 }
 
 .ficheperso.playlist .headplaylist div:before {
-	font-family: uicons-thin-straight !important;
+	font-family: var(--icons-thin) !important;
 	content: "\e147"
 }
 
@@ -9134,7 +9138,7 @@ statusinsta {
 .ficheperso.playlist .playlistitem:before,
 .ficheperso.playlist .playlistitem:after {
 	font-weight: var(--large);
-	font-family: "uicons-thin-straight" !important
+	font-family: var(--icons-thin) !important
 }
 
 .ficheperso.playlist .playlistitem:before {
@@ -9363,7 +9367,7 @@ statusinsta {
 }
 
 .fichetinder .tinderimg:after {
-	font-family: uicons-thin-straight !important;
+	font-family: var(--icons-thin) !important;
 	font-size: var(--5xlarge);
 	letter-spacing: var(--5xlarge);
 	padding-left: var(--5xlarge);
@@ -9387,7 +9391,7 @@ statusinsta {
 
 .tindersearch:before {
 	content: '\ece1';
-	font-family: uicons-thin-straight !important;
+	font-family: var(--icons-thin) !important;
 	color: var(--group-color)
 }
 
@@ -9517,7 +9521,7 @@ lblpmdn {
 
 .ficheperso.more .posttab:before {
 	color: var(--darkneutral);
-	font-family: uicons-thin-straight !important;
+	font-family: var(--icons-thin) !important;
 	font-size: var(--large);
 	margin: 0 var(--large)
 }
@@ -9666,7 +9670,7 @@ lblpmdn {
 .fichetodo span:before,
 .fichedefi span:before {
 	content: '\f28f';
-	font-family: uicons-thin-straight !important;
+	font-family: var(--icons-thin) !important;
 	color: var(--group-color)
 }
 
