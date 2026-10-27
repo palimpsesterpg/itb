@@ -831,9 +831,8 @@ body::before {
 }
 
 .hundred .forumrow-avatar img {
-	height: 75px;
-	aspect-ratio: 1 / 2;
-	border-radius: 0
+    height: 65px;
+    border-radius: 0
 }
 
 .forumrow-avatar img {
@@ -923,7 +922,7 @@ a.forumtitle {
 	flex: 1;
 	width: 100%;
 	display: flex;
-	gap: var(--3xsmall);
+	gap: var(--4xsmall);
 	align-items: flex-start
 }
 
@@ -960,7 +959,6 @@ a.forumtitle {
 .forumlinks a {
 	text-transform: lowercase;
 	padding-left: 1px;
-	letter-spacing: 1px;
 	font-size: var(--xsmall);
 	color: var(--co2)
 }
@@ -1048,13 +1046,13 @@ a.forumtitle {
 
 .forumrow-lastpost {
 	display: flex;
-	width: 215px;
+	width: 200px;
 	text-transform: uppercase;
 	letter-spacing: 0.5px;
 	text-align: center;
 	padding-left: 0.5px;
 	flex-direction: row;
-	gap: var(--large);
+	gap: var(--2xsmall);
 	align-items: center;
 	justify-content: center
 }
@@ -1088,7 +1086,7 @@ a.forumtitle {
 }
 
 .fifty .forumrow-avatar img {
-	border-radius: var(--2xsmall)
+	border-radius: var(--4xsmall)
 }
 
 .forumrow-lastpost:has(a[href=""]) .forumrow-numbers {
@@ -1157,7 +1155,6 @@ a.forumtitle {
 	color: var(--co3-400);
 	font-family: var(--display);
 	text-transform: lowercase;
-	padding-left: 0.5px;
 	letter-spacing: 0.5px
 }
 
