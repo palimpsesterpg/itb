@@ -784,14 +784,13 @@ body::before {
 	align-items: center;
 	gap: var(--large);
 	padding: var(--large);
-	flex-wrap: wrap;
 	width: 100%;
 	background-color: var(--white);
 	justify-content: space-between
 }
 
 #c7 .forumlist-inside {
-	flex-wrap: no-wrap
+	flex-wrap: nowrap !important
 }
 
 .thirty .forumrow-inside,
