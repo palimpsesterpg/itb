@@ -15,7 +15,7 @@
 
 	--main: 'Open Sans';
 	--mono: 'Inconsolata';
-	--spe: 'Special Elite';
+	--spe: 'Popsies';
 	--display: 'Bebas';
 	--serif: 'Playfair Display';
 
@@ -92,7 +92,7 @@
 			var(--co2-50), ;
 			var(--co3-50), ;
 			var(--co1-50));
-	--header: url("https://i.ibb.co/PGZFHKXn/header1.png");
+	--header: url("header-tth-light.png");
 	color-scheme: light
 }
 
