@@ -831,8 +831,8 @@ body::before {
 }
 
 .hundred .forumrow-avatar img {
-	height: 65px;
-	border-radius: var(--3xsmall) var(--small)
+	height: 70.5px;
+	border-radius: 0
 }
 
 .forumrow-avatar img {
