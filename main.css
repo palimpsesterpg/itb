@@ -1867,15 +1867,23 @@ div.award.award-hj::before {
 
 #newest-user {
 	width: 100%;
-	display: block;
-	background-color: var(--white)
+	display: flex;
+	height: 100%;
+	background-color: var(--white);
+	align-items: center;
+	justify-content: center
 }
 
-#newest-user *:last-child {
+#newest-user span strong {
 	font-size: var(--large);
 	text-transform: capitalize;
 	color: var(--black) !important;
-	font-family: var(--spe)
+	font-family: var(--spe);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	line-height: 1;
+	padding-top: var(--2xsmall)
 }
 
 #newest-user a:hover,
