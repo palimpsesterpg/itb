@@ -784,9 +784,14 @@ body::before {
 	align-items: center;
 	gap: var(--large);
 	padding: var(--large);
+	flex-wrap: wrap;
 	width: 100%;
 	background-color: var(--white);
 	justify-content: space-between
+}
+
+#c7 .forumlist-inside {
+	flex-wrap: no-wrap
 }
 
 .thirty .forumrow-inside,
@@ -796,14 +801,10 @@ body::before {
 	height: -webkit-fill-available
 }
 
-.thirty {
-	width: calc((100% - var(--2xlarge)) / 3);
-	flex: auto
-}
-
+.thirty,
 .fifty,
 .fifarc {
-	flex: calc((100% - var(--large)) / 2)
+	flex: 1
 }
 
 #c2 .forumrow,
@@ -820,7 +821,7 @@ body::before {
 
 #c5 .forumrow {
 	padding: var(--large);
-	background-image: url(https://zupimages.net/up/26/40/drwe.png);
+	background-image: var(--header);
 	background-position: center center;
 	background-attachment: fixed
 }
@@ -831,8 +832,8 @@ body::before {
 }
 
 .hundred .forumrow-avatar img {
-    height: 65px;
-    border-radius: 0
+	height: 65px;
+	border-radius: 0
 }
 
 .forumrow-avatar img {
