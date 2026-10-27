@@ -44,7 +44,8 @@ body {
 
 headtitle {
     font-family: var(--spe);
-    font-size: var(--large)
+    font-size: var(--xlarge);
+    height: var(--xlarge)
 }
 
 .header-prj {
@@ -53,7 +54,8 @@ headtitle {
     padding: var(--large);
     display: flex;
     justify-content: space-between;
-    color: var(--black)
+    color: var(--black);
+    align-items: center
 }
 
 subtitle {
@@ -107,5 +109,8 @@ subtitle {
 
 m {
     font-family: var(--spe);
-    color: var(--black)
+    color: var(--black);
+    height: var(--medium);
+    font-size: var(--medium);
+    display: inline-block
 }

@@ -1830,21 +1830,21 @@ div.award.award-hj::before {
 	align-items: center;
 	flex-direction: column;
 	height: auto;
-	padding: var(--2xsmall);
+	padding: var(--large);
 	box-sizing: border-box;
-	background-color: var(--white);
-	gap: var(--2xsmall);
-	border: var(--2xsmall) solid var(--co3)
+	gap: var(--large);
+	height: 201px;
+	border: 0.5px solid var(--co3)
 }
 
-#newest-user a,
-#newest-user a span {
+#newest-user {
 	font-size: var(--large);
 	text-transform: capitalize;
 	color: var(--black) !important;
 	font-family: var(--spe);
 	width: 100%;
 	display: block;
+	background-color: var(--white);
 	text-align: center
 }
 
