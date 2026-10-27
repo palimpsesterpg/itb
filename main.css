@@ -738,7 +738,9 @@ body::before {
 }
 
 #c8 .forumlist-title h2 {
-	writing-mode: horizontal-tb
+	writing-mode: horizontal-tb;
+	height: var(--2xlarge);
+	width: 100%
 }
 
 #c8 .forumlist-title {
