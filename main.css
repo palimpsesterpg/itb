@@ -1093,7 +1093,7 @@ a.forumtitle {
 }
 
 .forumrow-lastpost:has(a[href=""]) a:before {
-	content: "those endless beaches";
+	content: "by the pier";
 	font-family: var(--serif);
 	letter-spacing: 1px;
 	text-align: center;
