@@ -1693,7 +1693,7 @@ div.award.award-hj::before {
 
 .bloc-accueil.six i:after,
 .bloc-accueil.six i:before {
-	content: "€”";
+	content: "—";
 	padding: 0 var(--2xsmall)
 }
 
@@ -3056,7 +3056,7 @@ button.toggle-panel .fi:before:hover {
 }
 
 #field_id7:after {
-	content: "€”";
+	content: "—";
 	font-weight: 300;
 	padding: 0 var(--2xsmall)
 }
@@ -4336,7 +4336,7 @@ lblprtt:not(:first-of-type) {
 
 lblfvr:after,
 lblprtt:after {
-	content: "€”";
+	content: "—";
 	margin: 0 var(--2xsmall)
 }
 
@@ -4614,7 +4614,7 @@ recdtls i {
 }
 
 recdtls i:before {
-	content: "€”";
+	content: "—";
 	padding-right: var(--large);
 	color: var(--group-color, var(--co3))
 }
@@ -4626,7 +4626,7 @@ reclinks a {
 }
 
 reclinks a:after {
-	content: '€”';
+	content: '—';
 	padding-left: var(--large);
 	font-weight: 100;
 	color: var(--group-color, var(--co3))
@@ -6949,7 +6949,7 @@ majgc::first-letter {
 
 #postprofile-libre ul li::before,
 .postprofile-libre ul li::before {
-	content: "€”";
+	content: "—";
 	color: var(--darkneutral);
 	margin-right: var(--large)
 }
@@ -8003,7 +8003,7 @@ p {
 
 .notiffi_links {
 	height: -webkit-fill-available;
-	padding: var(--large);
+	padding: var(--2xsmall);
 	position: relative;
 	margin-top: 34px;
 	background-color: var(--group-color-200, var(--co1-200));
@@ -8019,16 +8019,21 @@ p {
 	text-transform: uppercase;
 	font-weight: 900;
 	font-size: var(--large);
+	margin-bottom: var(--2xsmall);
 	font-family: var(--display)
+}
+
+.notiffi_links strong:not(:first-of-type) {
+	margin-top: var(--2xsmall)
 }
 
 .notiffi_links a {
 	color: var(--group-color-700, var(--co1-700));
 	text-transform: uppercase;
 	font-weight: 300;
-	font-size: var(--large);
-	letter-spacing: var(--3xsmall);
-	padding-left: var(--3xsmall);
+	font-size: var(--medium);
+	letter-spacing: var(--4xsmall);
+	padding-left: var(--4xsmall);
 	font-family: var(--display)
 }
 
@@ -8155,7 +8160,7 @@ p {
 }
 
 .notiffi_body_rps a:before {
-	content: "€”";
+	content: "—";
 	padding-right: var(--small)
 }
 
@@ -8202,11 +8207,7 @@ p {
 }
 
 .notiffi_news:before {
-	content: "what's up sunnyvale ?"
-}
-
-.notiffi_links:before {
-	content: "liens utiles"
+	content: "what's up brighton&hove ?"
 }
 
 .notiffi_notiflist {
