@@ -1126,7 +1126,18 @@ a.forumtitle {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-wrap: wrap;
 	gap: var(--large)
+}
+
+.forumdesc div {
+	width: 100%;
+	color: var(--co3-400);
+	font-family: var(--display);
+	letter-spacing: 1px;
+	text-transform: lowercase;
+	font-weight: 300;
+	font-size: var(--medium)
 }
 
 .forumdesc span {
@@ -1136,7 +1147,7 @@ a.forumtitle {
 }
 
 .hundred .forumdesc span {
-	color: var(--co3);
+	color: var(--co3-600);
 	font-family: var(--display);
 	letter-spacing: 1px;
 	font-size: var(--medium)
