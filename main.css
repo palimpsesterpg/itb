@@ -234,7 +234,6 @@ fieldset dd {
 
 p {
 	line-height: inherit;
-	font-size: var(--medium);
 	margin: 0
 }
 
@@ -441,7 +440,6 @@ body::before {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	font-size: var(--medium);
 	position: fixed;
 	padding: var(--large);
 	z-index: 999;
@@ -1120,17 +1118,13 @@ a.forumtitle {
 .forumrow-lastpost strong:has(a) {
 	text-transform: capitalize !important;
 	letter-spacing: 0px;
-	font-size: var(--medium);
 	font-weight: 700
-}
-
-.forumrow-lastpost a {
-	font-size: var(--medium)
 }
 
 .forumrow-lastpost a:nth-child(2) {
 	text-transform: lowercase !important;
-	font-family: var(--serif)
+	font-family: var(--serif);
+	white-space: nowrap
 }
 
 .forumrow-lastpost .fi:before {
@@ -1150,8 +1144,7 @@ a.forumtitle {
 	width: 100%;
 	color: var(--co3-600);
 	font-family: var(--display);
-	text-transform: uppercase;
-	font-size: var(--medium)
+	text-transform: uppercase
 }
 
 .forumdesc span {
@@ -1165,14 +1158,12 @@ a.forumtitle {
 	font-family: var(--display);
 	text-transform: lowercase;
 	padding-left: 0.5px;
-	letter-spacing: 0.5px;
-	font-size: var(--medium)
+	letter-spacing: 0.5px
 }
 
 .fifty .forumdesc span {
 	text-transform: lowercase;
-	font-family: var(--mono);
-	font-size: var(--medium)
+	font-family: var(--mono)
 }
 
 .forumdesc span:before {
@@ -2200,7 +2191,6 @@ topicdesc {
 	font-family: var(--icons-thin) !important;
 	display: flex;
 	height: 20px;
-	font-size: var(--medium);
 	color: var(--white);
 	background-color: var(--group-color, var(--neutral));
 	width: 20px;
@@ -2571,7 +2561,6 @@ topicdesc {
 .pathname-box a {
 	padding: 2.5px var(--large);
 	margin: 0 var(--large);
-	font-size: var(--medium);
 	background-color: var(--white);
 	border: 0.5px solid;
 	color: var(--co1);
@@ -2608,7 +2597,6 @@ topicdesc {
 	background-color: var(--white) !important;
 	border: 0 !important;
 	color: var(--lightdark) !important;
-	font-size: var(--medium) !important;
 	font-family: var(--mono) !important;
 	margin: 0 !important;
 	border-radius: 0 !important;
@@ -3495,7 +3483,6 @@ input#profile_field_4_-12_0 {
 .topicactionsadmin i:before {
 	display: flex;
 	height: 25px;
-	font-size: var(--medium);
 	width: 25px;
 	border-radius: var(--3xsmall);
 	background-color: var(--co3);
@@ -3744,7 +3731,6 @@ dl.codebox {
 
 .codebox.code code {
 	font-family: var(--mono);
-	font-size: var(--medium);
 	max-height: 210px;
 	overflow: auto;
 	display: block
@@ -3764,25 +3750,6 @@ dl.codebox {
 
 .d-flex {
 	display: flex !important
-}
-
-.reverse {
-	--gradient12: linear-gradient(to left, var(--co1), var(--co2));
-	--gradient13: linear-gradient(to left, var(--co1), var(--co3));
-	--gradient23: linear-gradient(to left, var(--co2), var(--co3));
-	--gradient12-50: linear-gradient(to left, var(--co1-50), var(--co2-50));
-	--gradient13-50: linear-gradient(to left, var(--co1-50), var(--co3-50));
-	--gradient23-50: linear-gradient(to left, var(--co2-50), var(--co3-50))
-}
-
-fssmalll {}
-
-fsmedium {
-	font-size: var(--medium)
-}
-
-fslarge {
-	font-size: var(--large)
 }
 
 .posttabsystem {
@@ -6728,8 +6695,7 @@ majgc::first-letter {
 .br7d,
 .br7gc {
 	letter-spacing: var(--large);
-	padding-left: var(--large);
-	font-size: var(--medium)
+	padding-left: var(--large)
 }
 
 .br31:before,
@@ -7501,7 +7467,6 @@ pblocgc,
 .tooltipster-content {
 	background: var(--white) !important;
 	font-family: var(--main) !important;
-	font-size: var(--medium) !important;
 	display: flex;
 	color: var(--lightdark) !important;
 	align-items: center;
@@ -7909,7 +7874,7 @@ p {
 	}
 }
 
-.notiffi_cation {
+.notification {
 	display: flex;
 	gap: var(--medium);
 	margin-bottom: var(--medium);
@@ -7935,7 +7900,7 @@ p {
 	}
 }
 
-.notiffi_cation.unread {
+.notification.unread {
 	border: 0.5px solid var(--group-color-50, var(--co1-50));
 
 	&:hover {
@@ -7943,7 +7908,7 @@ p {
 	}
 }
 
-.notiffi_cation.unread .notif_text a {
+.notification.unread .notif_text a {
 	font-weight: 700
 }
 
@@ -7984,7 +7949,7 @@ p {
 	justify-content: center
 }
 
-.notiffi_cation.unread .notif_icon {
+.notification.unread .notif_icon {
 	color: var(--white);
 	background: var(--group-color, var(--co1))
 }
@@ -8010,12 +7975,12 @@ p {
 	transition: all 0.3s
 }
 
-.notiffi_cation:hover .notif_close,
-.notiffi_cation:hover .alert_close {
+.notification:hover .notif_close,
+.notification:hover .alert_close {
 	opacity: 1
 }
 
-.notiffi_cation.alert {
+.notification.alert {
 	position: fixed;
 	width: 400px;
 	align-items: center;
@@ -8029,7 +7994,7 @@ p {
 	transition: all 0.5s ease-in-out
 }
 
-.notiffi_cation.alert.up {
+.notification.alert.up {
 	transform: translateY(0%);
 	opacity: 1;
 	filter: blur(0);
@@ -8968,8 +8933,7 @@ statusinsta {
 .ficherp.nine ficherptitle {
 	letter-spacing: 1px;
 	text-transform: lowercase;
-	font-weight: 700;
-	font-size: var(--medium)
+	font-weight: 700
 }
 
 .ficherp.nine ficherpsstitle {
