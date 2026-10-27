@@ -831,13 +831,14 @@ body::before {
 }
 
 .hundred .forumrow-avatar img {
-	height: 70.5px;
+	height: 75px;
+	aspect-ratio: 1 / 2;
 	border-radius: 0
 }
 
 .forumrow-avatar img {
 	width: 50px;
-	height: 50px;
+	aspect-ratio: 1;
 	object-fit: cover;
 	filter: grayscale(1);
 	border-radius: 50%
@@ -1047,18 +1048,24 @@ a.forumtitle {
 
 .forumrow-lastpost {
 	display: flex;
+	width: 215px;
 	text-transform: uppercase;
-	letter-spacing: 1px;
+	letter-spacing: 0.5px;
 	text-align: center;
-	padding-left: 1px;
+	padding-left: 0.5px;
 	flex-direction: row;
 	gap: var(--large);
 	align-items: center;
 	justify-content: center
 }
 
+.forumrow-numbers {
+	font-size: var(--xsmall)
+}
+
 .forumrow-lastpost div {
-	text-align: left
+	text-align: left;
+	line-height: 1.25;
 }
 
 .thirty .forumrow-lastpost div {
