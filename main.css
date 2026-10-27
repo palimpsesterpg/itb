@@ -271,7 +271,7 @@ h2,
 
 h3,
 .h3 {
-	font-size: var(--large) !important;
+	font-size: var(--medium) !important;
 	margin: var(--2xsmall) 0 !important
 }
 
@@ -382,7 +382,7 @@ body::before {
 	font-weight: 700;
 	letter-spacing: 1px;
 	font-family: var(--display);
-	font-size: var(--large)
+	font-size: var(--medium)
 }
 
 .linklist a {
@@ -402,7 +402,7 @@ body::before {
 #tabs a {
 	text-transform: lowercase;
 	font-weight: 700;
-	font-size: var(--large);
+	font-size: var(--medium);
 	padding: 2.5px;
 	box-shadow: 0px -5px inset var(--white)
 }
@@ -425,7 +425,7 @@ body::before {
 	bottom: var(--large);
 	right: var(--large);
 	color: var(--co3);
-	font-size: var(--large);
+	font-size: var(--medium);
 	padding: var(--large);
 	background-color: var(--co3-50);
 	z-index: 999
@@ -626,7 +626,7 @@ body::before {
 
 .switcheroo__form-label {
 	margin-bottom: var(--medium);
-	font-size: var(--large);
+	font-size: var(--medium);
 	text-transform: uppercase;
 	font-weight: 300;
 	color: var(--co2)
@@ -648,7 +648,7 @@ body::before {
 	outline: none;
 	box-shadow: none;
 	text-transform: lowercase;
-	font-size: var(--large);
+	font-size: var(--medium);
 	font-family: var(--serif);
 	font-weight: 700;
 	font-style: italic;
@@ -852,7 +852,7 @@ body::before {
 a.forumtitle {
 	color: var(--co1);
 	font-family: var(--serif);
-	font-size: var(--large);
+	font-size: var(--medium);
 	text-transform: lowercase;
 	font-weight: 700;
 	letter-spacing: var(--4xsmall)
@@ -908,7 +908,7 @@ a.forumtitle {
 }
 
 .thirty .forumtitle dot:nth-of-type(odd) {
-	font-size: var(--large);
+	font-size: var(--medium);
 	height: 35px;
 	width: 35px
 }
@@ -996,7 +996,7 @@ a.forumtitle {
 	box-shadow: 2.5px 2.5px var(--white);
 	align-items: center;
 	justify-content: center;
-	font-size: var(--large)
+	font-size: var(--medium)
 }
 
 #c7 .forumrow-status:before {
@@ -1042,7 +1042,7 @@ a.forumtitle {
 }
 
 .fifty .forumrow-status:before {
-	font-size: var(--large);
+	font-size: var(--medium);
 	border-radius: 50%
 }
 
@@ -1290,7 +1290,7 @@ div.award.award-hj::before {
 }
 
 .award_tooltiptext_title {
-	font-size: var(--large);
+	font-size: var(--medium);
 	font-weight: 700;
 	font-style: normal;
 	font-family: var(--display);
@@ -1713,7 +1713,7 @@ div.award.award-hj::before {
 	font-family: var(--display);
 	text-transform: lowercase;
 	font-weight: 700;
-	font-size: var(--large);
+	font-size: var(--medium);
 	letter-spacing: 1px
 }
 
@@ -1814,7 +1814,7 @@ div.award.award-hj::before {
 	position: relative;
 	border-left: var(--2xsmall) solid var(--group-color);
 	padding: var(--large);
-	font-size: var(--large);
+	font-size: var(--medium);
 	font-family: var(--display);
 	font-weight: 900;
 	text-transform: uppercase
@@ -1866,7 +1866,7 @@ div.award.award-hj::before {
 }
 
 #newest-user span strong {
-	font-size: var(--large);
+	font-size: var(--medium);
 	text-transform: capitalize;
 	color: var(--black) !important;
 	font-family: var(--spe);
@@ -1923,7 +1923,7 @@ div.award.award-hj::before {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	font-size: var(--large)
+	font-size: var(--medium)
 }
 
 .post_new .topicrow-status:before {
@@ -2281,7 +2281,7 @@ topicdesc {
 	background-color: var(--white);
 	padding: var(--large) 0;
 	font-family: var(--spe);
-	font-size: var(--large);
+	font-size: var(--medium);
 	display: flex;
 	align-items: center;
 	justify-content: center
@@ -2292,7 +2292,7 @@ topicdesc {
 }
 
 .minipostprofile .postprofile-pseudo {
-	font-size: var(--large);
+	font-size: var(--medium);
 	text-align: center;
 	width: 250px
 }
@@ -2353,7 +2353,7 @@ topicdesc {
 .profile-tab {
 	color: var(--white);
 	font-family: var(--display);
-	font-size: var(--large);
+	font-size: var(--medium);
 	padding: 0 var(--large);
 	background-color: var(--group-color, var(--co2));
 	z-index: 9;
@@ -2541,7 +2541,7 @@ topicdesc {
 .new-reply-button,
 .new-topic-button {
 	text-transform: lowercase;
-	font-size: var(--large);
+	font-size: var(--medium);
 	font-weight: 700;
 	font-style: italic;
 	display: flex;
@@ -2713,7 +2713,7 @@ textarea {
 	font-weight: 700;
 	letter-spacing: 2.5px;
 	text-transform: lowercase;
-	font-size: var(--large);
+	font-size: var(--medium);
 	color: var(--co1);
 	background: var(--white);
 	width: 100%;
@@ -2727,7 +2727,7 @@ textarea {
 	width: 100%;
 	gap: var(--large);
 	text-transform: uppercase;
-	font-size: var(--large);
+	font-size: var(--medium);
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
@@ -2758,7 +2758,7 @@ textarea {
 
 .ficheadmin .textlisting backi1,
 .ficheadmin .textlisting backi2 {
-	font-size: var(--large);
+	font-size: var(--medium);
 	font-weight: 700;
 	text-transform: lowercase;
 	padding-left: calc(var(--small) + 1px)
@@ -2788,7 +2788,7 @@ textarea {
 .ficheadmin .textlisting underbi1,
 .ficheadmin .textlisting underbi2 {
 	font-family: var(--serif);
-	font-size: var(--large);
+	font-size: var(--medium);
 	margin-left: var(--large)
 }
 
@@ -3114,7 +3114,7 @@ button.toggle-panel .fi:before:hover {
 	text-align: center;
 	color: var(--group-color);
 	text-transform: lowercase;
-	font-size: var(--large);
+	font-size: var(--medium);
 	font-weight: 100;
 	font-family: var(--mono)
 }
@@ -3167,7 +3167,7 @@ button.toggle-panel .fi:before:hover {
 	text-transform: lowercase;
 	font-weight: 300;
 	font-family: var(--serif);
-	font-size: var(--large);
+	font-size: var(--medium);
 	padding: var(--large) 0
 }
 
@@ -3208,7 +3208,7 @@ button.toggle-panel .fi:before:hover {
 
 .member-pseudo {
 	text-transform: uppercase;
-	font-size: var(--large);
+	font-size: var(--medium);
 	width: 100%;
 	text-align: center;
 	font-weight: 100
@@ -3344,14 +3344,14 @@ input#profile_field_4_-12_0 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-size: var(--large);
+	font-size: var(--medium);
 	text-transform: lowercase;
 	font-weight: 700;
 	gap: var(--small)
 }
 
 #privmsgs-menu i {
-	font-size: var(--large);
+	font-size: var(--medium);
 	color: var(--co1)
 }
 
@@ -3458,7 +3458,7 @@ input#profile_field_4_-12_0 {
 	font-weight: 700;
 	letter-spacing: 2.5px;
 	font-family: var(--display);
-	font-size: var(--large)
+	font-size: var(--medium)
 }
 
 .mespriv-content {
@@ -3578,7 +3578,7 @@ avhi:hover {
 	flex: 1;
 	text-transform: uppercase;
 	font-weight: 700;
-	font-size: var(--large);
+	font-size: var(--medium);
 	letter-spacing: 2.5px;
 	font-family: var(--display);
 	display: flex;
@@ -3675,7 +3675,7 @@ cite {
 	font-family: var(--serif);
 	text-transform: lowercase;
 	font-weight: 700;
-	font-size: var(--large);
+	font-size: var(--medium);
 	font-style: italic;
 	font-style: normal !important;
 	color: var(--group-color, var(--co3));
@@ -3697,7 +3697,7 @@ cite:before {
 	color: var(--group-color, var(--co1));
 	text-transform: lowercase;
 	text-align: center;
-	font-size: var(--large);
+	font-size: var(--medium);
 	letter-spacing: 1px;
 	font-weight: 700;
 	padding-left: 1px
@@ -3705,7 +3705,7 @@ cite:before {
 
 .copy-code {
 	margin-left: var(--medium);
-	font-size: var(--large);
+	font-size: var(--medium);
 	background-color: var(--co3-50);
 	color: var(--co3);
 	float: right;
@@ -3995,7 +3995,7 @@ dl.codebox {
 }
 
 .fichepl .posttabs {
-	font-size: var(--large);
+	font-size: var(--medium);
 	color: var(--darkneutral)
 }
 
@@ -4030,7 +4030,7 @@ dl.codebox {
 	font-weight: 700;
 	margin-bottom: var(--large);
 	font-family: var(--display);
-	font-size: var(--large);
+	font-size: var(--medium);
 	letter-spacing: var(--3xsmall);
 	color: var(--co3);
 	border-left: var(--3xsmall) solid;
@@ -4165,7 +4165,7 @@ dl.codebox {
 	text-align: center;
 	text-transform: lowercase;
 	letter-spacing: var(--3xsmall);
-	font-size: var(--large);
+	font-size: var(--medium);
 	padding-left: var(--3xsmall);
 	font-weight: 900;
 	font-family: var(--display);
@@ -4299,7 +4299,7 @@ lblqst {
 	font-weight: 700;
 	padding-left: 1.5px;
 	font-family: var(--display);
-	font-size: var(--large);
+	font-size: var(--medium);
 	letter-spacing: 1.5px;
 	color: var(--group-color, var(--co1));
 	box-shadow: inset 0 -9px 0 var(--group-color-50, var(--co1-50))
@@ -4510,7 +4510,7 @@ blockquote.blocperso {
 	font-family: var(--display);
 	letter-spacing: 2.5px;
 	padding-left: 2.5px;
-	font-size: var(--large);
+	font-size: var(--medium);
 	font-weight: 700;
 	display: flex;
 	align-items: center;
@@ -4549,7 +4549,7 @@ blockquote.blocperso {
 	width: 90%;
 	display: flex;
 	font-family: var(--serif);
-	font-size: var(--large);
+	font-size: var(--medium);
 	text-align: center;
 	align-items: center;
 	padding: 0 var(--large);
@@ -4585,7 +4585,7 @@ blockquote.blocperso {
 
 .lien .pseudorec i {
 	font-family: var(--mono);
-	font-size: var(--large)
+	font-size: var(--medium)
 }
 
 recdtls,
@@ -5738,7 +5738,7 @@ displaybid,
 displaybigc {
 	font-family: var(--display);
 	font-weight: 500;
-	font-size: var(--large)
+	font-size: var(--medium)
 }
 
 mono1,
@@ -6360,7 +6360,7 @@ spcld,
 spclgc {
 	font-family: var(--spe);
 	font-weight: 100;
-	font-size: var(--large);
+	font-size: var(--medium);
 	letter-spacing: 1px
 }
 
@@ -6457,7 +6457,7 @@ maj3::first-letter,
 majn::first-letter,
 majd::first-letter,
 majgc::first-letter {
-	font-size: var(--large) !important;
+	font-size: var(--medium) !important;
 	text-transform: lowercase !important;
 	font-family: var(--spe)
 }
@@ -6866,7 +6866,7 @@ majgc::first-letter {
 #postprofile-libre u,
 .postprofile-libre u {
 	font-family: var(--display);
-	font-size: var(--large)
+	font-size: var(--medium)
 }
 
 #postprofile-libre strong,
@@ -7004,7 +7004,7 @@ majgc::first-letter {
 
 .fichepredef displayb1,
 .fichepredef displayb2 {
-	font-size: var(--large);
+	font-size: var(--medium);
 	letter-spacing: 1px;
 	text-transform: uppercase
 }
@@ -7444,7 +7444,7 @@ pblocgc,
 }
 
 .tooltip-pseudo {
-	font-size: var(--large);
+	font-size: var(--medium);
 	width: 100%;
 	font-weight: 700;
 	text-align: center;
@@ -7550,7 +7550,7 @@ pblocgc,
 	align-items: center;
 	justify-content: space-between;
 	gap: var(--2xlarge);
-	font-size: var(--large)
+	font-size: var(--medium)
 }
 
 .indivhead img {
@@ -7640,7 +7640,7 @@ chronoevent {
 
 chronoevent strong {
 	font-family: var(--display);
-	font-size: var(--large);
+	font-size: var(--medium);
 	font-weight: 700;
 	color: var(--white);
 	background-color: var(--group-color, var(--darkneutral));
@@ -7681,12 +7681,12 @@ chronoevent strong {
 	background: var(--co3);
 	color: var(--white);
 	padding: var(--3xsmall) var(--2xlarge);
-	font-size: var(--large)
+	font-size: var(--medium)
 }
 
 .rules.content i:not(.ph) {
 	background: var(--co3);
-	font-size: var(--large);
+	font-size: var(--medium);
 	font-weight: 500;
 	color: var(--white);
 	padding: var(--3xsmall) var(--2xlarge);
@@ -8018,7 +8018,7 @@ p {
 	color: var(--group-color-700, var(--co1-700));
 	text-transform: uppercase;
 	font-weight: 900;
-	font-size: var(--large);
+	font-size: var(--medium);
 	margin-bottom: var(--2xsmall);
 	font-family: var(--display)
 }
@@ -8260,7 +8260,7 @@ p {
 	color: var(--co3);
 	font-family: var(--display);
 	font-weight: 700;
-	font-size: var(--large)
+	font-size: var(--medium)
 }
 
 .notiffi_body_admin i {
@@ -8423,7 +8423,7 @@ firstdtls:nth-last-of-type(odd) {
 	width: 100%;
 	display: flex;
 	text-align: center;
-	font-size: var(--large);
+	font-size: var(--medium);
 	height: 75px;
 	font-weight: 900;
 	font-family: var(--display);
@@ -8591,7 +8591,7 @@ mainpseudo {
 	text-transform: lowercase;
 	font-weight: 700;
 	letter-spacing: 1px;
-	font-size: var(--large)
+	font-size: var(--medium)
 }
 
 minipseudo {
@@ -8606,7 +8606,7 @@ minipseudo:before {
 }
 
 mainpseudo:before {
-	font-size: var(--large)
+	font-size: var(--medium)
 }
 
 minipseudo:before {}
@@ -8814,7 +8814,7 @@ statusinsta {
 }
 
 .ficherphead ficherptitle {
-	font-size: var(--large)
+	font-size: var(--medium)
 }
 
 .ficherphead ficherpsstitle {}
@@ -8903,7 +8903,7 @@ statusinsta {
 }
 
 .ficherp.seven ficherptitle {
-	font-size: var(--large);
+	font-size: var(--medium);
 	border-left: 5px solid var(--group-color);
 	padding-left: var(--large);
 	text-transform: lowercase;
@@ -9041,7 +9041,7 @@ statusinsta {
 	display: flex;
 	width: 100%;
 	align-items: center;
-	font-size: var(--large);
+	font-size: var(--medium);
 	justify-content: space-between;
 	gap: var(--large);
 	padding: var(--large);
@@ -9328,7 +9328,7 @@ statusinsta {
 }
 
 .fichetinder .tinderhead div strong {
-	font-size: var(--large)
+	font-size: var(--medium)
 }
 
 .tindermisc {
@@ -9459,7 +9459,7 @@ statusinsta {
 	display: flex;
 	flex-direction: column;
 	font-family: var(--mono);
-	font-size: var(--large);
+	font-size: var(--medium);
 	letter-spacing: 2.5px;
 	padding-left: 2.5px;
 	font-weight: 100;
@@ -9525,7 +9525,7 @@ lblpmdn {
 .ficheperso.more .posttab:before {
 	color: var(--darkneutral);
 	font-family: var(--icons-thin) !important;
-	font-size: var(--large);
+	font-size: var(--medium);
 	margin: 0 var(--large)
 }
 
@@ -9564,7 +9564,7 @@ lblpmdn {
 	letter-spacing: 5px;
 	padding-left: 5px;
 	font-weight: 100;
-	font-size: var(--large);
+	font-size: var(--medium);
 	width: 100%;
 	text-align: center
 }
@@ -9751,7 +9751,7 @@ lblpmdn {
 	display: block;
 	font-family: var(--serif);
 	font-weight: 100;
-	font-size: var(--large);
+	font-size: var(--medium);
 	color: var(--group-color)
 }
 
@@ -9800,7 +9800,7 @@ lblpmdn {
 	text-transform: uppercase !important;
 	align-items: flex-end;
 	font-family: var(--display);
-	font-size: var(--large)
+	font-size: var(--medium)
 }
 
 .minipostprofile .tooltip-rank br {
@@ -9820,7 +9820,7 @@ lblpmdn {
 
 .form-line label {
 	text-transform: uppercase;
-	font-size: var(--large);
+	font-size: var(--medium);
 	font-weight: 900;
 	font-family: var(--display);
 	letter-spacing: 1px;
@@ -9866,7 +9866,7 @@ lblpmdn {
 	font-family: var(--display);
 	color: var(--co3);
 	text-shadow: 1px 1px var(--white);
-	font-size: var(--large)
+	font-size: var(--medium)
 }
 
 #form-presentation strong {
@@ -9877,6 +9877,6 @@ lblpmdn {
 	background: var(--co3);
 	color: var(--white) !important;
 	font-family: var(--serif);
-	font-size: var(--large);
+	font-size: var(--medium);
 	text-transform: uppercase
 }
