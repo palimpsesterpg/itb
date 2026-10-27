@@ -855,7 +855,7 @@ a.forumtitle {
 	font-size: var(--large);
 	text-transform: lowercase;
 	font-weight: 700;
-	letter-spacing: 0 var(--4xsmall)
+	letter-spacing: var(--4xsmall)
 }
 
 .fifty .forumtitle {
@@ -915,7 +915,7 @@ a.forumtitle {
 
 .hundred .forumtitle {
 	letter-spacing: var(--3xsmall);
-	padding-left: var(--3xsmall)
+	font-weight: 300
 }
 
 .forumrow-details {
@@ -1063,9 +1063,10 @@ a.forumtitle {
 	font-size: var(--xsmall)
 }
 
-.forumrow-lastpost div {
+.forumrow-lastpost div:last-of-type {
 	text-align: left;
 	line-height: 1.25;
+	flex: 1
 }
 
 .thirty .forumrow-lastpost div {
@@ -1145,10 +1146,9 @@ a.forumtitle {
 
 .forumdesc div {
 	width: 100%;
-	color: var(--co3-400);
+	color: var(--co3-600);
 	font-family: var(--display);
 	text-transform: uppercase;
-	font-weight: 600;
 	font-size: var(--medium)
 }
 
@@ -1159,10 +1159,9 @@ a.forumtitle {
 }
 
 .hundred .forumdesc span {
-	color: var(--co3-600);
+	color: var(--co3-400);
 	font-family: var(--display);
 	text-transform: lowercase;
-	font-weight: 400;
 	padding-left: 0.5px;
 	letter-spacing: 0.5px;
 	font-size: var(--medium)
@@ -1804,9 +1803,10 @@ div.award.award-hj::before {
 }
 
 #newest-user-avatar img {
-	height: 129.5px;
+	height: 115px;
 	object-fit: cover;
-	width: 118px
+	aspect-ratio: 1;
+	border: var(--2xsmall) solid var(--white)
 }
 
 #groups-qeel {
@@ -1856,22 +1856,24 @@ div.award.award-hj::before {
 	align-items: center;
 	flex-direction: column;
 	height: auto;
-	padding: var(--large);
+	padding: var(--2xsmall);
 	box-sizing: border-box;
-	gap: var(--large);
+	gap: var(--2xsmall);
 	height: 201px;
 	border: 0.5px solid var(--co3)
 }
 
 #newest-user {
+	width: 100%;
+	display: block;
+	background-color: var(--white)
+}
+
+#newest-user *:last-child {
 	font-size: var(--large);
 	text-transform: capitalize;
 	color: var(--black) !important;
-	font-family: var(--spe);
-	width: 100%;
-	display: block;
-	background-color: var(--white);
-	text-align: center
+	font-family: var(--spe)
 }
 
 #newest-user a:hover,
